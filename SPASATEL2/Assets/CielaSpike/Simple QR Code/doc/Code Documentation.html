@@ -1,0 +1,326 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Simple QR Code Documentation</title>
+<link rel="stylesheet" href="https://stackedit.io/res-min/themes/base.css" />
+<script type="text/javascript" src="https://stackedit.io/libs/MathJax/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body><div class="container"><h1 id="simple-qr-code">Simple QR Code</h1>
+
+<p>Simple QR Code provides a set of APIs to help you handle barcode with ease in your game. It supports both encoding and decoding with various of popular barcode formats.</p>
+
+<h2 id="supported-code-formats">Supported Code Formats:</h2>
+
+<p><strong>Decoding</strong> <br>
+UPC-A, UPC-E, EAN-8, EAN-13, Code 39, Code 93, Code 128, ITF, Codabar, MSI, RSS-14, QR Code, Data Matrix, Aztec, PDF-417</p>
+
+<p><strong>Encoding</strong> <br>
+UPC-A, EAN-8, EAN-13, Code 39, Code 128, ITF, Codabar, Plessey, MSI, QR Code, PDF-417, Aztec, Data Matrix</p>
+
+<h2 id="basic-usage">Basic Usage</h2>
+
+<p>*All APIs are located in <code>CielaSpike.Unity.Barcode</code> namespace.</p>
+
+<h3 id="how-to-decode-from-an-image">how to: Decode From An Image</h3>
+
+<ul>
+<li>Get a decoder. A decoder is kind of expensive so keep the reference and avoid creating it frequently.</li>
+</ul>
+
+<pre class="prettyprint prettyprinted"><code class="language-C#"><span class="kwd">var</span><span class="pln"> decoder </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Barcode</span><span class="pun">.</span><span class="typ">GetDecoder</span><span class="pun">();</span></code></pre>
+
+<ul>
+<li>Decode a Texture2D</li>
+</ul>
+
+<pre class="prettyprint prettyprinted"><code class="language-C#"><span class="kwd">var</span><span class="pln"> result </span><span class="pun">=</span><span class="pln"> decoder</span><span class="pun">.</span><span class="typ">Decode</span><span class="pun">(</span><span class="pln">texture</span><span class="pun">);</span></code></pre>
+
+<ul>
+<li>Get the result</li>
+</ul>
+
+<pre class="prettyprint prettyprinted"><code class="language-C#"><span class="kwd">if</span><span class="pln"> </span><span class="pun">(</span><span class="pln">result</span><span class="pun">.</span><span class="typ">Success</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    </span><span class="com">// get type of the barcode which has been decoded.</span><span class="pln">
+    </span><span class="kwd">if</span><span class="pln"> </span><span class="pun">(</span><span class="pln">result</span><span class="pun">.</span><span class="typ">BarcodeType</span><span class="pln"> </span><span class="pun">==</span><span class="pln"> </span><span class="typ">BarcodeType</span><span class="pun">.</span><span class="typ">QrCode</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+        </span><span class="com">// text in the barcode.</span><span class="pln">
+        </span><span class="typ">Debug</span><span class="pun">.</span><span class="typ">Log</span><span class="pun">(</span><span class="pln">result</span><span class="pun">.</span><span class="typ">Text</span><span class="pun">);</span><span class="pln">
+        </span><span class="com">// or you want the raw bytes in the barcode.</span><span class="pln">
+        </span><span class="kwd">byte</span><span class="pun">[]</span><span class="pln"> bytes </span><span class="pun">=</span><span class="pln"> result</span><span class="pun">.</span><span class="typ">RawBytes</span><span class="pun">;</span><span class="pln">
+    </span><span class="pun">}</span><span class="pln">
+</span><span class="pun">}</span></code></pre>
+
+<h3 id="how-to-scan-a-barcode">how to: Scan A Barcode</h3>
+
+<p>To scan barcode using <a href="https://docs.unity3d.com/Documentation/ScriptReference/WebCamTexture.html">WebCamTexture</a>, you can use the WebCamDecoder script included in this asset’s package. WebCamDecoder runs on a background thread.</p>
+
+<ul>
+<li>First, drag the script to a game object, then in another script, get the decoder from the game object. like.</li>
+</ul>
+
+<pre class="prettyprint prettyprinted"><code class="language-C#"><span class="kwd">var</span><span class="pln"> decoder </span><span class="pun">=</span><span class="pln"> </span><span class="typ">GetComponent</span><span class="pun">&lt;</span><span class="typ">WebCamDecoder</span><span class="pun">&gt;();</span></code></pre>
+
+<ul>
+<li>After you’ve created an instance of WebCamTexture and get it playing.</li>
+</ul>
+
+<pre class="prettyprint prettyprinted"><code class="language-C#"><span class="pln">decoder</span><span class="pun">.</span><span class="typ">StartDecoding</span><span class="pun">(</span><span class="pln">webCamTexture</span><span class="pun">);</span><span class="pln"> </span><span class="com">// and the decoder will start to decode via the webcam.</span></code></pre>
+
+<ul>
+<li>In your Update method, pending the result like:</li>
+</ul>
+
+<pre class="prettyprint prettyprinted"><code class="language-C#"><span class="kwd">var</span><span class="pln"> result </span><span class="pun">=</span><span class="pln"> decoder</span><span class="pun">.</span><span class="typ">Result</span><span class="pun">;</span><span class="pln">
+</span><span class="kwd">if</span><span class="pln"> </span><span class="pun">(</span><span class="pln">result</span><span class="pun">.</span><span class="typ">Success</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    </span><span class="com">// do your stuff</span><span class="pln">
+</span><span class="pun">}</span></code></pre>
+
+<ul>
+<li>The decoder will stop its work when the script has been destroyed, or you can make it stop manually like:</li>
+</ul>
+
+<pre class="prettyprint prettyprinted"><code class="language-C#"><span class="pln">decoder</span><span class="pun">.</span><span class="typ">StopDecoding</span><span class="pun">();</span></code></pre>
+
+<p>If you don’t want to use WebCamTexture and get camera data from another source. Barcode decoder also support decoding from a pixel buffer. When you managed to get the camera data in pixels:</p>
+
+<pre class="prettyprint prettyprinted"><code class="language-C#"><span class="kwd">var</span><span class="pln"> decoder </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Barcode</span><span class="pun">.</span><span class="typ">GetDecoder</span><span class="pun">();</span><span class="pln">
+
+</span><span class="com">// decode from a Color32[] pixel buffer with specified width &amp; height</span><span class="pln">
+</span><span class="kwd">var</span><span class="pln"> result </span><span class="pun">=</span><span class="pln"> decoder</span><span class="pun">.</span><span class="typ">Decode</span><span class="pun">(</span><span class="pln">pixels</span><span class="pun">,</span><span class="pln"> width</span><span class="pun">,</span><span class="pln"> height</span><span class="pun">);</span></code></pre>
+
+<h3 id="how-to-encode-string-into-a-barcode">how to: Encode String Into A Barcode</h3>
+
+<ul>
+<li>Get an encoder with a type that you want it to encode with. It’s not as expensive as a decoder, but avoid creating it repeatedly is still a good practice.</li>
+</ul>
+
+<pre class="prettyprint prettyprinted"><code class="language-C#"><span class="pln"> </span><span class="kwd">var</span><span class="pln"> encoder </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Barcode</span><span class="pun">.</span><span class="typ">GetEncoder</span><span class="pun">(</span><span class="typ">BarcodeType</span><span class="pun">.</span><span class="typ">QrCode</span><span class="pun">);</span><span class="pln">
+
+ </span><span class="com">// you can change the type so you need not to create many encoders.</span><span class="pln">
+ encoder</span><span class="pun">.</span><span class="typ">BarcodeType</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="typ">BarcodeType</span><span class="pun">.</span><span class="typ">Pdf417</span><span class="pun">;</span></code></pre>
+
+<ul>
+<li>Encode a string.</li>
+</ul>
+
+<pre class="prettyprint prettyprinted"><code class="language-C#"><span class="kwd">var</span><span class="pln"> result </span><span class="pun">=</span><span class="pln"> encoder</span><span class="pun">.</span><span class="typ">Encode</span><span class="pun">(</span><span class="str">"ENCODE ME"</span><span class="pun">);</span><span class="pln">
+</span><span class="com">// or you want to specify the size.</span><span class="pln">
+</span><span class="kwd">var</span><span class="pln"> result </span><span class="pun">=</span><span class="pln"> encoder</span><span class="pun">.</span><span class="typ">Encode</span><span class="pun">(</span><span class="str">"ENCODE ME"</span><span class="pun">,</span><span class="pln"> </span><span class="lit">256</span><span class="pun">,</span><span class="pln"> </span><span class="lit">256</span><span class="pun">);</span></code></pre>
+
+<ul>
+<li>Read from the result.</li>
+</ul>
+
+<pre class="prettyprint prettyprinted"><code class="language-C#"><span class="kwd">if</span><span class="pln"> </span><span class="pun">(</span><span class="pln">result</span><span class="pun">.</span><span class="typ">Success</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    </span><span class="com">// get a black-white texture.</span><span class="pln">
+    </span><span class="typ">Texture2D</span><span class="pln"> code </span><span class="pun">=</span><span class="pln"> result</span><span class="pun">.</span><span class="typ">GetTexture</span><span class="pun">();</span><span class="pln">
+    </span><span class="com">// get a dot matrix.</span><span class="pln">
+    </span><span class="typ">DotMatrix</span><span class="pln"> dots </span><span class="pun">=</span><span class="pln"> result</span><span class="pun">.</span><span class="typ">Dots</span><span class="pun">;</span><span class="pln">
+
+    </span><span class="com">//parse the dots.</span><span class="pln">
+    </span><span class="kwd">for</span><span class="pln"> </span><span class="pun">(</span><span class="kwd">int</span><span class="pln"> x </span><span class="pun">=</span><span class="pln"> </span><span class="lit">0</span><span class="pun">;</span><span class="pln"> x </span><span class="pun">&lt;</span><span class="pln"> dots</span><span class="pun">.</span><span class="typ">Width</span><span class="pun">;</span><span class="pln"> x</span><span class="pun">++)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+        </span><span class="kwd">for</span><span class="pln"> </span><span class="pun">(</span><span class="kwd">int</span><span class="pln"> y </span><span class="pun">=</span><span class="pln"> </span><span class="lit">0</span><span class="pun">;</span><span class="pln"> y </span><span class="pun">&lt;</span><span class="pln"> dots</span><span class="pun">.</span><span class="typ">Height</span><span class="pun">;</span><span class="pln"> y</span><span class="pun">++)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+            </span><span class="kwd">if</span><span class="pln"> </span><span class="pun">(</span><span class="pln">dots</span><span class="pun">[</span><span class="pln">x</span><span class="pun">,</span><span class="pln"> y</span><span class="pun">])</span><span class="pln"> </span><span class="pun">{</span><span class="pln"> </span><span class="com">// A black dot</span><span class="pln">
+                </span><span class="com">// :::</span><span class="pln">
+            </span><span class="pun">}</span><span class="pln">
+        </span><span class="pun">}</span><span class="pln">
+    </span><span class="pun">}</span><span class="pln">
+</span><span class="pun">}</span><span class="pln"> </span><span class="kwd">else</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    </span><span class="typ">Debug</span><span class="pun">.</span><span class="typ">LogError</span><span class="pun">(</span><span class="pln">result</span><span class="pun">.</span><span class="typ">ErrorMessage</span><span class="pun">);</span><span class="pln">
+</span><span class="pun">}</span></code></pre>
+
+<p>*dots in a DotMatrix maps to pixels instead of data units of the barcode image. If you want it to map to the data units, specify zero width and height when generate the code.</p>
+
+<h3 id="how-to-encode-without-unity">how to: Encode Without Unity</h3>
+
+<p>The <code>CielaSpike.Unity.Barcode.dll</code> assembly can be used to generate barcode images in PNG format without opening Unity.</p>
+
+<p>When you want to create a PNG file from an encoding result. Try:</p>
+
+<pre class="prettyprint prettyprinted"><code class="language-C#"><span class="kwd">byte</span><span class="pun">[]</span><span class="pln"> pngData </span><span class="pun">=</span><span class="pln"> result</span><span class="pun">.</span><span class="typ">GetPngData</span><span class="pun">();</span></code></pre>
+
+<p>Then you can save the byte array in a file like:</p>
+
+<pre class="prettyprint prettyprinted"><code class="language-C#"><span class="typ">System</span><span class="pun">.</span><span class="pln">IO</span><span class="pun">.</span><span class="typ">File</span><span class="pun">.</span><span class="typ">WriteAllBytes</span><span class="pun">(</span><span class="str">"a.png"</span><span class="pun">,</span><span class="pln"> pngData</span><span class="pun">);</span></code></pre>
+
+<p>Note that you also need to reference <code>UnityEngine.dll</code> assembly in your code generation project.</p>
+
+<p>There is a zip file contains a sample C# console program which generates QR codes. Note that you should reference the DLL file in the zip package.</p>
+
+<h2 id="advanced-usage">Advanced Usage</h2>
+
+<h3 id="get-additional-information-in-the-barcode">Get additional information in the barcode</h3>
+
+<p>Some barcode contains additional metadata. To get it from a decode result, use the <code>TryGetMetadata</code> method.</p>
+
+<pre class="prettyprint prettyprinted"><code class="language-C#"><span class="kwd">object</span><span class="pln"> metadata</span><span class="pun">;</span><span class="pln">
+</span><span class="kwd">if</span><span class="pln"> </span><span class="pun">(</span><span class="pln">result</span><span class="pun">.</span><span class="typ">TryGetMetadata</span><span class="pun">(</span><span class="typ">MetadataType</span><span class="pun">.</span><span class="typ">ErrorCorrectionLevel</span><span class="pun">,</span><span class="pln"> </span><span class="kwd">out</span><span class="pln"> metadata</span><span class="pun">))</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    </span><span class="kwd">string</span><span class="pln"> ecLevel </span><span class="pun">=</span><span class="pln"> </span><span class="pun">(</span><span class="kwd">string</span><span class="pun">)</span><span class="pln">metadata</span><span class="pun">;</span><span class="pln">
+    </span><span class="com">// :::</span><span class="pln">
+</span><span class="pun">}</span></code></pre>
+
+<p>Supported metadata types are:</p>
+
+<pre class="prettyprint prettyprinted"><code class="language-C#"><span class="kwd">public</span><span class="pln"> </span><span class="kwd">enum</span><span class="pln"> </span><span class="typ">MetadataType</span><span class="pln">
+</span><span class="pun">{</span><span class="pln">
+    </span><span class="com">/// &lt;summary&gt;</span><span class="pln">
+    </span><span class="com">/// Denotes the likely approximate orientation of the barcode in the image. This value</span><span class="pln">
+    </span><span class="com">/// is given as degrees rotated clockwise from the normal, upright orientation.</span><span class="pln">
+    </span><span class="com">/// For example a 1D barcode which was found by reading top-to-bottom would be</span><span class="pln">
+    </span><span class="com">/// said to have orientation "90". This key maps to an integer whose</span><span class="pln">
+    </span><span class="com">/// value is in the range [0,360).</span><span class="pln">
+    </span><span class="com">/// &lt;/summary&gt;</span><span class="pln">
+    </span><span class="typ">Orientation</span><span class="pun">,</span><span class="pln">
+
+    </span><span class="com">/// &lt;summary&gt;</span><span class="pln">
+    </span><span class="com">/// 2D barcode formats typically encode text, but allow for a sort of 'byte mode'</span><span class="pln">
+    </span><span class="com">/// which is sometimes used to encode binary data. While &lt;c&gt;DecodeResult&lt;/c&gt; makes available</span><span class="pln">
+    </span><span class="com">/// the complete raw bytes in the barcode for these formats, it does not offer the bytes</span><span class="pln">
+    </span><span class="com">/// from the byte segments alone.</span><span class="pln">
+    </span><span class="com">/// This maps to a &lt;c&gt;&lt;![CDATA[IList&lt;byte[]&gt;]]&gt;&lt;/c&gt; corresponding to the</span><span class="pln">
+    </span><span class="com">/// raw bytes in the byte segments in the barcode, in order.</span><span class="pln">
+    </span><span class="com">/// &lt;/summary&gt;</span><span class="pln">
+    </span><span class="typ">ByteSegments</span><span class="pun">,</span><span class="pln">
+
+    </span><span class="com">/// &lt;summary&gt;</span><span class="pln">
+    </span><span class="com">/// Error correction level used, if applicable. The value type depends on the</span><span class="pln">
+    </span><span class="com">/// format, but is typically a String.</span><span class="pln">
+    </span><span class="com">/// &lt;/summary&gt;</span><span class="pln">
+    </span><span class="typ">ErrorCorrectionLevel</span><span class="pun">,</span><span class="pln">
+
+    </span><span class="com">/// &lt;summary&gt;</span><span class="pln">
+    </span><span class="com">/// For some periodicals, indicates the issue number as an integer.</span><span class="pln">
+    </span><span class="com">/// &lt;/summary&gt;</span><span class="pln">
+    </span><span class="typ">IssueNumber</span><span class="pun">,</span><span class="pln">
+
+    </span><span class="com">/// &lt;summary&gt;</span><span class="pln">
+    </span><span class="com">/// For some products, indicates the suggested retail price in the barcode as a</span><span class="pln">
+    </span><span class="com">/// formatted string.</span><span class="pln">
+    </span><span class="com">/// &lt;/summary&gt;</span><span class="pln">
+    </span><span class="typ">SuggestedPrice</span><span class="pun">,</span><span class="pln">
+
+    </span><span class="com">/// &lt;summary&gt;</span><span class="pln">
+    </span><span class="com">/// For some products, the possible country of manufacture as a string denoting the</span><span class="pln">
+    </span><span class="com">/// ISO country code. Some map to multiple possible countries, like "US/CA".</span><span class="pln">
+    </span><span class="com">/// &lt;/summary&gt;</span><span class="pln">
+    </span><span class="typ">PossibleCountry</span><span class="pun">,</span><span class="pln">
+
+    </span><span class="com">/// &lt;summary&gt;</span><span class="pln">
+    </span><span class="com">/// For some products, the extension text.</span><span class="pln">
+    </span><span class="com">/// &lt;/summary&gt;</span><span class="pln">
+    </span><span class="typ">UpcEanExtension</span><span class="pun">,</span><span class="pln">
+
+    </span><span class="com">/// &lt;summary&gt;</span><span class="pln">
+    </span><span class="com">/// If the code format supports structured append and</span><span class="pln">
+    </span><span class="com">/// the current scanned code is part of one then the</span><span class="pln">
+    </span><span class="com">/// sequence number is given with it.</span><span class="pln">
+    </span><span class="com">/// &lt;/summary&gt;</span><span class="pln">
+    </span><span class="typ">StructuredAppendSequence</span><span class="pun">,</span><span class="pln">
+
+    </span><span class="com">/// &lt;summary&gt;</span><span class="pln">
+    </span><span class="com">/// If the code format supports structured append and</span><span class="pln">
+    </span><span class="com">/// the current scanned code is part of one then the</span><span class="pln">
+    </span><span class="com">/// parity is given with it.</span><span class="pln">
+    </span><span class="com">/// &lt;/summary&gt;</span><span class="pln">
+    </span><span class="typ">StructuredAppendParity</span><span class="pun">,</span><span class="pln">
+
+    </span><span class="com">/// &lt;summary&gt;</span><span class="pln">
+    </span><span class="com">/// PDF417-specific metadata.</span><span class="pln">
+    </span><span class="com">/// &lt;/summary&gt;</span><span class="pln">
+    </span><span class="typ">Pdf417ExtraMetadata</span><span class="pun">,</span><span class="pln">
+
+    </span><span class="com">/// &lt;summary&gt;</span><span class="pln">
+    </span><span class="com">/// Unspecified, application-specific metadata. Maps to an unspecified object.</span><span class="pln">
+    </span><span class="com">/// &lt;/summary&gt;</span><span class="pln">
+    </span><span class="typ">Other</span><span class="pln">
+</span><span class="pun">}</span></code></pre>
+
+<h3 id="specify-options-to-decoder-encoder">Specify Options To Decoder &amp; Encoder</h3>
+
+<p>The decoder which is of type <code>IBarcodeDecoder</code>, and the encoder which is a <code>IBarcodeEncoder</code> both have an <code>Options</code> property to make extra control of the decoding/encoding process. You can pass an option when you call <code>Barcode.GetEncoder</code> and <code>Barcode.GetDecoder</code>, or change it later.</p>
+
+<pre class="prettyprint prettyprinted"><code class="language-C#"><span class="typ">DecodeOptions</span><span class="pln"> decodeOptions </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> </span><span class="typ">DecodeOptions</span><span class="pun">()</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    </span><span class="typ">AutoRotate</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">false</span><span class="pun">,</span><span class="pln">
+    </span><span class="typ">PossibleTypes</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">new</span><span class="pun">[]</span><span class="pln"> </span><span class="pun">{</span><span class="pln"> </span><span class="typ">BarcodeType</span><span class="pun">.</span><span class="typ">QrCode</span><span class="pun">,</span><span class="pln"> </span><span class="typ">BarcodeType</span><span class="pun">.</span><span class="typ">Pdf417</span><span class="pln"> </span><span class="pun">}</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+
+</span><span class="kwd">var</span><span class="pln"> decoder </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Barcode</span><span class="pun">.</span><span class="typ">GetDecoder</span><span class="pun">(</span><span class="pln">decodeOptions</span><span class="pun">);</span><span class="pln">
+
+</span><span class="typ">EncodeOptions</span><span class="pln"> encodeOptions </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> </span><span class="typ">EncodeOptions</span><span class="pun">()</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+    </span><span class="typ">Margin</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="lit">5</span><span class="pln">
+</span><span class="pun">};</span><span class="pln">
+
+</span><span class="kwd">var</span><span class="pln"> encoder </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Barcode</span><span class="pun">.</span><span class="typ">GetEncoder</span><span class="pun">(</span><span class="typ">BarcodeType</span><span class="pun">.</span><span class="typ">QrCode</span><span class="pun">,</span><span class="pln"> encodeOptions</span><span class="pun">);</span></code></pre>
+
+<h4 id="decode-options">Decode Options</h4>
+
+<ul>
+<li><p>AutoRotate:  <br>
+Try rotate the texture when decoding, default true.</p></li>
+<li><p>TryHarder:  <br>
+Try look deeper into the texture, which might be a little slow, default false.</p></li>
+<li><p>TryInverted:  <br>
+Try recognize mirror inverted code, default true.</p></li>
+<li><p>CharacterSet:  <br>
+Text encoding of the code, default ASCII.</p></li>
+<li><p>PossibleTypes:  <br>
+Image is known to be of one of a few possible types.</p></li>
+</ul>
+
+<h4 id="encode-options">Encode Options</h4>
+
+<ul>
+<li><p>Margin:  <br>
+Margin of the code image to be generate.</p></li>
+<li><p>Width/Height:  <br>
+Default image width and height of generated images.</p></li>
+</ul>
+
+<p>The <code>EncodeOptions</code> class have several child classes correspond to specific code formats.</p>
+
+<p><strong>QR Code</strong></p>
+
+<pre class="prettyprint prettyprinted"><code class="language-C#"><span class="kwd">var</span><span class="pln"> encoder </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Barcode</span><span class="pun">.</span><span class="typ">GetEncoder</span><span class="pun">(</span><span class="typ">BarcodeType</span><span class="pun">.</span><span class="typ">QrCode</span><span class="pun">,</span><span class="pln">
+    </span><span class="kwd">new</span><span class="pln"> </span><span class="typ">QrCodeEncodeOptions</span><span class="pun">()</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+        </span><span class="typ">ECLevel</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="typ">QrCodeErrorCorrectionLevel</span><span class="pun">.</span><span class="pln">H
+    </span><span class="pun">});</span></code></pre>
+
+<p>Supported options are: EC level, disable ECI.</p>
+
+<p><strong>PDF417</strong></p>
+
+<pre class="prettyprint prettyprinted"><code class="language-C#"><span class="kwd">var</span><span class="pln"> encoder </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Barcode</span><span class="pun">.</span><span class="typ">GetEncoder</span><span class="pun">(</span><span class="typ">BarcodeType</span><span class="pun">.</span><span class="typ">Pdf417</span><span class="pun">,</span><span class="pln">
+    </span><span class="kwd">new</span><span class="pln"> </span><span class="typ">Pdf417EncodeOptions</span><span class="pun">()</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+        </span><span class="typ">Compact</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">true</span><span class="pln">
+    </span><span class="pun">});</span><span class="pln">
+</span><span class="pun">}</span></code></pre>
+
+<p>Supported options are: use compact, compaction type, PDF417 dimensions.</p>
+
+<p><strong>Aztec Code</strong></p>
+
+<pre class="prettyprint prettyprinted"><code class="language-C#"><span class="kwd">var</span><span class="pln"> encoder </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Barcode</span><span class="pun">.</span><span class="typ">GetEncoder</span><span class="pun">(</span><span class="typ">BarcodeType</span><span class="pun">.</span><span class="typ">Aztec</span><span class="pun">,</span><span class="pln">
+    </span><span class="kwd">new</span><span class="pln"> </span><span class="typ">AztecEncodeOptions</span><span class="pun">()</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+        </span><span class="typ">Layers</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="lit">3</span><span class="pln">
+    </span><span class="pun">});</span></code></pre>
+
+<p>Supproted options are: error correction, layers.</p>
+
+<p><strong>DataMatrix</strong></p>
+
+<pre class="prettyprint prettyprinted"><code class="language-C#"><span class="kwd">var</span><span class="pln"> encoder </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Barcode</span><span class="pun">.</span><span class="typ">GetEncoder</span><span class="pun">(</span><span class="typ">BarcodeType</span><span class="pun">.</span><span class="typ">DataMatrix</span><span class="pun">,</span><span class="pln">
+    </span><span class="kwd">new</span><span class="pln"> </span><span class="typ">DataMatrixEncodeOptions</span><span class="pun">()</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+        </span><span class="typ">EncodeMode</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="typ">DataMatrixEncodeMode</span><span class="pun">.</span><span class="typ">Base256</span><span class="pln">
+    </span><span class="pun">});</span></code></pre>
+
+<p>Supproted options are: data matrix encode mode, max/min size, symbol shape.</p>
+
+<p><strong>Code 128</strong></p>
+
+<pre class="prettyprint prettyprinted"><code class="language-C#"><span class="kwd">var</span><span class="pln"> encoder </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Barcode</span><span class="pun">.</span><span class="typ">GetEncoder</span><span class="pun">(</span><span class="typ">BarcodeType</span><span class="pun">.</span><span class="typ">Code128</span><span class="pun">,</span><span class="pln">
+    </span><span class="kwd">new</span><span class="pln"> </span><span class="typ">Code128EncodeOptions</span><span class="pun">()</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+        </span><span class="typ">ForceCodesetB</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">true</span><span class="pln">
+    </span><span class="pun">});</span></code></pre>
+
+<p>Supproted options are: force using codeset B.</p></div></body>
+</html>
