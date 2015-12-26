@@ -80,6 +80,8 @@
      <Compile Include="Assets\Scripts\Interface\StarsPanel.cs" />
      <Compile Include="Assets\Scripts\Logic\Controls\BoatControl.cs" />
      <Compile Include="Assets\Scripts\Logic\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Mosaica\MosaicControl.cs" />
+     <Compile Include="Assets\Scripts\Mosaica\MosaicElement.cs" />
      <Compile Include="Assets\Scripts\PointerPlay.cs" />
      <Compile Include="Assets\Scripts\QRCodeZima.cs" />
      <Compile Include="Assets\Scripts\RotateCamera.cs" />
@@ -197,17 +199,11 @@
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
      <None Include="Assets\Graphic Power-Up\SurfaceShaders\IllumUnlit.shader" />
      <None Include="Assets\Graphic Power-Up\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="CaptureAndSaveLib">
  <HintPath>C:/Users/Art/Documents/Workspace/Final/SPASATEL2/Assets/CaptureAndSave/Plugins/CaptureAndSaveLib.dll</HintPath>
