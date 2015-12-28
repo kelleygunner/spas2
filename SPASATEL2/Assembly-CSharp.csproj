@@ -86,6 +86,7 @@
      <Compile Include="Assets\Scripts\QRCodeZima.cs" />
      <Compile Include="Assets\Scripts\RotateCamera.cs" />
      <Compile Include="Assets\Scripts\Scenes\BoatDrivingScene.cs" />
+     <Compile Include="Assets\Scripts\Scenes\ZloScene6.cs" />
      <Compile Include="Assets\Scripts\SmallScripts\TapIcon.cs" />
      <Compile Include="Assets\Scripts\SmallScripts\UIRolling.cs" />
      <Compile Include="Assets\Scripts\System\CameraStablizer.cs" />
@@ -179,6 +180,7 @@
      <None Include="Assets\Graphic Power-Up\SurfaceShaders\AlphaBumped.shader" />
      <None Include="Assets\Graphic Power-Up\SurfaceShaders\HighlightsCutoutBumped.shader" />
      <None Include="Assets\Graphic Power-Up\SurfaceShaders\CutoutBumped.shader" />
+     <None Include="Assets\Raw Mocap Data\Animations\_CompleteAnimationList.txt" />
      <None Include="Assets\Graphic Power-Up\SurfaceShaders\NormalAdvanced.shader" />
      <None Include="Assets\Graphic Power-Up\SurfaceShaders\GraphicsKit.cginc" />
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
@@ -199,17 +201,11 @@
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
      <None Include="Assets\Graphic Power-Up\SurfaceShaders\IllumUnlit.shader" />
      <None Include="Assets\Graphic Power-Up\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="CaptureAndSaveLib">
  <HintPath>C:/Users/Art/Documents/Workspace/Final/SPASATEL2/Assets/CaptureAndSave/Plugins/CaptureAndSaveLib.dll</HintPath>

@@ -1,0 +1,940 @@
+fileFormatVersion: 2
+guid: b4efa38ff59871c4da91eab61e7e4aeb
+timeCreated: 1451313197
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: zlo_low_rig_3:be_l_clavicleEnd01
+    100004: zlo_low_rig_3:be_r_clavicleEnd01
+    100006: zlo_low_rig_3:bn_chest01
+    100008: zlo_low_rig_3:bn_head01
+    100010: zlo_low_rig_3:bn_hip01
+    100012: zlo_low_rig_3:bn_l_clavicle01
+    100014: zlo_low_rig_3:bn_l_elbow01
+    100016: zlo_low_rig_3:bn_l_index_a01
+    100018: zlo_low_rig_3:bn_l_index_b01
+    100020: zlo_low_rig_3:bn_l_index_c01
+    100022: zlo_low_rig_3:bn_l_mid_a01
+    100024: zlo_low_rig_3:bn_l_mid_b01
+    100026: zlo_low_rig_3:bn_l_mid_c01
+    100028: zlo_low_rig_3:bn_l_pinky_a01
+    100030: zlo_low_rig_3:bn_l_pinky_b01
+    100032: zlo_low_rig_3:bn_l_pinky_c01
+    100034: zlo_low_rig_3:bn_l_shoulder01
+    100036: zlo_low_rig_3:bn_l_thumb_a01
+    100038: zlo_low_rig_3:bn_l_thumb_b01
+    100040: zlo_low_rig_3:bn_l_wrist01
+    100042: zlo_low_rig_3:bn_neck01
+    100044: zlo_low_rig_3:bn_r_clavicle01
+    100046: zlo_low_rig_3:bn_r_elbow01
+    100048: zlo_low_rig_3:bn_r_index_a01
+    100050: zlo_low_rig_3:bn_r_index_b01
+    100052: zlo_low_rig_3:bn_r_index_c01
+    100054: zlo_low_rig_3:bn_r_mid_a01
+    100056: zlo_low_rig_3:bn_r_mid_b01
+    100058: zlo_low_rig_3:bn_r_mid_c01
+    100060: zlo_low_rig_3:bn_r_pinky_a01
+    100062: zlo_low_rig_3:bn_r_pinky_b01
+    100064: zlo_low_rig_3:bn_r_pinky_c01
+    100066: zlo_low_rig_3:bn_r_shoulder01
+    100068: zlo_low_rig_3:bn_r_thumb_a01
+    100070: zlo_low_rig_3:bn_r_thumb_b01
+    100072: zlo_low_rig_3:bn_r_wrist01
+    100074: zlo_low_rig_3:bn_root01
+    100076: zlo_low_rig_3:bn_spine01
+    100078: zlo_low_rig_3:bn_tail01
+    100080: zlo_low_rig_3:bn_tail02
+    100082: zlo_low_rig_3:bn_tail03
+    100084: zlo_low_rig_3:bn_tail04
+    100086: zlo_low_rig_3:bn_tail05
+    100088: zlo_low_rig_3:bn_tail06
+    100090: zlo_low_rig_3:bn_tail07
+    100092: zlo_low_rig_3:bn_tail08
+    100094: zlo_low_rig_3:cc_global01
+    100096: zlo_low_rig_3:cc_sw02
+    100098: zlo_low_rig_3:cc_sw02 1
+    100100: zlo_low_rig_3:cc_sw02 10
+    100102: zlo_low_rig_3:cc_sw02 11
+    100104: zlo_low_rig_3:cc_sw02 2
+    100106: zlo_low_rig_3:cc_sw02 3
+    100108: zlo_low_rig_3:cc_sw02 4
+    100110: zlo_low_rig_3:cc_sw02 5
+    100112: zlo_low_rig_3:cc_sw02 6
+    100114: zlo_low_rig_3:cc_sw02 7
+    100116: zlo_low_rig_3:cc_sw02 8
+    100118: zlo_low_rig_3:cc_sw02 9
+    100120: zlo_low_rig_3:controls01
+    100122: zlo_low_rig_3:Extract6
+    100124: zlo_low_rig_3:group10
+    100126: zlo_low_rig_3:group11
+    100128: zlo_low_rig_3:group12
+    100130: zlo_low_rig_3:group13
+    100132: zlo_low_rig_3:group14
+    100134: zlo_low_rig_3:group16
+    100136: zlo_low_rig_3:group17
+    100138: zlo_low_rig_3:group18
+    100140: zlo_low_rig_3:group19
+    100142: zlo_low_rig_3:group20
+    100144: zlo_low_rig_3:group8
+    100146: zlo_low_rig_3:group9
+    100148: zlo_low_rig_3:grp_cc_helper010
+    100150: zlo_low_rig_3:grp_cc_helper011
+    100152: zlo_low_rig_3:grp_cc_helper012
+    100154: zlo_low_rig_3:grp_cc_helper013
+    100156: zlo_low_rig_3:grp_cc_helper014
+    100158: zlo_low_rig_3:grp_cc_helper02
+    100160: zlo_low_rig_3:grp_cc_helper03
+    100162: zlo_low_rig_3:grp_cc_helper04
+    100164: zlo_low_rig_3:grp_cc_helper05
+    100166: zlo_low_rig_3:grp_cc_helper06
+    100168: zlo_low_rig_3:grp_cc_helper07
+    100170: zlo_low_rig_3:grp_cc_helper09
+    100172: zlo_low_rig_3:Head
+    100174: zlo_low_rig_3:joints01
+    100176: zlo_low_rig_3:model01
+    100178: zlo_low_rig_3:Teeth_Lower1
+    100180: zlo_low_rig_3:Teeth_Upper
+    100182: zlo_low_rig_3:toHide
+    100184: zlo_low_rig_3:Zlo3:Group27352
+    400000: //RootNode
+    400002: zlo_low_rig_3:be_l_clavicleEnd01
+    400004: zlo_low_rig_3:be_r_clavicleEnd01
+    400006: zlo_low_rig_3:bn_chest01
+    400008: zlo_low_rig_3:bn_head01
+    400010: zlo_low_rig_3:bn_hip01
+    400012: zlo_low_rig_3:bn_l_clavicle01
+    400014: zlo_low_rig_3:bn_l_elbow01
+    400016: zlo_low_rig_3:bn_l_index_a01
+    400018: zlo_low_rig_3:bn_l_index_b01
+    400020: zlo_low_rig_3:bn_l_index_c01
+    400022: zlo_low_rig_3:bn_l_mid_a01
+    400024: zlo_low_rig_3:bn_l_mid_b01
+    400026: zlo_low_rig_3:bn_l_mid_c01
+    400028: zlo_low_rig_3:bn_l_pinky_a01
+    400030: zlo_low_rig_3:bn_l_pinky_b01
+    400032: zlo_low_rig_3:bn_l_pinky_c01
+    400034: zlo_low_rig_3:bn_l_shoulder01
+    400036: zlo_low_rig_3:bn_l_thumb_a01
+    400038: zlo_low_rig_3:bn_l_thumb_b01
+    400040: zlo_low_rig_3:bn_l_wrist01
+    400042: zlo_low_rig_3:bn_neck01
+    400044: zlo_low_rig_3:bn_r_clavicle01
+    400046: zlo_low_rig_3:bn_r_elbow01
+    400048: zlo_low_rig_3:bn_r_index_a01
+    400050: zlo_low_rig_3:bn_r_index_b01
+    400052: zlo_low_rig_3:bn_r_index_c01
+    400054: zlo_low_rig_3:bn_r_mid_a01
+    400056: zlo_low_rig_3:bn_r_mid_b01
+    400058: zlo_low_rig_3:bn_r_mid_c01
+    400060: zlo_low_rig_3:bn_r_pinky_a01
+    400062: zlo_low_rig_3:bn_r_pinky_b01
+    400064: zlo_low_rig_3:bn_r_pinky_c01
+    400066: zlo_low_rig_3:bn_r_shoulder01
+    400068: zlo_low_rig_3:bn_r_thumb_a01
+    400070: zlo_low_rig_3:bn_r_thumb_b01
+    400072: zlo_low_rig_3:bn_r_wrist01
+    400074: zlo_low_rig_3:bn_root01
+    400076: zlo_low_rig_3:bn_spine01
+    400078: zlo_low_rig_3:bn_tail01
+    400080: zlo_low_rig_3:bn_tail02
+    400082: zlo_low_rig_3:bn_tail03
+    400084: zlo_low_rig_3:bn_tail04
+    400086: zlo_low_rig_3:bn_tail05
+    400088: zlo_low_rig_3:bn_tail06
+    400090: zlo_low_rig_3:bn_tail07
+    400092: zlo_low_rig_3:bn_tail08
+    400094: zlo_low_rig_3:cc_global01
+    400096: zlo_low_rig_3:cc_sw02
+    400098: zlo_low_rig_3:cc_sw02 1
+    400100: zlo_low_rig_3:cc_sw02 10
+    400102: zlo_low_rig_3:cc_sw02 11
+    400104: zlo_low_rig_3:cc_sw02 2
+    400106: zlo_low_rig_3:cc_sw02 3
+    400108: zlo_low_rig_3:cc_sw02 4
+    400110: zlo_low_rig_3:cc_sw02 5
+    400112: zlo_low_rig_3:cc_sw02 6
+    400114: zlo_low_rig_3:cc_sw02 7
+    400116: zlo_low_rig_3:cc_sw02 8
+    400118: zlo_low_rig_3:cc_sw02 9
+    400120: zlo_low_rig_3:controls01
+    400122: zlo_low_rig_3:Extract6
+    400124: zlo_low_rig_3:group10
+    400126: zlo_low_rig_3:group11
+    400128: zlo_low_rig_3:group12
+    400130: zlo_low_rig_3:group13
+    400132: zlo_low_rig_3:group14
+    400134: zlo_low_rig_3:group16
+    400136: zlo_low_rig_3:group17
+    400138: zlo_low_rig_3:group18
+    400140: zlo_low_rig_3:group19
+    400142: zlo_low_rig_3:group20
+    400144: zlo_low_rig_3:group8
+    400146: zlo_low_rig_3:group9
+    400148: zlo_low_rig_3:grp_cc_helper010
+    400150: zlo_low_rig_3:grp_cc_helper011
+    400152: zlo_low_rig_3:grp_cc_helper012
+    400154: zlo_low_rig_3:grp_cc_helper013
+    400156: zlo_low_rig_3:grp_cc_helper014
+    400158: zlo_low_rig_3:grp_cc_helper02
+    400160: zlo_low_rig_3:grp_cc_helper03
+    400162: zlo_low_rig_3:grp_cc_helper04
+    400164: zlo_low_rig_3:grp_cc_helper05
+    400166: zlo_low_rig_3:grp_cc_helper06
+    400168: zlo_low_rig_3:grp_cc_helper07
+    400170: zlo_low_rig_3:grp_cc_helper09
+    400172: zlo_low_rig_3:Head
+    400174: zlo_low_rig_3:joints01
+    400176: zlo_low_rig_3:model01
+    400178: zlo_low_rig_3:Teeth_Lower1
+    400180: zlo_low_rig_3:Teeth_Upper
+    400182: zlo_low_rig_3:toHide
+    400184: zlo_low_rig_3:Zlo3:Group27352
+    4300000: zlo_low_rig_3:Teeth_Upper
+    4300002: zlo_low_rig_3:Teeth_Lower1
+    4300004: zlo_low_rig_3:Extract6
+    4300006: zlo_low_rig_3:Head
+    4300008: zlo_low_rig_3:Zlo3:Group27352
+    7400000: Take 001
+    7400002: attack
+    7400004: idle
+    9500000: //RootNode
+    13700000: zlo_low_rig_3:Extract6
+    13700002: zlo_low_rig_3:Head
+    13700004: zlo_low_rig_3:Teeth_Lower1
+    13700006: zlo_low_rig_3:Teeth_Upper
+    13700008: zlo_low_rig_3:Zlo3:Group27352
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: zlo_low_rig_3:controls01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_hip01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_hip01/zlo_low_rig_3:bn_tail01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_hip01/zlo_low_rig_3:bn_tail01/zlo_low_rig_3:bn_tail02
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_hip01/zlo_low_rig_3:bn_tail01/zlo_low_rig_3:bn_tail02/zlo_low_rig_3:bn_tail03
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_hip01/zlo_low_rig_3:bn_tail01/zlo_low_rig_3:bn_tail02/zlo_low_rig_3:bn_tail03/zlo_low_rig_3:bn_tail04
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_hip01/zlo_low_rig_3:bn_tail01/zlo_low_rig_3:bn_tail02/zlo_low_rig_3:bn_tail03/zlo_low_rig_3:bn_tail04/zlo_low_rig_3:bn_tail05
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_hip01/zlo_low_rig_3:bn_tail01/zlo_low_rig_3:bn_tail02/zlo_low_rig_3:bn_tail03/zlo_low_rig_3:bn_tail04/zlo_low_rig_3:bn_tail05/zlo_low_rig_3:bn_tail06
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_hip01/zlo_low_rig_3:bn_tail01/zlo_low_rig_3:bn_tail02/zlo_low_rig_3:bn_tail03/zlo_low_rig_3:bn_tail04/zlo_low_rig_3:bn_tail05/zlo_low_rig_3:bn_tail06/zlo_low_rig_3:bn_tail07
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_hip01/zlo_low_rig_3:bn_tail01/zlo_low_rig_3:bn_tail02/zlo_low_rig_3:bn_tail03/zlo_low_rig_3:bn_tail04/zlo_low_rig_3:bn_tail05/zlo_low_rig_3:bn_tail06/zlo_low_rig_3:bn_tail07/zlo_low_rig_3:bn_tail08
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01/zlo_low_rig_3:bn_l_wrist01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01/zlo_low_rig_3:bn_l_wrist01/zlo_low_rig_3:bn_l_index_a01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01/zlo_low_rig_3:bn_l_wrist01/zlo_low_rig_3:bn_l_index_a01/zlo_low_rig_3:bn_l_index_b01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01/zlo_low_rig_3:bn_l_wrist01/zlo_low_rig_3:bn_l_index_a01/zlo_low_rig_3:bn_l_index_b01/zlo_low_rig_3:bn_l_index_c01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01/zlo_low_rig_3:bn_l_wrist01/zlo_low_rig_3:bn_l_mid_a01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01/zlo_low_rig_3:bn_l_wrist01/zlo_low_rig_3:bn_l_mid_a01/zlo_low_rig_3:bn_l_mid_b01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01/zlo_low_rig_3:bn_l_wrist01/zlo_low_rig_3:bn_l_mid_a01/zlo_low_rig_3:bn_l_mid_b01/zlo_low_rig_3:bn_l_mid_c01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01/zlo_low_rig_3:bn_l_wrist01/zlo_low_rig_3:bn_l_pinky_a01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01/zlo_low_rig_3:bn_l_wrist01/zlo_low_rig_3:bn_l_pinky_a01/zlo_low_rig_3:bn_l_pinky_b01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01/zlo_low_rig_3:bn_l_wrist01/zlo_low_rig_3:bn_l_pinky_a01/zlo_low_rig_3:bn_l_pinky_b01/zlo_low_rig_3:bn_l_pinky_c01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01/zlo_low_rig_3:bn_l_wrist01/zlo_low_rig_3:bn_l_thumb_a01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01/zlo_low_rig_3:bn_l_wrist01/zlo_low_rig_3:bn_l_thumb_a01/zlo_low_rig_3:bn_l_thumb_b01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_neck01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_neck01/zlo_low_rig_3:bn_head01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01/zlo_low_rig_3:bn_r_wrist01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01/zlo_low_rig_3:bn_r_wrist01/zlo_low_rig_3:bn_r_index_a01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01/zlo_low_rig_3:bn_r_wrist01/zlo_low_rig_3:bn_r_index_a01/zlo_low_rig_3:bn_r_index_b01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01/zlo_low_rig_3:bn_r_wrist01/zlo_low_rig_3:bn_r_index_a01/zlo_low_rig_3:bn_r_index_b01/zlo_low_rig_3:bn_r_index_c01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01/zlo_low_rig_3:bn_r_wrist01/zlo_low_rig_3:bn_r_mid_a01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01/zlo_low_rig_3:bn_r_wrist01/zlo_low_rig_3:bn_r_mid_a01/zlo_low_rig_3:bn_r_mid_b01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01/zlo_low_rig_3:bn_r_wrist01/zlo_low_rig_3:bn_r_mid_a01/zlo_low_rig_3:bn_r_mid_b01/zlo_low_rig_3:bn_r_mid_c01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01/zlo_low_rig_3:bn_r_wrist01/zlo_low_rig_3:bn_r_pinky_a01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01/zlo_low_rig_3:bn_r_wrist01/zlo_low_rig_3:bn_r_pinky_a01/zlo_low_rig_3:bn_r_pinky_b01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01/zlo_low_rig_3:bn_r_wrist01/zlo_low_rig_3:bn_r_pinky_a01/zlo_low_rig_3:bn_r_pinky_b01/zlo_low_rig_3:bn_r_pinky_c01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01/zlo_low_rig_3:bn_r_wrist01/zlo_low_rig_3:bn_r_thumb_a01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01/zlo_low_rig_3:bn_r_wrist01/zlo_low_rig_3:bn_r_thumb_a01/zlo_low_rig_3:bn_r_thumb_b01
+        weight: 1
+      - path: zlo_low_rig_3:model01
+        weight: 1
+      - path: zlo_low_rig_3:model01/zlo_low_rig_3:Extract6
+        weight: 1
+      - path: zlo_low_rig_3:model01/zlo_low_rig_3:Head
+        weight: 1
+      - path: zlo_low_rig_3:model01/zlo_low_rig_3:Teeth_Lower1
+        weight: 1
+      - path: zlo_low_rig_3:model01/zlo_low_rig_3:Teeth_Upper
+        weight: 1
+      - path: zlo_low_rig_3:model01/zlo_low_rig_3:Zlo3:Group27352
+        weight: 1
+      - path: zlo_low_rig_3:toHide
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group8
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group8/zlo_low_rig_3:grp_cc_helper014
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group8/zlo_low_rig_3:grp_cc_helper014/zlo_low_rig_3:cc_sw02
+          10
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group9
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group9/zlo_low_rig_3:grp_cc_helper02
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group9/zlo_low_rig_3:grp_cc_helper02/zlo_low_rig_3:cc_sw02
+          11
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group10
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group10/zlo_low_rig_3:grp_cc_helper03
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group10/zlo_low_rig_3:grp_cc_helper03/zlo_low_rig_3:cc_sw02
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group11
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group11/zlo_low_rig_3:grp_cc_helper04
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group11/zlo_low_rig_3:grp_cc_helper04/zlo_low_rig_3:cc_sw02
+          1
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group12
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group12/zlo_low_rig_3:grp_cc_helper05
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group12/zlo_low_rig_3:grp_cc_helper05/zlo_low_rig_3:cc_sw02
+          2
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group13
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group13/zlo_low_rig_3:grp_cc_helper06
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group13/zlo_low_rig_3:grp_cc_helper06/zlo_low_rig_3:cc_sw02
+          3
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group14
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group14/zlo_low_rig_3:grp_cc_helper07
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group14/zlo_low_rig_3:grp_cc_helper07/zlo_low_rig_3:cc_sw02
+          4
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group16
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group16/zlo_low_rig_3:grp_cc_helper09
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group16/zlo_low_rig_3:grp_cc_helper09/zlo_low_rig_3:cc_sw02
+          5
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group17
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group17/zlo_low_rig_3:grp_cc_helper010
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group17/zlo_low_rig_3:grp_cc_helper010/zlo_low_rig_3:cc_sw02
+          6
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group18
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group18/zlo_low_rig_3:grp_cc_helper012
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group18/zlo_low_rig_3:grp_cc_helper012/zlo_low_rig_3:cc_sw02
+          7
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group19
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group19/zlo_low_rig_3:grp_cc_helper013
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group19/zlo_low_rig_3:grp_cc_helper013/zlo_low_rig_3:cc_sw02
+          8
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group20
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group20/zlo_low_rig_3:grp_cc_helper011
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group20/zlo_low_rig_3:grp_cc_helper011/zlo_low_rig_3:cc_sw02
+          9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack
+      takeName: Take 001
+      firstFrame: 54
+      lastFrame: 167
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: zlo_low_rig_3:controls01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_hip01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_hip01/zlo_low_rig_3:bn_tail01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_hip01/zlo_low_rig_3:bn_tail01/zlo_low_rig_3:bn_tail02
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_hip01/zlo_low_rig_3:bn_tail01/zlo_low_rig_3:bn_tail02/zlo_low_rig_3:bn_tail03
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_hip01/zlo_low_rig_3:bn_tail01/zlo_low_rig_3:bn_tail02/zlo_low_rig_3:bn_tail03/zlo_low_rig_3:bn_tail04
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_hip01/zlo_low_rig_3:bn_tail01/zlo_low_rig_3:bn_tail02/zlo_low_rig_3:bn_tail03/zlo_low_rig_3:bn_tail04/zlo_low_rig_3:bn_tail05
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_hip01/zlo_low_rig_3:bn_tail01/zlo_low_rig_3:bn_tail02/zlo_low_rig_3:bn_tail03/zlo_low_rig_3:bn_tail04/zlo_low_rig_3:bn_tail05/zlo_low_rig_3:bn_tail06
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_hip01/zlo_low_rig_3:bn_tail01/zlo_low_rig_3:bn_tail02/zlo_low_rig_3:bn_tail03/zlo_low_rig_3:bn_tail04/zlo_low_rig_3:bn_tail05/zlo_low_rig_3:bn_tail06/zlo_low_rig_3:bn_tail07
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_hip01/zlo_low_rig_3:bn_tail01/zlo_low_rig_3:bn_tail02/zlo_low_rig_3:bn_tail03/zlo_low_rig_3:bn_tail04/zlo_low_rig_3:bn_tail05/zlo_low_rig_3:bn_tail06/zlo_low_rig_3:bn_tail07/zlo_low_rig_3:bn_tail08
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01/zlo_low_rig_3:bn_l_wrist01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01/zlo_low_rig_3:bn_l_wrist01/zlo_low_rig_3:bn_l_index_a01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01/zlo_low_rig_3:bn_l_wrist01/zlo_low_rig_3:bn_l_index_a01/zlo_low_rig_3:bn_l_index_b01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01/zlo_low_rig_3:bn_l_wrist01/zlo_low_rig_3:bn_l_index_a01/zlo_low_rig_3:bn_l_index_b01/zlo_low_rig_3:bn_l_index_c01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01/zlo_low_rig_3:bn_l_wrist01/zlo_low_rig_3:bn_l_mid_a01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01/zlo_low_rig_3:bn_l_wrist01/zlo_low_rig_3:bn_l_mid_a01/zlo_low_rig_3:bn_l_mid_b01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01/zlo_low_rig_3:bn_l_wrist01/zlo_low_rig_3:bn_l_mid_a01/zlo_low_rig_3:bn_l_mid_b01/zlo_low_rig_3:bn_l_mid_c01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01/zlo_low_rig_3:bn_l_wrist01/zlo_low_rig_3:bn_l_pinky_a01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01/zlo_low_rig_3:bn_l_wrist01/zlo_low_rig_3:bn_l_pinky_a01/zlo_low_rig_3:bn_l_pinky_b01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01/zlo_low_rig_3:bn_l_wrist01/zlo_low_rig_3:bn_l_pinky_a01/zlo_low_rig_3:bn_l_pinky_b01/zlo_low_rig_3:bn_l_pinky_c01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01/zlo_low_rig_3:bn_l_wrist01/zlo_low_rig_3:bn_l_thumb_a01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01/zlo_low_rig_3:bn_l_wrist01/zlo_low_rig_3:bn_l_thumb_a01/zlo_low_rig_3:bn_l_thumb_b01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_neck01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_neck01/zlo_low_rig_3:bn_head01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01/zlo_low_rig_3:bn_r_wrist01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01/zlo_low_rig_3:bn_r_wrist01/zlo_low_rig_3:bn_r_index_a01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01/zlo_low_rig_3:bn_r_wrist01/zlo_low_rig_3:bn_r_index_a01/zlo_low_rig_3:bn_r_index_b01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01/zlo_low_rig_3:bn_r_wrist01/zlo_low_rig_3:bn_r_index_a01/zlo_low_rig_3:bn_r_index_b01/zlo_low_rig_3:bn_r_index_c01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01/zlo_low_rig_3:bn_r_wrist01/zlo_low_rig_3:bn_r_mid_a01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01/zlo_low_rig_3:bn_r_wrist01/zlo_low_rig_3:bn_r_mid_a01/zlo_low_rig_3:bn_r_mid_b01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01/zlo_low_rig_3:bn_r_wrist01/zlo_low_rig_3:bn_r_mid_a01/zlo_low_rig_3:bn_r_mid_b01/zlo_low_rig_3:bn_r_mid_c01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01/zlo_low_rig_3:bn_r_wrist01/zlo_low_rig_3:bn_r_pinky_a01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01/zlo_low_rig_3:bn_r_wrist01/zlo_low_rig_3:bn_r_pinky_a01/zlo_low_rig_3:bn_r_pinky_b01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01/zlo_low_rig_3:bn_r_wrist01/zlo_low_rig_3:bn_r_pinky_a01/zlo_low_rig_3:bn_r_pinky_b01/zlo_low_rig_3:bn_r_pinky_c01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01/zlo_low_rig_3:bn_r_wrist01/zlo_low_rig_3:bn_r_thumb_a01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01/zlo_low_rig_3:bn_r_wrist01/zlo_low_rig_3:bn_r_thumb_a01/zlo_low_rig_3:bn_r_thumb_b01
+        weight: 1
+      - path: zlo_low_rig_3:model01
+        weight: 1
+      - path: zlo_low_rig_3:model01/zlo_low_rig_3:Extract6
+        weight: 1
+      - path: zlo_low_rig_3:model01/zlo_low_rig_3:Head
+        weight: 1
+      - path: zlo_low_rig_3:model01/zlo_low_rig_3:Teeth_Lower1
+        weight: 1
+      - path: zlo_low_rig_3:model01/zlo_low_rig_3:Teeth_Upper
+        weight: 1
+      - path: zlo_low_rig_3:model01/zlo_low_rig_3:Zlo3:Group27352
+        weight: 1
+      - path: zlo_low_rig_3:toHide
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group8
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group8/zlo_low_rig_3:grp_cc_helper014
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group8/zlo_low_rig_3:grp_cc_helper014/zlo_low_rig_3:cc_sw02
+          10
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group9
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group9/zlo_low_rig_3:grp_cc_helper02
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group9/zlo_low_rig_3:grp_cc_helper02/zlo_low_rig_3:cc_sw02
+          11
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group10
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group10/zlo_low_rig_3:grp_cc_helper03
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group10/zlo_low_rig_3:grp_cc_helper03/zlo_low_rig_3:cc_sw02
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group11
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group11/zlo_low_rig_3:grp_cc_helper04
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group11/zlo_low_rig_3:grp_cc_helper04/zlo_low_rig_3:cc_sw02
+          1
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group12
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group12/zlo_low_rig_3:grp_cc_helper05
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group12/zlo_low_rig_3:grp_cc_helper05/zlo_low_rig_3:cc_sw02
+          2
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group13
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group13/zlo_low_rig_3:grp_cc_helper06
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group13/zlo_low_rig_3:grp_cc_helper06/zlo_low_rig_3:cc_sw02
+          3
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group14
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group14/zlo_low_rig_3:grp_cc_helper07
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group14/zlo_low_rig_3:grp_cc_helper07/zlo_low_rig_3:cc_sw02
+          4
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group16
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group16/zlo_low_rig_3:grp_cc_helper09
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group16/zlo_low_rig_3:grp_cc_helper09/zlo_low_rig_3:cc_sw02
+          5
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group17
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group17/zlo_low_rig_3:grp_cc_helper010
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group17/zlo_low_rig_3:grp_cc_helper010/zlo_low_rig_3:cc_sw02
+          6
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group18
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group18/zlo_low_rig_3:grp_cc_helper012
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group18/zlo_low_rig_3:grp_cc_helper012/zlo_low_rig_3:cc_sw02
+          7
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group19
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group19/zlo_low_rig_3:grp_cc_helper013
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group19/zlo_low_rig_3:grp_cc_helper013/zlo_low_rig_3:cc_sw02
+          8
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group20
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group20/zlo_low_rig_3:grp_cc_helper011
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group20/zlo_low_rig_3:grp_cc_helper011/zlo_low_rig_3:cc_sw02
+          9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 36
+      lastFrame: 64
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: zlo_low_rig_3:controls01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_hip01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_hip01/zlo_low_rig_3:bn_tail01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_hip01/zlo_low_rig_3:bn_tail01/zlo_low_rig_3:bn_tail02
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_hip01/zlo_low_rig_3:bn_tail01/zlo_low_rig_3:bn_tail02/zlo_low_rig_3:bn_tail03
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_hip01/zlo_low_rig_3:bn_tail01/zlo_low_rig_3:bn_tail02/zlo_low_rig_3:bn_tail03/zlo_low_rig_3:bn_tail04
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_hip01/zlo_low_rig_3:bn_tail01/zlo_low_rig_3:bn_tail02/zlo_low_rig_3:bn_tail03/zlo_low_rig_3:bn_tail04/zlo_low_rig_3:bn_tail05
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_hip01/zlo_low_rig_3:bn_tail01/zlo_low_rig_3:bn_tail02/zlo_low_rig_3:bn_tail03/zlo_low_rig_3:bn_tail04/zlo_low_rig_3:bn_tail05/zlo_low_rig_3:bn_tail06
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_hip01/zlo_low_rig_3:bn_tail01/zlo_low_rig_3:bn_tail02/zlo_low_rig_3:bn_tail03/zlo_low_rig_3:bn_tail04/zlo_low_rig_3:bn_tail05/zlo_low_rig_3:bn_tail06/zlo_low_rig_3:bn_tail07
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_hip01/zlo_low_rig_3:bn_tail01/zlo_low_rig_3:bn_tail02/zlo_low_rig_3:bn_tail03/zlo_low_rig_3:bn_tail04/zlo_low_rig_3:bn_tail05/zlo_low_rig_3:bn_tail06/zlo_low_rig_3:bn_tail07/zlo_low_rig_3:bn_tail08
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01/zlo_low_rig_3:bn_l_wrist01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01/zlo_low_rig_3:bn_l_wrist01/zlo_low_rig_3:bn_l_index_a01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01/zlo_low_rig_3:bn_l_wrist01/zlo_low_rig_3:bn_l_index_a01/zlo_low_rig_3:bn_l_index_b01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01/zlo_low_rig_3:bn_l_wrist01/zlo_low_rig_3:bn_l_index_a01/zlo_low_rig_3:bn_l_index_b01/zlo_low_rig_3:bn_l_index_c01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01/zlo_low_rig_3:bn_l_wrist01/zlo_low_rig_3:bn_l_mid_a01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01/zlo_low_rig_3:bn_l_wrist01/zlo_low_rig_3:bn_l_mid_a01/zlo_low_rig_3:bn_l_mid_b01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01/zlo_low_rig_3:bn_l_wrist01/zlo_low_rig_3:bn_l_mid_a01/zlo_low_rig_3:bn_l_mid_b01/zlo_low_rig_3:bn_l_mid_c01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01/zlo_low_rig_3:bn_l_wrist01/zlo_low_rig_3:bn_l_pinky_a01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01/zlo_low_rig_3:bn_l_wrist01/zlo_low_rig_3:bn_l_pinky_a01/zlo_low_rig_3:bn_l_pinky_b01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01/zlo_low_rig_3:bn_l_wrist01/zlo_low_rig_3:bn_l_pinky_a01/zlo_low_rig_3:bn_l_pinky_b01/zlo_low_rig_3:bn_l_pinky_c01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01/zlo_low_rig_3:bn_l_wrist01/zlo_low_rig_3:bn_l_thumb_a01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_l_clavicle01/zlo_low_rig_3:be_l_clavicleEnd01/zlo_low_rig_3:bn_l_shoulder01/zlo_low_rig_3:bn_l_elbow01/zlo_low_rig_3:bn_l_wrist01/zlo_low_rig_3:bn_l_thumb_a01/zlo_low_rig_3:bn_l_thumb_b01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_neck01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_neck01/zlo_low_rig_3:bn_head01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01/zlo_low_rig_3:bn_r_wrist01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01/zlo_low_rig_3:bn_r_wrist01/zlo_low_rig_3:bn_r_index_a01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01/zlo_low_rig_3:bn_r_wrist01/zlo_low_rig_3:bn_r_index_a01/zlo_low_rig_3:bn_r_index_b01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01/zlo_low_rig_3:bn_r_wrist01/zlo_low_rig_3:bn_r_index_a01/zlo_low_rig_3:bn_r_index_b01/zlo_low_rig_3:bn_r_index_c01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01/zlo_low_rig_3:bn_r_wrist01/zlo_low_rig_3:bn_r_mid_a01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01/zlo_low_rig_3:bn_r_wrist01/zlo_low_rig_3:bn_r_mid_a01/zlo_low_rig_3:bn_r_mid_b01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01/zlo_low_rig_3:bn_r_wrist01/zlo_low_rig_3:bn_r_mid_a01/zlo_low_rig_3:bn_r_mid_b01/zlo_low_rig_3:bn_r_mid_c01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01/zlo_low_rig_3:bn_r_wrist01/zlo_low_rig_3:bn_r_pinky_a01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01/zlo_low_rig_3:bn_r_wrist01/zlo_low_rig_3:bn_r_pinky_a01/zlo_low_rig_3:bn_r_pinky_b01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01/zlo_low_rig_3:bn_r_wrist01/zlo_low_rig_3:bn_r_pinky_a01/zlo_low_rig_3:bn_r_pinky_b01/zlo_low_rig_3:bn_r_pinky_c01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01/zlo_low_rig_3:bn_r_wrist01/zlo_low_rig_3:bn_r_thumb_a01
+        weight: 1
+      - path: zlo_low_rig_3:controls01/zlo_low_rig_3:cc_global01/zlo_low_rig_3:joints01/zlo_low_rig_3:bn_root01/zlo_low_rig_3:bn_spine01/zlo_low_rig_3:bn_chest01/zlo_low_rig_3:bn_r_clavicle01/zlo_low_rig_3:be_r_clavicleEnd01/zlo_low_rig_3:bn_r_shoulder01/zlo_low_rig_3:bn_r_elbow01/zlo_low_rig_3:bn_r_wrist01/zlo_low_rig_3:bn_r_thumb_a01/zlo_low_rig_3:bn_r_thumb_b01
+        weight: 1
+      - path: zlo_low_rig_3:model01
+        weight: 1
+      - path: zlo_low_rig_3:model01/zlo_low_rig_3:Extract6
+        weight: 1
+      - path: zlo_low_rig_3:model01/zlo_low_rig_3:Head
+        weight: 1
+      - path: zlo_low_rig_3:model01/zlo_low_rig_3:Teeth_Lower1
+        weight: 1
+      - path: zlo_low_rig_3:model01/zlo_low_rig_3:Teeth_Upper
+        weight: 1
+      - path: zlo_low_rig_3:model01/zlo_low_rig_3:Zlo3:Group27352
+        weight: 1
+      - path: zlo_low_rig_3:toHide
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group8
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group8/zlo_low_rig_3:grp_cc_helper014
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group8/zlo_low_rig_3:grp_cc_helper014/zlo_low_rig_3:cc_sw02
+          10
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group9
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group9/zlo_low_rig_3:grp_cc_helper02
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group9/zlo_low_rig_3:grp_cc_helper02/zlo_low_rig_3:cc_sw02
+          11
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group10
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group10/zlo_low_rig_3:grp_cc_helper03
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group10/zlo_low_rig_3:grp_cc_helper03/zlo_low_rig_3:cc_sw02
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group11
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group11/zlo_low_rig_3:grp_cc_helper04
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group11/zlo_low_rig_3:grp_cc_helper04/zlo_low_rig_3:cc_sw02
+          1
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group12
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group12/zlo_low_rig_3:grp_cc_helper05
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group12/zlo_low_rig_3:grp_cc_helper05/zlo_low_rig_3:cc_sw02
+          2
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group13
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group13/zlo_low_rig_3:grp_cc_helper06
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group13/zlo_low_rig_3:grp_cc_helper06/zlo_low_rig_3:cc_sw02
+          3
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group14
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group14/zlo_low_rig_3:grp_cc_helper07
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group14/zlo_low_rig_3:grp_cc_helper07/zlo_low_rig_3:cc_sw02
+          4
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group16
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group16/zlo_low_rig_3:grp_cc_helper09
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group16/zlo_low_rig_3:grp_cc_helper09/zlo_low_rig_3:cc_sw02
+          5
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group17
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group17/zlo_low_rig_3:grp_cc_helper010
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group17/zlo_low_rig_3:grp_cc_helper010/zlo_low_rig_3:cc_sw02
+          6
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group18
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group18/zlo_low_rig_3:grp_cc_helper012
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group18/zlo_low_rig_3:grp_cc_helper012/zlo_low_rig_3:cc_sw02
+          7
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group19
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group19/zlo_low_rig_3:grp_cc_helper013
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group19/zlo_low_rig_3:grp_cc_helper013/zlo_low_rig_3:cc_sw02
+          8
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group20
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group20/zlo_low_rig_3:grp_cc_helper011
+        weight: 1
+      - path: zlo_low_rig_3:toHide/zlo_low_rig_3:group20/zlo_low_rig_3:grp_cc_helper011/zlo_low_rig_3:cc_sw02
+          9
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

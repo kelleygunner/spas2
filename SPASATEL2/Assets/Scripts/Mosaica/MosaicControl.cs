@@ -17,9 +17,17 @@ public class MosaicControl : MonoBehaviour
 
     Vector3 targetPosition = Vector3.zero;
 
+    public Transform zahvat;
+    float zahvat_y_pos = 0;
+    Vector3 zahvatTarget = Vector3.zero;
+
+    public Animator zahvatAnimator;
+
 	void Start () 
     {
         cam = Camera.main;
+        zahvat_y_pos = zahvatTarget.y = zahvat.position.y;
+        
 	}
 	
 
@@ -39,9 +47,16 @@ public class MosaicControl : MonoBehaviour
             }
         }
 
-        if (Input.GetMouseButtonUp(0)) Lost();
+        if (isCatched && Input.GetMouseButtonUp(0)) Lost();
 
-        if (isCatched) Move();
+        if (isCatched)
+        {
+            Move();
+        }
+        else
+        {
+            zahvat.position = Vector3.Lerp( zahvat.position, zahvatTarget, Time.deltaTime * 10);
+        }
 	}
 
     private void Catch()
@@ -50,12 +65,15 @@ public class MosaicControl : MonoBehaviour
         element_y_pos = currentElement.position.y;
         currentElement.gameObject.GetComponent<Collider>().enabled = false;
         targetPosition = currentElement.gameObject.GetComponent<MosaicElement>().TargetPosition;
+        zahvatAnimator.CrossFade("zahvat_action", 0.1f);
     }
 
     private void Lost()
     {
         isCatched = false;
         currentElement.gameObject.GetComponent<Collider>().enabled = true;
+        zahvatTarget = new Vector3(0, 2, 0);
+        zahvatAnimator.CrossFade("zahvat_animation",0.1f);
     }
 
     private void Move()
@@ -72,16 +90,21 @@ public class MosaicControl : MonoBehaviour
                 }
             }
 
-            if (Mathf.Abs((currentElement.localPosition - targetPosition).magnitude) < 0.1f)
+            if (Mathf.Abs((currentElement.localPosition - targetPosition).magnitude) < 0.2f)
             {
                 currentElement.localPosition = targetPosition;
                 Lost();
+                return;
             }
         }
         else
         {
             Lost();
         }
+        zahvatTarget.y = Mathf.Lerp(zahvatTarget.y,0,Time.deltaTime*100);
+        zahvatTarget.x = currentElement.position.x;
+        zahvatTarget.z = currentElement.position.z;
+        zahvat.position = zahvatTarget;
     }
 
 

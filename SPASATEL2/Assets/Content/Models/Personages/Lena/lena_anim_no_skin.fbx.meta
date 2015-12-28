@@ -1,0 +1,3661 @@
+fileFormatVersion: 2
+guid: f112abb8a2ba6ab4cab6e64ee431e2e1
+timeCreated: 1451213859
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: lena_low_rig:AnimData_Head
+    100004: lena_low_rig:AnimData_HeadTop_End
+    100006: lena_low_rig:AnimData_Hips
+    100008: lena_low_rig:AnimData_Joint_GRP
+    100010: lena_low_rig:AnimData_LeftArm
+    100012: lena_low_rig:AnimData_LeftFoot
+    100014: lena_low_rig:AnimData_LeftForeArm
+    100016: lena_low_rig:AnimData_LeftHand
+    100018: lena_low_rig:AnimData_LeftHandIndex1
+    100020: lena_low_rig:AnimData_LeftHandIndex2
+    100022: lena_low_rig:AnimData_LeftHandIndex3
+    100024: lena_low_rig:AnimData_LeftHandIndex4
+    100026: lena_low_rig:AnimData_LeftHandMiddle1
+    100028: lena_low_rig:AnimData_LeftHandMiddle2
+    100030: lena_low_rig:AnimData_LeftHandMiddle3
+    100032: lena_low_rig:AnimData_LeftHandMiddle4
+    100034: lena_low_rig:AnimData_LeftHandPinky1
+    100036: lena_low_rig:AnimData_LeftHandPinky2
+    100038: lena_low_rig:AnimData_LeftHandPinky3
+    100040: lena_low_rig:AnimData_LeftHandPinky4
+    100042: lena_low_rig:AnimData_LeftHandRing1
+    100044: lena_low_rig:AnimData_LeftHandRing2
+    100046: lena_low_rig:AnimData_LeftHandRing3
+    100048: lena_low_rig:AnimData_LeftHandRing4
+    100050: lena_low_rig:AnimData_LeftHandThumb1
+    100052: lena_low_rig:AnimData_LeftHandThumb2
+    100054: lena_low_rig:AnimData_LeftHandThumb3
+    100056: lena_low_rig:AnimData_LeftHandThumb4
+    100058: lena_low_rig:AnimData_LeftLeg
+    100060: lena_low_rig:AnimData_LeftShoulder
+    100062: lena_low_rig:AnimData_LeftToe_End
+    100064: lena_low_rig:AnimData_LeftToeBase
+    100066: lena_low_rig:AnimData_LeftUpLeg
+    100068: lena_low_rig:AnimData_Neck
+    100070: lena_low_rig:AnimData_RightArm
+    100072: lena_low_rig:AnimData_RightFoot
+    100074: lena_low_rig:AnimData_RightForeArm
+    100076: lena_low_rig:AnimData_RightHand
+    100078: lena_low_rig:AnimData_RightHandIndex1
+    100080: lena_low_rig:AnimData_RightHandIndex2
+    100082: lena_low_rig:AnimData_RightHandIndex3
+    100084: lena_low_rig:AnimData_RightHandIndex4
+    100086: lena_low_rig:AnimData_RightHandMiddle1
+    100088: lena_low_rig:AnimData_RightHandMiddle2
+    100090: lena_low_rig:AnimData_RightHandMiddle3
+    100092: lena_low_rig:AnimData_RightHandMiddle4
+    100094: lena_low_rig:AnimData_RightHandPinky1
+    100096: lena_low_rig:AnimData_RightHandPinky2
+    100098: lena_low_rig:AnimData_RightHandPinky3
+    100100: lena_low_rig:AnimData_RightHandPinky4
+    100102: lena_low_rig:AnimData_RightHandRing1
+    100104: lena_low_rig:AnimData_RightHandRing2
+    100106: lena_low_rig:AnimData_RightHandRing3
+    100108: lena_low_rig:AnimData_RightHandRing4
+    100110: lena_low_rig:AnimData_RightHandThumb1
+    100112: lena_low_rig:AnimData_RightHandThumb2
+    100114: lena_low_rig:AnimData_RightHandThumb3
+    100116: lena_low_rig:AnimData_RightHandThumb4
+    100118: lena_low_rig:AnimData_RightLeg
+    100120: lena_low_rig:AnimData_RightShoulder
+    100122: lena_low_rig:AnimData_RightToe_End
+    100124: lena_low_rig:AnimData_RightToeBase
+    100126: lena_low_rig:AnimData_RightUpLeg
+    100128: lena_low_rig:AnimData_Spine
+    100130: lena_low_rig:AnimData_Spine1
+    100132: lena_low_rig:AnimData_Spine2
+    100134: lena_low_rig:be_l_toeEnd01
+    100136: lena_low_rig:be_r_toeEnd01
+    100138: lena_low_rig:Bind_Head
+    100140: lena_low_rig:Bind_HeadTop_End
+    100142: lena_low_rig:Bind_Hips
+    100144: lena_low_rig:Bind_Joint_GRP
+    100146: lena_low_rig:Bind_LeftArm
+    100148: lena_low_rig:Bind_LeftForeArm
+    100150: lena_low_rig:Bind_LeftHand
+    100152: lena_low_rig:Bind_LeftHandIndex1
+    100154: lena_low_rig:Bind_LeftHandIndex2
+    100156: lena_low_rig:Bind_LeftHandIndex3
+    100158: lena_low_rig:Bind_LeftHandIndex4
+    100160: lena_low_rig:Bind_LeftHandMiddle1
+    100162: lena_low_rig:Bind_LeftHandMiddle2
+    100164: lena_low_rig:Bind_LeftHandMiddle3
+    100166: lena_low_rig:Bind_LeftHandMiddle4
+    100168: lena_low_rig:Bind_LeftHandPinky1
+    100170: lena_low_rig:Bind_LeftHandPinky2
+    100172: lena_low_rig:Bind_LeftHandPinky3
+    100174: lena_low_rig:Bind_LeftHandPinky4
+    100176: lena_low_rig:Bind_LeftHandRing1
+    100178: lena_low_rig:Bind_LeftHandRing2
+    100180: lena_low_rig:Bind_LeftHandRing3
+    100182: lena_low_rig:Bind_LeftHandRing4
+    100184: lena_low_rig:Bind_LeftHandThumb1
+    100186: lena_low_rig:Bind_LeftHandThumb2
+    100188: lena_low_rig:Bind_LeftHandThumb3
+    100190: lena_low_rig:Bind_LeftHandThumb4
+    100192: lena_low_rig:Bind_LeftShoulder
+    100194: lena_low_rig:Bind_Neck
+    100196: lena_low_rig:Bind_RightArm
+    100198: lena_low_rig:Bind_RightForeArm
+    100200: lena_low_rig:Bind_RightHand
+    100202: lena_low_rig:Bind_RightHandIndex1
+    100204: lena_low_rig:Bind_RightHandIndex2
+    100206: lena_low_rig:Bind_RightHandIndex3
+    100208: lena_low_rig:Bind_RightHandIndex4
+    100210: lena_low_rig:Bind_RightHandMiddle1
+    100212: lena_low_rig:Bind_RightHandMiddle2
+    100214: lena_low_rig:Bind_RightHandMiddle3
+    100216: lena_low_rig:Bind_RightHandMiddle4
+    100218: lena_low_rig:Bind_RightHandPinky1
+    100220: lena_low_rig:Bind_RightHandPinky2
+    100222: lena_low_rig:Bind_RightHandPinky3
+    100224: lena_low_rig:Bind_RightHandPinky4
+    100226: lena_low_rig:Bind_RightHandRing1
+    100228: lena_low_rig:Bind_RightHandRing2
+    100230: lena_low_rig:Bind_RightHandRing3
+    100232: lena_low_rig:Bind_RightHandRing4
+    100234: lena_low_rig:Bind_RightHandThumb1
+    100236: lena_low_rig:Bind_RightHandThumb2
+    100238: lena_low_rig:Bind_RightHandThumb3
+    100240: lena_low_rig:Bind_RightHandThumb4
+    100242: lena_low_rig:Bind_RightShoulder
+    100244: lena_low_rig:Bind_Spine
+    100246: lena_low_rig:Bind_Spine1
+    100248: lena_low_rig:Bind_Spine2
+    100250: lena_low_rig:bn_l_ankle01
+    100252: lena_low_rig:bn_l_foot01
+    100254: lena_low_rig:bn_l_knee01
+    100256: lena_low_rig:bn_l_thigh01
+    100258: lena_low_rig:bn_r_ankle01
+    100260: lena_low_rig:bn_r_foot01
+    100262: lena_low_rig:bn_r_knee01
+    100264: lena_low_rig:bn_r_thigh01
+    100266: lena_low_rig:cc_eyes_global01
+    100268: lena_low_rig:cc_l_ankleFK01
+    100270: lena_low_rig:cc_l_eye01
+    100272: lena_low_rig:cc_l_footFK01
+    100274: lena_low_rig:cc_l_kneeFK01
+    100276: lena_low_rig:cc_l_kneeIK01
+    100278: lena_low_rig:cc_l_legIK01
+    100280: lena_low_rig:cc_l_thighFK01
+    100282: lena_low_rig:cc_r_ankleFK01
+    100284: lena_low_rig:cc_r_eye01
+    100286: lena_low_rig:cc_r_footFK01
+    100288: lena_low_rig:cc_r_kneeFK01
+    100290: lena_low_rig:cc_r_kneeIK01
+    100292: lena_low_rig:cc_r_legIK01
+    100294: lena_low_rig:cc_r_thighFK01
+    100296: lena_low_rig:cluster1Handle
+    100298: lena_low_rig:cluster2Handle
+    100300: lena_low_rig:cluster3Handle
+    100302: lena_low_rig:cluster4Handle
+    100304: lena_low_rig:CTRL_GRP
+    100306: lena_low_rig:curve1
+    100308: lena_low_rig:curve2
+    100310: lena_low_rig:FK_LeftArm
+    100312: lena_low_rig:FK_LeftForeArm
+    100314: lena_low_rig:FK_LeftHand
+    100316: lena_low_rig:FK_RightArm
+    100318: lena_low_rig:FK_RightForeArm
+    100320: lena_low_rig:FK_RightHand
+    100322: lena_low_rig:global_CTRL
+    100324: lena_low_rig:grp_cc_l_ankleFK01
+    100326: lena_low_rig:grp_cc_l_eye01
+    100328: lena_low_rig:grp_cc_l_footFK01
+    100330: lena_low_rig:grp_cc_l_kneeFK01
+    100332: lena_low_rig:grp_cc_l_legIK01
+    100334: lena_low_rig:grp_cc_l_thighFK01
+    100336: lena_low_rig:grp_cc_r_ankleFK01
+    100338: lena_low_rig:grp_cc_r_eye01
+    100340: lena_low_rig:grp_cc_r_footFK01
+    100342: lena_low_rig:grp_cc_r_kneeFK01
+    100344: lena_low_rig:grp_cc_r_legIK01
+    100346: lena_low_rig:grp_cc_r_thighFK01
+    100348: lena_low_rig:grp_l_footBend01
+    100350: lena_low_rig:grp_r_footBend01
+    100352: lena_low_rig:Head_CTRL
+    100354: lena_low_rig:Head_CTRL_AnimData_CONST_GRP
+    100356: lena_low_rig:Head_CTRL_In_Rig_CONST_GRP
+    100358: lena_low_rig:Head_CTRL_Inherit_Rotation_GRP
+    100360: lena_low_rig:Head_CTRL_POS_GRP
+    100362: lena_low_rig:hide_elements
+    100364: lena_low_rig:IK_Dummy_Hips
+    100366: lena_low_rig:IK_Dummy_Joint_GRP
+    100368: lena_low_rig:IK_Dummy_LeftShoulder
+    100370: lena_low_rig:IK_Dummy_RightShoulder
+    100372: lena_low_rig:IK_Dummy_Spine
+    100374: lena_low_rig:IK_Dummy_Spine1
+    100376: lena_low_rig:IK_Dummy_Spine2
+    100378: lena_low_rig:IK_LeftArm
+    100380: lena_low_rig:IK_LeftForeArm
+    100382: lena_low_rig:IK_LeftHand
+    100384: lena_low_rig:IK_RightArm
+    100386: lena_low_rig:IK_RightForeArm
+    100388: lena_low_rig:IK_RightHand
+    100390: lena_low_rig:jDRV_l_ankleFK01
+    100392: lena_low_rig:jDRV_l_ankleIK01
+    100394: lena_low_rig:jDRV_l_footFK01
+    100396: lena_low_rig:jDRV_l_footIK01
+    100398: lena_low_rig:jDRV_l_kneeFK01
+    100400: lena_low_rig:jDRV_l_kneeIK01
+    100402: lena_low_rig:jDRV_l_thighFK01
+    100404: lena_low_rig:jDRV_l_thighIK01
+    100406: lena_low_rig:jDRV_l_toeFK01
+    100408: lena_low_rig:jDRV_l_toeIK01
+    100410: lena_low_rig:jDRV_r_ankleFK01
+    100412: lena_low_rig:jDRV_r_ankleIK01
+    100414: lena_low_rig:jDRV_r_footFK01
+    100416: lena_low_rig:jDRV_r_footIK01
+    100418: lena_low_rig:jDRV_r_kneeFK01
+    100420: lena_low_rig:jDRV_r_kneeIK01
+    100422: lena_low_rig:jDRV_r_thighFK01
+    100424: lena_low_rig:jDRV_r_thighIK01
+    100426: lena_low_rig:jDRV_r_toeFK01
+    100428: lena_low_rig:jDRV_r_toeIK01
+    100430: lena_low_rig:Joint_GRP
+    100432: lena_low_rig:LeftArm_FK_CTRL
+    100434: lena_low_rig:LeftArm_FK_CTRL_AnimData_CONST_GRP
+    100436: lena_low_rig:LeftArm_FK_CTRL_In_Rig_CONST_GRP
+    100438: lena_low_rig:LeftArm_FK_CTRL_POS_GRP
+    100440: lena_low_rig:LeftForeArm_FK_CTRL
+    100442: lena_low_rig:LeftForeArm_FK_CTRL_AnimData_CONST_GRP
+    100444: lena_low_rig:LeftForeArm_FK_CTRL_In_Rig_CONST_GRP
+    100446: lena_low_rig:LeftForeArm_FK_CTRL_POS_GRP
+    100448: lena_low_rig:LeftForeArm_IK_BakingLOC
+    100450: lena_low_rig:LeftForeArm_IK_CTRL
+    100452: lena_low_rig:LeftForeArm_IK_CTRL_AnimData_CONST_GRP
+    100454: lena_low_rig:LeftForeArm_IK_CTRL_GuideCurve_Cluster1Handle
+    100456: lena_low_rig:LeftForeArm_IK_CTRL_GuideCurve_Cluster2Handle
+    100458: lena_low_rig:LeftForeArm_IK_CTRL_In_Rig_CONST_GRP
+    100460: lena_low_rig:LeftForeArm_IK_CTRL_parent_AnimData_CONST_GRP
+    100462: lena_low_rig:LeftForeArm_IK_CTRL_parent_Global_POS_GRP
+    100464: lena_low_rig:LeftForeArm_IK_CTRL_parent_POS_GRP
+    100466: lena_low_rig:LeftForeArm_IK_CTRL_POS_GRP
+    100468: lena_low_rig:LeftHand_CTRLs_GRP
+    100470: lena_low_rig:LeftHand_FK_CTRL
+    100472: lena_low_rig:LeftHand_FK_CTRL_AnimData_CONST_GRP
+    100474: lena_low_rig:LeftHand_FK_CTRL_In_Rig_CONST_GRP
+    100476: lena_low_rig:LeftHand_FK_CTRL_POS_GRP
+    100478: lena_low_rig:LeftHand_IK_CTRL
+    100480: lena_low_rig:LeftHand_IK_CTRL_AnimData_CONST_GRP
+    100482: lena_low_rig:LeftHand_IK_CTRL_grandparent_AnimData_CONST_GRP
+    100484: lena_low_rig:LeftHand_IK_CTRL_grandparent_Global_POS_GRP
+    100486: lena_low_rig:LeftHand_IK_CTRL_grandparent_inRig_CONST_GRP
+    100488: lena_low_rig:LeftHand_IK_CTRL_grandparent_POS_GRP
+    100490: lena_low_rig:LeftHand_IK_CTRL_In_Rig_CONST_GRP
+    100492: lena_low_rig:LeftHand_IK_CTRL_parent_AnimData_CONST_GRP
+    100494: lena_low_rig:LeftHand_IK_CTRL_parent_Global_POS_GRP
+    100496: lena_low_rig:LeftHand_IK_CTRL_parent_POS_GRP
+    100498: lena_low_rig:LeftHand_IK_CTRL_POS_GRP
+    100500: lena_low_rig:LeftHand_IK_Handle
+    100502: lena_low_rig:LeftHand_Options
+    100504: lena_low_rig:LeftHandIndex1_CTRL
+    100506: lena_low_rig:LeftHandIndex1_CTRL_AnimData_CONST_GRP
+    100508: lena_low_rig:LeftHandIndex1_CTRL_In_Rig_CONST_GRP
+    100510: lena_low_rig:LeftHandIndex1_CTRL_POS_GRP
+    100512: lena_low_rig:LeftHandIndex2_CTRL
+    100514: lena_low_rig:LeftHandIndex2_CTRL_AnimData_CONST_GRP
+    100516: lena_low_rig:LeftHandIndex2_CTRL_In_Rig_CONST_GRP
+    100518: lena_low_rig:LeftHandIndex2_CTRL_POS_GRP
+    100520: lena_low_rig:LeftHandIndex3_CTRL
+    100522: lena_low_rig:LeftHandIndex3_CTRL_AnimData_CONST_GRP
+    100524: lena_low_rig:LeftHandIndex3_CTRL_In_Rig_CONST_GRP
+    100526: lena_low_rig:LeftHandIndex3_CTRL_POS_GRP
+    100528: lena_low_rig:LeftHandMiddle1_CTRL
+    100530: lena_low_rig:LeftHandMiddle1_CTRL_AnimData_CONST_GRP
+    100532: lena_low_rig:LeftHandMiddle1_CTRL_In_Rig_CONST_GRP
+    100534: lena_low_rig:LeftHandMiddle1_CTRL_POS_GRP
+    100536: lena_low_rig:LeftHandMiddle2_CTRL
+    100538: lena_low_rig:LeftHandMiddle2_CTRL_AnimData_CONST_GRP
+    100540: lena_low_rig:LeftHandMiddle2_CTRL_In_Rig_CONST_GRP
+    100542: lena_low_rig:LeftHandMiddle2_CTRL_POS_GRP
+    100544: lena_low_rig:LeftHandMiddle3_CTRL
+    100546: lena_low_rig:LeftHandMiddle3_CTRL_AnimData_CONST_GRP
+    100548: lena_low_rig:LeftHandMiddle3_CTRL_In_Rig_CONST_GRP
+    100550: lena_low_rig:LeftHandMiddle3_CTRL_POS_GRP
+    100552: lena_low_rig:LeftHandPinky1_CTRL
+    100554: lena_low_rig:LeftHandPinky1_CTRL_AnimData_CONST_GRP
+    100556: lena_low_rig:LeftHandPinky1_CTRL_In_Rig_CONST_GRP
+    100558: lena_low_rig:LeftHandPinky1_CTRL_POS_GRP
+    100560: lena_low_rig:LeftHandPinky2_CTRL
+    100562: lena_low_rig:LeftHandPinky2_CTRL_AnimData_CONST_GRP
+    100564: lena_low_rig:LeftHandPinky2_CTRL_In_Rig_CONST_GRP
+    100566: lena_low_rig:LeftHandPinky2_CTRL_POS_GRP
+    100568: lena_low_rig:LeftHandPinky3_CTRL
+    100570: lena_low_rig:LeftHandPinky3_CTRL_AnimData_CONST_GRP
+    100572: lena_low_rig:LeftHandPinky3_CTRL_In_Rig_CONST_GRP
+    100574: lena_low_rig:LeftHandPinky3_CTRL_POS_GRP
+    100576: lena_low_rig:LeftHandRing1_CTRL
+    100578: lena_low_rig:LeftHandRing1_CTRL_AnimData_CONST_GRP
+    100580: lena_low_rig:LeftHandRing1_CTRL_In_Rig_CONST_GRP
+    100582: lena_low_rig:LeftHandRing1_CTRL_POS_GRP
+    100584: lena_low_rig:LeftHandRing2_CTRL
+    100586: lena_low_rig:LeftHandRing2_CTRL_AnimData_CONST_GRP
+    100588: lena_low_rig:LeftHandRing2_CTRL_In_Rig_CONST_GRP
+    100590: lena_low_rig:LeftHandRing2_CTRL_POS_GRP
+    100592: lena_low_rig:LeftHandRing3_CTRL
+    100594: lena_low_rig:LeftHandRing3_CTRL_AnimData_CONST_GRP
+    100596: lena_low_rig:LeftHandRing3_CTRL_In_Rig_CONST_GRP
+    100598: lena_low_rig:LeftHandRing3_CTRL_POS_GRP
+    100600: lena_low_rig:LeftHandThumb1_CTRL
+    100602: lena_low_rig:LeftHandThumb1_CTRL_AnimData_CONST_GRP
+    100604: lena_low_rig:LeftHandThumb1_CTRL_In_Rig_CONST_GRP
+    100606: lena_low_rig:LeftHandThumb1_CTRL_POS_GRP
+    100608: lena_low_rig:LeftHandThumb2_CTRL
+    100610: lena_low_rig:LeftHandThumb2_CTRL_AnimData_CONST_GRP
+    100612: lena_low_rig:LeftHandThumb2_CTRL_In_Rig_CONST_GRP
+    100614: lena_low_rig:LeftHandThumb2_CTRL_POS_GRP
+    100616: lena_low_rig:LeftHandThumb3_CTRL
+    100618: lena_low_rig:LeftHandThumb3_CTRL_AnimData_CONST_GRP
+    100620: lena_low_rig:LeftHandThumb3_CTRL_In_Rig_CONST_GRP
+    100622: lena_low_rig:LeftHandThumb3_CTRL_POS_GRP
+    100624: lena_low_rig:LeftShoulder_CTRL
+    100626: lena_low_rig:LeftShoulder_CTRL_AnimData_CONST_GRP
+    100628: lena_low_rig:LeftShoulder_CTRL_In_Rig_CONST_GRP
+    100630: lena_low_rig:LeftShoulder_CTRL_POS_GRP
+    100632: lena_low_rig:locAlign_l_foot01
+    100634: lena_low_rig:locAlign_l_heel01
+    100636: lena_low_rig:locAlign_l_leftBank01
+    100638: lena_low_rig:locAlign_l_rightBank01
+    100640: lena_low_rig:locAlign_l_toe01
+    100642: lena_low_rig:locAlign_r_foot01
+    100644: lena_low_rig:locAlign_r_heel01
+    100646: lena_low_rig:locAlign_r_leftBank01
+    100648: lena_low_rig:locAlign_r_rightBank01
+    100650: lena_low_rig:locAlign_r_toe01
+    100652: lena_low_rig:locOri_l_rightBank01
+    100654: lena_low_rig:locOri_r_rightBank01
+    100656: lena_low_rig:mesh_l_eye
+    100658: lena_low_rig:mesh_r_eye
+    100660: lena_low_rig:Neck_CTRL
+    100662: lena_low_rig:Neck_CTRL_AnimData_CONST_GRP
+    100664: lena_low_rig:Neck_CTRL_In_Rig_CONST_GRP
+    100666: lena_low_rig:Neck_CTRL_POS_GRP
+    100668: lena_low_rig:RightArm_FK_CTRL
+    100670: lena_low_rig:RightArm_FK_CTRL_AnimData_CONST_GRP
+    100672: lena_low_rig:RightArm_FK_CTRL_In_Rig_CONST_GRP
+    100674: lena_low_rig:RightArm_FK_CTRL_POS_GRP
+    100676: lena_low_rig:RightForeArm_FK_CTRL
+    100678: lena_low_rig:RightForeArm_FK_CTRL_AnimData_CONST_GRP
+    100680: lena_low_rig:RightForeArm_FK_CTRL_In_Rig_CONST_GRP
+    100682: lena_low_rig:RightForeArm_FK_CTRL_POS_GRP
+    100684: lena_low_rig:RightForeArm_IK_BakingLOC
+    100686: lena_low_rig:RightForeArm_IK_CTRL
+    100688: lena_low_rig:RightForeArm_IK_CTRL_AnimData_CONST_GRP
+    100690: lena_low_rig:RightForeArm_IK_CTRL_GuideCurve_Cluster1Handle
+    100692: lena_low_rig:RightForeArm_IK_CTRL_GuideCurve_Cluster2Handle
+    100694: lena_low_rig:RightForeArm_IK_CTRL_In_Rig_CONST_GRP
+    100696: lena_low_rig:RightForeArm_IK_CTRL_parent_AnimData_CONST_GRP
+    100698: lena_low_rig:RightForeArm_IK_CTRL_parent_Global_POS_GRP
+    100700: lena_low_rig:RightForeArm_IK_CTRL_parent_POS_GRP
+    100702: lena_low_rig:RightForeArm_IK_CTRL_POS_GRP
+    100704: lena_low_rig:RightHand_CTRLs_GRP
+    100706: lena_low_rig:RightHand_FK_CTRL
+    100708: lena_low_rig:RightHand_FK_CTRL_AnimData_CONST_GRP
+    100710: lena_low_rig:RightHand_FK_CTRL_In_Rig_CONST_GRP
+    100712: lena_low_rig:RightHand_FK_CTRL_POS_GRP
+    100714: lena_low_rig:RightHand_IK_CTRL
+    100716: lena_low_rig:RightHand_IK_CTRL_AnimData_CONST_GRP
+    100718: lena_low_rig:RightHand_IK_CTRL_grandparent_AnimData_CONST_GRP
+    100720: lena_low_rig:RightHand_IK_CTRL_grandparent_Global_POS_GRP
+    100722: lena_low_rig:RightHand_IK_CTRL_grandparent_inRig_CONST_GRP
+    100724: lena_low_rig:RightHand_IK_CTRL_grandparent_POS_GRP
+    100726: lena_low_rig:RightHand_IK_CTRL_In_Rig_CONST_GRP
+    100728: lena_low_rig:RightHand_IK_CTRL_parent_AnimData_CONST_GRP
+    100730: lena_low_rig:RightHand_IK_CTRL_parent_Global_POS_GRP
+    100732: lena_low_rig:RightHand_IK_CTRL_parent_POS_GRP
+    100734: lena_low_rig:RightHand_IK_CTRL_POS_GRP
+    100736: lena_low_rig:RightHand_IK_Handle
+    100738: lena_low_rig:RightHand_Options
+    100740: lena_low_rig:RightHandIndex1_CTRL
+    100742: lena_low_rig:RightHandIndex1_CTRL_AnimData_CONST_GRP
+    100744: lena_low_rig:RightHandIndex1_CTRL_In_Rig_CONST_GRP
+    100746: lena_low_rig:RightHandIndex1_CTRL_POS_GRP
+    100748: lena_low_rig:RightHandIndex2_CTRL
+    100750: lena_low_rig:RightHandIndex2_CTRL_AnimData_CONST_GRP
+    100752: lena_low_rig:RightHandIndex2_CTRL_In_Rig_CONST_GRP
+    100754: lena_low_rig:RightHandIndex2_CTRL_POS_GRP
+    100756: lena_low_rig:RightHandIndex3_CTRL
+    100758: lena_low_rig:RightHandIndex3_CTRL_AnimData_CONST_GRP
+    100760: lena_low_rig:RightHandIndex3_CTRL_In_Rig_CONST_GRP
+    100762: lena_low_rig:RightHandIndex3_CTRL_POS_GRP
+    100764: lena_low_rig:RightHandMiddle1_CTRL
+    100766: lena_low_rig:RightHandMiddle1_CTRL_AnimData_CONST_GRP
+    100768: lena_low_rig:RightHandMiddle1_CTRL_In_Rig_CONST_GRP
+    100770: lena_low_rig:RightHandMiddle1_CTRL_POS_GRP
+    100772: lena_low_rig:RightHandMiddle2_CTRL
+    100774: lena_low_rig:RightHandMiddle2_CTRL_AnimData_CONST_GRP
+    100776: lena_low_rig:RightHandMiddle2_CTRL_In_Rig_CONST_GRP
+    100778: lena_low_rig:RightHandMiddle2_CTRL_POS_GRP
+    100780: lena_low_rig:RightHandMiddle3_CTRL
+    100782: lena_low_rig:RightHandMiddle3_CTRL_AnimData_CONST_GRP
+    100784: lena_low_rig:RightHandMiddle3_CTRL_In_Rig_CONST_GRP
+    100786: lena_low_rig:RightHandMiddle3_CTRL_POS_GRP
+    100788: lena_low_rig:RightHandPinky1_CTRL
+    100790: lena_low_rig:RightHandPinky1_CTRL_AnimData_CONST_GRP
+    100792: lena_low_rig:RightHandPinky1_CTRL_In_Rig_CONST_GRP
+    100794: lena_low_rig:RightHandPinky1_CTRL_POS_GRP
+    100796: lena_low_rig:RightHandPinky2_CTRL
+    100798: lena_low_rig:RightHandPinky2_CTRL_AnimData_CONST_GRP
+    100800: lena_low_rig:RightHandPinky2_CTRL_In_Rig_CONST_GRP
+    100802: lena_low_rig:RightHandPinky2_CTRL_POS_GRP
+    100804: lena_low_rig:RightHandPinky3_CTRL
+    100806: lena_low_rig:RightHandPinky3_CTRL_AnimData_CONST_GRP
+    100808: lena_low_rig:RightHandPinky3_CTRL_In_Rig_CONST_GRP
+    100810: lena_low_rig:RightHandPinky3_CTRL_POS_GRP
+    100812: lena_low_rig:RightHandRing1_CTRL
+    100814: lena_low_rig:RightHandRing1_CTRL_AnimData_CONST_GRP
+    100816: lena_low_rig:RightHandRing1_CTRL_In_Rig_CONST_GRP
+    100818: lena_low_rig:RightHandRing1_CTRL_POS_GRP
+    100820: lena_low_rig:RightHandRing2_CTRL
+    100822: lena_low_rig:RightHandRing2_CTRL_AnimData_CONST_GRP
+    100824: lena_low_rig:RightHandRing2_CTRL_In_Rig_CONST_GRP
+    100826: lena_low_rig:RightHandRing2_CTRL_POS_GRP
+    100828: lena_low_rig:RightHandRing3_CTRL
+    100830: lena_low_rig:RightHandRing3_CTRL_AnimData_CONST_GRP
+    100832: lena_low_rig:RightHandRing3_CTRL_In_Rig_CONST_GRP
+    100834: lena_low_rig:RightHandRing3_CTRL_POS_GRP
+    100836: lena_low_rig:RightHandThumb1_CTRL
+    100838: lena_low_rig:RightHandThumb1_CTRL_AnimData_CONST_GRP
+    100840: lena_low_rig:RightHandThumb1_CTRL_In_Rig_CONST_GRP
+    100842: lena_low_rig:RightHandThumb1_CTRL_POS_GRP
+    100844: lena_low_rig:RightHandThumb2_CTRL
+    100846: lena_low_rig:RightHandThumb2_CTRL_AnimData_CONST_GRP
+    100848: lena_low_rig:RightHandThumb2_CTRL_In_Rig_CONST_GRP
+    100850: lena_low_rig:RightHandThumb2_CTRL_POS_GRP
+    100852: lena_low_rig:RightHandThumb3_CTRL
+    100854: lena_low_rig:RightHandThumb3_CTRL_AnimData_CONST_GRP
+    100856: lena_low_rig:RightHandThumb3_CTRL_In_Rig_CONST_GRP
+    100858: lena_low_rig:RightHandThumb3_CTRL_POS_GRP
+    100860: lena_low_rig:RightShoulder_CTRL
+    100862: lena_low_rig:RightShoulder_CTRL_AnimData_CONST_GRP
+    100864: lena_low_rig:RightShoulder_CTRL_In_Rig_CONST_GRP
+    100866: lena_low_rig:RightShoulder_CTRL_POS_GRP
+    100868: lena_low_rig:Root_CTRL
+    100870: lena_low_rig:Root_CTRL_AnimData_CONST_GRP
+    100872: lena_low_rig:Root_CTRL_In_Rig_CONST_GRP
+    100874: lena_low_rig:Root_CTRL_POS_GRP
+    100876: lena_low_rig:rp_l_foot01
+    100878: lena_low_rig:rp_l_leg01
+    100880: lena_low_rig:rp_l_toe01
+    100882: lena_low_rig:rp_r_foot01
+    100884: lena_low_rig:rp_r_leg01
+    100886: lena_low_rig:rp_r_toe01
+    100888: lena_low_rig:Spine1_CTRL
+    100890: lena_low_rig:Spine1_CTRL_AnimData_CONST_GRP
+    100892: lena_low_rig:Spine1_CTRL_In_Rig_CONST_GRP
+    100894: lena_low_rig:Spine1_CTRL_POS_GRP
+    100896: lena_low_rig:Spine2_CTRL
+    100898: lena_low_rig:Spine2_CTRL_AnimData_CONST_GRP
+    100900: lena_low_rig:Spine2_CTRL_In_Rig_CONST_GRP
+    100902: lena_low_rig:Spine2_CTRL_POS_GRP
+    100904: lena_low_rig:Spine_CTRL
+    100906: lena_low_rig:Spine_CTRL_AnimData_CONST_GRP
+    100908: lena_low_rig:Spine_CTRL_In_Rig_CONST_GRP
+    100910: lena_low_rig:Spine_CTRL_POS_GRP
+    100912: lena_low_rig:switcher_l_IK_FK01
+    100914: lena_low_rig:switcher_r_IK_FK01
+    400000: //RootNode
+    400002: lena_low_rig:AnimData_Head
+    400004: lena_low_rig:AnimData_HeadTop_End
+    400006: lena_low_rig:AnimData_Hips
+    400008: lena_low_rig:AnimData_Joint_GRP
+    400010: lena_low_rig:AnimData_LeftArm
+    400012: lena_low_rig:AnimData_LeftFoot
+    400014: lena_low_rig:AnimData_LeftForeArm
+    400016: lena_low_rig:AnimData_LeftHand
+    400018: lena_low_rig:AnimData_LeftHandIndex1
+    400020: lena_low_rig:AnimData_LeftHandIndex2
+    400022: lena_low_rig:AnimData_LeftHandIndex3
+    400024: lena_low_rig:AnimData_LeftHandIndex4
+    400026: lena_low_rig:AnimData_LeftHandMiddle1
+    400028: lena_low_rig:AnimData_LeftHandMiddle2
+    400030: lena_low_rig:AnimData_LeftHandMiddle3
+    400032: lena_low_rig:AnimData_LeftHandMiddle4
+    400034: lena_low_rig:AnimData_LeftHandPinky1
+    400036: lena_low_rig:AnimData_LeftHandPinky2
+    400038: lena_low_rig:AnimData_LeftHandPinky3
+    400040: lena_low_rig:AnimData_LeftHandPinky4
+    400042: lena_low_rig:AnimData_LeftHandRing1
+    400044: lena_low_rig:AnimData_LeftHandRing2
+    400046: lena_low_rig:AnimData_LeftHandRing3
+    400048: lena_low_rig:AnimData_LeftHandRing4
+    400050: lena_low_rig:AnimData_LeftHandThumb1
+    400052: lena_low_rig:AnimData_LeftHandThumb2
+    400054: lena_low_rig:AnimData_LeftHandThumb3
+    400056: lena_low_rig:AnimData_LeftHandThumb4
+    400058: lena_low_rig:AnimData_LeftLeg
+    400060: lena_low_rig:AnimData_LeftShoulder
+    400062: lena_low_rig:AnimData_LeftToe_End
+    400064: lena_low_rig:AnimData_LeftToeBase
+    400066: lena_low_rig:AnimData_LeftUpLeg
+    400068: lena_low_rig:AnimData_Neck
+    400070: lena_low_rig:AnimData_RightArm
+    400072: lena_low_rig:AnimData_RightFoot
+    400074: lena_low_rig:AnimData_RightForeArm
+    400076: lena_low_rig:AnimData_RightHand
+    400078: lena_low_rig:AnimData_RightHandIndex1
+    400080: lena_low_rig:AnimData_RightHandIndex2
+    400082: lena_low_rig:AnimData_RightHandIndex3
+    400084: lena_low_rig:AnimData_RightHandIndex4
+    400086: lena_low_rig:AnimData_RightHandMiddle1
+    400088: lena_low_rig:AnimData_RightHandMiddle2
+    400090: lena_low_rig:AnimData_RightHandMiddle3
+    400092: lena_low_rig:AnimData_RightHandMiddle4
+    400094: lena_low_rig:AnimData_RightHandPinky1
+    400096: lena_low_rig:AnimData_RightHandPinky2
+    400098: lena_low_rig:AnimData_RightHandPinky3
+    400100: lena_low_rig:AnimData_RightHandPinky4
+    400102: lena_low_rig:AnimData_RightHandRing1
+    400104: lena_low_rig:AnimData_RightHandRing2
+    400106: lena_low_rig:AnimData_RightHandRing3
+    400108: lena_low_rig:AnimData_RightHandRing4
+    400110: lena_low_rig:AnimData_RightHandThumb1
+    400112: lena_low_rig:AnimData_RightHandThumb2
+    400114: lena_low_rig:AnimData_RightHandThumb3
+    400116: lena_low_rig:AnimData_RightHandThumb4
+    400118: lena_low_rig:AnimData_RightLeg
+    400120: lena_low_rig:AnimData_RightShoulder
+    400122: lena_low_rig:AnimData_RightToe_End
+    400124: lena_low_rig:AnimData_RightToeBase
+    400126: lena_low_rig:AnimData_RightUpLeg
+    400128: lena_low_rig:AnimData_Spine
+    400130: lena_low_rig:AnimData_Spine1
+    400132: lena_low_rig:AnimData_Spine2
+    400134: lena_low_rig:be_l_toeEnd01
+    400136: lena_low_rig:be_r_toeEnd01
+    400138: lena_low_rig:Bind_Head
+    400140: lena_low_rig:Bind_HeadTop_End
+    400142: lena_low_rig:Bind_Hips
+    400144: lena_low_rig:Bind_Joint_GRP
+    400146: lena_low_rig:Bind_LeftArm
+    400148: lena_low_rig:Bind_LeftForeArm
+    400150: lena_low_rig:Bind_LeftHand
+    400152: lena_low_rig:Bind_LeftHandIndex1
+    400154: lena_low_rig:Bind_LeftHandIndex2
+    400156: lena_low_rig:Bind_LeftHandIndex3
+    400158: lena_low_rig:Bind_LeftHandIndex4
+    400160: lena_low_rig:Bind_LeftHandMiddle1
+    400162: lena_low_rig:Bind_LeftHandMiddle2
+    400164: lena_low_rig:Bind_LeftHandMiddle3
+    400166: lena_low_rig:Bind_LeftHandMiddle4
+    400168: lena_low_rig:Bind_LeftHandPinky1
+    400170: lena_low_rig:Bind_LeftHandPinky2
+    400172: lena_low_rig:Bind_LeftHandPinky3
+    400174: lena_low_rig:Bind_LeftHandPinky4
+    400176: lena_low_rig:Bind_LeftHandRing1
+    400178: lena_low_rig:Bind_LeftHandRing2
+    400180: lena_low_rig:Bind_LeftHandRing3
+    400182: lena_low_rig:Bind_LeftHandRing4
+    400184: lena_low_rig:Bind_LeftHandThumb1
+    400186: lena_low_rig:Bind_LeftHandThumb2
+    400188: lena_low_rig:Bind_LeftHandThumb3
+    400190: lena_low_rig:Bind_LeftHandThumb4
+    400192: lena_low_rig:Bind_LeftShoulder
+    400194: lena_low_rig:Bind_Neck
+    400196: lena_low_rig:Bind_RightArm
+    400198: lena_low_rig:Bind_RightForeArm
+    400200: lena_low_rig:Bind_RightHand
+    400202: lena_low_rig:Bind_RightHandIndex1
+    400204: lena_low_rig:Bind_RightHandIndex2
+    400206: lena_low_rig:Bind_RightHandIndex3
+    400208: lena_low_rig:Bind_RightHandIndex4
+    400210: lena_low_rig:Bind_RightHandMiddle1
+    400212: lena_low_rig:Bind_RightHandMiddle2
+    400214: lena_low_rig:Bind_RightHandMiddle3
+    400216: lena_low_rig:Bind_RightHandMiddle4
+    400218: lena_low_rig:Bind_RightHandPinky1
+    400220: lena_low_rig:Bind_RightHandPinky2
+    400222: lena_low_rig:Bind_RightHandPinky3
+    400224: lena_low_rig:Bind_RightHandPinky4
+    400226: lena_low_rig:Bind_RightHandRing1
+    400228: lena_low_rig:Bind_RightHandRing2
+    400230: lena_low_rig:Bind_RightHandRing3
+    400232: lena_low_rig:Bind_RightHandRing4
+    400234: lena_low_rig:Bind_RightHandThumb1
+    400236: lena_low_rig:Bind_RightHandThumb2
+    400238: lena_low_rig:Bind_RightHandThumb3
+    400240: lena_low_rig:Bind_RightHandThumb4
+    400242: lena_low_rig:Bind_RightShoulder
+    400244: lena_low_rig:Bind_Spine
+    400246: lena_low_rig:Bind_Spine1
+    400248: lena_low_rig:Bind_Spine2
+    400250: lena_low_rig:bn_l_ankle01
+    400252: lena_low_rig:bn_l_foot01
+    400254: lena_low_rig:bn_l_knee01
+    400256: lena_low_rig:bn_l_thigh01
+    400258: lena_low_rig:bn_r_ankle01
+    400260: lena_low_rig:bn_r_foot01
+    400262: lena_low_rig:bn_r_knee01
+    400264: lena_low_rig:bn_r_thigh01
+    400266: lena_low_rig:cc_eyes_global01
+    400268: lena_low_rig:cc_l_ankleFK01
+    400270: lena_low_rig:cc_l_eye01
+    400272: lena_low_rig:cc_l_footFK01
+    400274: lena_low_rig:cc_l_kneeFK01
+    400276: lena_low_rig:cc_l_kneeIK01
+    400278: lena_low_rig:cc_l_legIK01
+    400280: lena_low_rig:cc_l_thighFK01
+    400282: lena_low_rig:cc_r_ankleFK01
+    400284: lena_low_rig:cc_r_eye01
+    400286: lena_low_rig:cc_r_footFK01
+    400288: lena_low_rig:cc_r_kneeFK01
+    400290: lena_low_rig:cc_r_kneeIK01
+    400292: lena_low_rig:cc_r_legIK01
+    400294: lena_low_rig:cc_r_thighFK01
+    400296: lena_low_rig:cluster1Handle
+    400298: lena_low_rig:cluster2Handle
+    400300: lena_low_rig:cluster3Handle
+    400302: lena_low_rig:cluster4Handle
+    400304: lena_low_rig:CTRL_GRP
+    400306: lena_low_rig:curve1
+    400308: lena_low_rig:curve2
+    400310: lena_low_rig:FK_LeftArm
+    400312: lena_low_rig:FK_LeftForeArm
+    400314: lena_low_rig:FK_LeftHand
+    400316: lena_low_rig:FK_RightArm
+    400318: lena_low_rig:FK_RightForeArm
+    400320: lena_low_rig:FK_RightHand
+    400322: lena_low_rig:global_CTRL
+    400324: lena_low_rig:grp_cc_l_ankleFK01
+    400326: lena_low_rig:grp_cc_l_eye01
+    400328: lena_low_rig:grp_cc_l_footFK01
+    400330: lena_low_rig:grp_cc_l_kneeFK01
+    400332: lena_low_rig:grp_cc_l_legIK01
+    400334: lena_low_rig:grp_cc_l_thighFK01
+    400336: lena_low_rig:grp_cc_r_ankleFK01
+    400338: lena_low_rig:grp_cc_r_eye01
+    400340: lena_low_rig:grp_cc_r_footFK01
+    400342: lena_low_rig:grp_cc_r_kneeFK01
+    400344: lena_low_rig:grp_cc_r_legIK01
+    400346: lena_low_rig:grp_cc_r_thighFK01
+    400348: lena_low_rig:grp_l_footBend01
+    400350: lena_low_rig:grp_r_footBend01
+    400352: lena_low_rig:Head_CTRL
+    400354: lena_low_rig:Head_CTRL_AnimData_CONST_GRP
+    400356: lena_low_rig:Head_CTRL_In_Rig_CONST_GRP
+    400358: lena_low_rig:Head_CTRL_Inherit_Rotation_GRP
+    400360: lena_low_rig:Head_CTRL_POS_GRP
+    400362: lena_low_rig:hide_elements
+    400364: lena_low_rig:IK_Dummy_Hips
+    400366: lena_low_rig:IK_Dummy_Joint_GRP
+    400368: lena_low_rig:IK_Dummy_LeftShoulder
+    400370: lena_low_rig:IK_Dummy_RightShoulder
+    400372: lena_low_rig:IK_Dummy_Spine
+    400374: lena_low_rig:IK_Dummy_Spine1
+    400376: lena_low_rig:IK_Dummy_Spine2
+    400378: lena_low_rig:IK_LeftArm
+    400380: lena_low_rig:IK_LeftForeArm
+    400382: lena_low_rig:IK_LeftHand
+    400384: lena_low_rig:IK_RightArm
+    400386: lena_low_rig:IK_RightForeArm
+    400388: lena_low_rig:IK_RightHand
+    400390: lena_low_rig:jDRV_l_ankleFK01
+    400392: lena_low_rig:jDRV_l_ankleIK01
+    400394: lena_low_rig:jDRV_l_footFK01
+    400396: lena_low_rig:jDRV_l_footIK01
+    400398: lena_low_rig:jDRV_l_kneeFK01
+    400400: lena_low_rig:jDRV_l_kneeIK01
+    400402: lena_low_rig:jDRV_l_thighFK01
+    400404: lena_low_rig:jDRV_l_thighIK01
+    400406: lena_low_rig:jDRV_l_toeFK01
+    400408: lena_low_rig:jDRV_l_toeIK01
+    400410: lena_low_rig:jDRV_r_ankleFK01
+    400412: lena_low_rig:jDRV_r_ankleIK01
+    400414: lena_low_rig:jDRV_r_footFK01
+    400416: lena_low_rig:jDRV_r_footIK01
+    400418: lena_low_rig:jDRV_r_kneeFK01
+    400420: lena_low_rig:jDRV_r_kneeIK01
+    400422: lena_low_rig:jDRV_r_thighFK01
+    400424: lena_low_rig:jDRV_r_thighIK01
+    400426: lena_low_rig:jDRV_r_toeFK01
+    400428: lena_low_rig:jDRV_r_toeIK01
+    400430: lena_low_rig:Joint_GRP
+    400432: lena_low_rig:LeftArm_FK_CTRL
+    400434: lena_low_rig:LeftArm_FK_CTRL_AnimData_CONST_GRP
+    400436: lena_low_rig:LeftArm_FK_CTRL_In_Rig_CONST_GRP
+    400438: lena_low_rig:LeftArm_FK_CTRL_POS_GRP
+    400440: lena_low_rig:LeftForeArm_FK_CTRL
+    400442: lena_low_rig:LeftForeArm_FK_CTRL_AnimData_CONST_GRP
+    400444: lena_low_rig:LeftForeArm_FK_CTRL_In_Rig_CONST_GRP
+    400446: lena_low_rig:LeftForeArm_FK_CTRL_POS_GRP
+    400448: lena_low_rig:LeftForeArm_IK_BakingLOC
+    400450: lena_low_rig:LeftForeArm_IK_CTRL
+    400452: lena_low_rig:LeftForeArm_IK_CTRL_AnimData_CONST_GRP
+    400454: lena_low_rig:LeftForeArm_IK_CTRL_GuideCurve_Cluster1Handle
+    400456: lena_low_rig:LeftForeArm_IK_CTRL_GuideCurve_Cluster2Handle
+    400458: lena_low_rig:LeftForeArm_IK_CTRL_In_Rig_CONST_GRP
+    400460: lena_low_rig:LeftForeArm_IK_CTRL_parent_AnimData_CONST_GRP
+    400462: lena_low_rig:LeftForeArm_IK_CTRL_parent_Global_POS_GRP
+    400464: lena_low_rig:LeftForeArm_IK_CTRL_parent_POS_GRP
+    400466: lena_low_rig:LeftForeArm_IK_CTRL_POS_GRP
+    400468: lena_low_rig:LeftHand_CTRLs_GRP
+    400470: lena_low_rig:LeftHand_FK_CTRL
+    400472: lena_low_rig:LeftHand_FK_CTRL_AnimData_CONST_GRP
+    400474: lena_low_rig:LeftHand_FK_CTRL_In_Rig_CONST_GRP
+    400476: lena_low_rig:LeftHand_FK_CTRL_POS_GRP
+    400478: lena_low_rig:LeftHand_IK_CTRL
+    400480: lena_low_rig:LeftHand_IK_CTRL_AnimData_CONST_GRP
+    400482: lena_low_rig:LeftHand_IK_CTRL_grandparent_AnimData_CONST_GRP
+    400484: lena_low_rig:LeftHand_IK_CTRL_grandparent_Global_POS_GRP
+    400486: lena_low_rig:LeftHand_IK_CTRL_grandparent_inRig_CONST_GRP
+    400488: lena_low_rig:LeftHand_IK_CTRL_grandparent_POS_GRP
+    400490: lena_low_rig:LeftHand_IK_CTRL_In_Rig_CONST_GRP
+    400492: lena_low_rig:LeftHand_IK_CTRL_parent_AnimData_CONST_GRP
+    400494: lena_low_rig:LeftHand_IK_CTRL_parent_Global_POS_GRP
+    400496: lena_low_rig:LeftHand_IK_CTRL_parent_POS_GRP
+    400498: lena_low_rig:LeftHand_IK_CTRL_POS_GRP
+    400500: lena_low_rig:LeftHand_IK_Handle
+    400502: lena_low_rig:LeftHand_Options
+    400504: lena_low_rig:LeftHandIndex1_CTRL
+    400506: lena_low_rig:LeftHandIndex1_CTRL_AnimData_CONST_GRP
+    400508: lena_low_rig:LeftHandIndex1_CTRL_In_Rig_CONST_GRP
+    400510: lena_low_rig:LeftHandIndex1_CTRL_POS_GRP
+    400512: lena_low_rig:LeftHandIndex2_CTRL
+    400514: lena_low_rig:LeftHandIndex2_CTRL_AnimData_CONST_GRP
+    400516: lena_low_rig:LeftHandIndex2_CTRL_In_Rig_CONST_GRP
+    400518: lena_low_rig:LeftHandIndex2_CTRL_POS_GRP
+    400520: lena_low_rig:LeftHandIndex3_CTRL
+    400522: lena_low_rig:LeftHandIndex3_CTRL_AnimData_CONST_GRP
+    400524: lena_low_rig:LeftHandIndex3_CTRL_In_Rig_CONST_GRP
+    400526: lena_low_rig:LeftHandIndex3_CTRL_POS_GRP
+    400528: lena_low_rig:LeftHandMiddle1_CTRL
+    400530: lena_low_rig:LeftHandMiddle1_CTRL_AnimData_CONST_GRP
+    400532: lena_low_rig:LeftHandMiddle1_CTRL_In_Rig_CONST_GRP
+    400534: lena_low_rig:LeftHandMiddle1_CTRL_POS_GRP
+    400536: lena_low_rig:LeftHandMiddle2_CTRL
+    400538: lena_low_rig:LeftHandMiddle2_CTRL_AnimData_CONST_GRP
+    400540: lena_low_rig:LeftHandMiddle2_CTRL_In_Rig_CONST_GRP
+    400542: lena_low_rig:LeftHandMiddle2_CTRL_POS_GRP
+    400544: lena_low_rig:LeftHandMiddle3_CTRL
+    400546: lena_low_rig:LeftHandMiddle3_CTRL_AnimData_CONST_GRP
+    400548: lena_low_rig:LeftHandMiddle3_CTRL_In_Rig_CONST_GRP
+    400550: lena_low_rig:LeftHandMiddle3_CTRL_POS_GRP
+    400552: lena_low_rig:LeftHandPinky1_CTRL
+    400554: lena_low_rig:LeftHandPinky1_CTRL_AnimData_CONST_GRP
+    400556: lena_low_rig:LeftHandPinky1_CTRL_In_Rig_CONST_GRP
+    400558: lena_low_rig:LeftHandPinky1_CTRL_POS_GRP
+    400560: lena_low_rig:LeftHandPinky2_CTRL
+    400562: lena_low_rig:LeftHandPinky2_CTRL_AnimData_CONST_GRP
+    400564: lena_low_rig:LeftHandPinky2_CTRL_In_Rig_CONST_GRP
+    400566: lena_low_rig:LeftHandPinky2_CTRL_POS_GRP
+    400568: lena_low_rig:LeftHandPinky3_CTRL
+    400570: lena_low_rig:LeftHandPinky3_CTRL_AnimData_CONST_GRP
+    400572: lena_low_rig:LeftHandPinky3_CTRL_In_Rig_CONST_GRP
+    400574: lena_low_rig:LeftHandPinky3_CTRL_POS_GRP
+    400576: lena_low_rig:LeftHandRing1_CTRL
+    400578: lena_low_rig:LeftHandRing1_CTRL_AnimData_CONST_GRP
+    400580: lena_low_rig:LeftHandRing1_CTRL_In_Rig_CONST_GRP
+    400582: lena_low_rig:LeftHandRing1_CTRL_POS_GRP
+    400584: lena_low_rig:LeftHandRing2_CTRL
+    400586: lena_low_rig:LeftHandRing2_CTRL_AnimData_CONST_GRP
+    400588: lena_low_rig:LeftHandRing2_CTRL_In_Rig_CONST_GRP
+    400590: lena_low_rig:LeftHandRing2_CTRL_POS_GRP
+    400592: lena_low_rig:LeftHandRing3_CTRL
+    400594: lena_low_rig:LeftHandRing3_CTRL_AnimData_CONST_GRP
+    400596: lena_low_rig:LeftHandRing3_CTRL_In_Rig_CONST_GRP
+    400598: lena_low_rig:LeftHandRing3_CTRL_POS_GRP
+    400600: lena_low_rig:LeftHandThumb1_CTRL
+    400602: lena_low_rig:LeftHandThumb1_CTRL_AnimData_CONST_GRP
+    400604: lena_low_rig:LeftHandThumb1_CTRL_In_Rig_CONST_GRP
+    400606: lena_low_rig:LeftHandThumb1_CTRL_POS_GRP
+    400608: lena_low_rig:LeftHandThumb2_CTRL
+    400610: lena_low_rig:LeftHandThumb2_CTRL_AnimData_CONST_GRP
+    400612: lena_low_rig:LeftHandThumb2_CTRL_In_Rig_CONST_GRP
+    400614: lena_low_rig:LeftHandThumb2_CTRL_POS_GRP
+    400616: lena_low_rig:LeftHandThumb3_CTRL
+    400618: lena_low_rig:LeftHandThumb3_CTRL_AnimData_CONST_GRP
+    400620: lena_low_rig:LeftHandThumb3_CTRL_In_Rig_CONST_GRP
+    400622: lena_low_rig:LeftHandThumb3_CTRL_POS_GRP
+    400624: lena_low_rig:LeftShoulder_CTRL
+    400626: lena_low_rig:LeftShoulder_CTRL_AnimData_CONST_GRP
+    400628: lena_low_rig:LeftShoulder_CTRL_In_Rig_CONST_GRP
+    400630: lena_low_rig:LeftShoulder_CTRL_POS_GRP
+    400632: lena_low_rig:locAlign_l_foot01
+    400634: lena_low_rig:locAlign_l_heel01
+    400636: lena_low_rig:locAlign_l_leftBank01
+    400638: lena_low_rig:locAlign_l_rightBank01
+    400640: lena_low_rig:locAlign_l_toe01
+    400642: lena_low_rig:locAlign_r_foot01
+    400644: lena_low_rig:locAlign_r_heel01
+    400646: lena_low_rig:locAlign_r_leftBank01
+    400648: lena_low_rig:locAlign_r_rightBank01
+    400650: lena_low_rig:locAlign_r_toe01
+    400652: lena_low_rig:locOri_l_rightBank01
+    400654: lena_low_rig:locOri_r_rightBank01
+    400656: lena_low_rig:mesh_l_eye
+    400658: lena_low_rig:mesh_r_eye
+    400660: lena_low_rig:Neck_CTRL
+    400662: lena_low_rig:Neck_CTRL_AnimData_CONST_GRP
+    400664: lena_low_rig:Neck_CTRL_In_Rig_CONST_GRP
+    400666: lena_low_rig:Neck_CTRL_POS_GRP
+    400668: lena_low_rig:RightArm_FK_CTRL
+    400670: lena_low_rig:RightArm_FK_CTRL_AnimData_CONST_GRP
+    400672: lena_low_rig:RightArm_FK_CTRL_In_Rig_CONST_GRP
+    400674: lena_low_rig:RightArm_FK_CTRL_POS_GRP
+    400676: lena_low_rig:RightForeArm_FK_CTRL
+    400678: lena_low_rig:RightForeArm_FK_CTRL_AnimData_CONST_GRP
+    400680: lena_low_rig:RightForeArm_FK_CTRL_In_Rig_CONST_GRP
+    400682: lena_low_rig:RightForeArm_FK_CTRL_POS_GRP
+    400684: lena_low_rig:RightForeArm_IK_BakingLOC
+    400686: lena_low_rig:RightForeArm_IK_CTRL
+    400688: lena_low_rig:RightForeArm_IK_CTRL_AnimData_CONST_GRP
+    400690: lena_low_rig:RightForeArm_IK_CTRL_GuideCurve_Cluster1Handle
+    400692: lena_low_rig:RightForeArm_IK_CTRL_GuideCurve_Cluster2Handle
+    400694: lena_low_rig:RightForeArm_IK_CTRL_In_Rig_CONST_GRP
+    400696: lena_low_rig:RightForeArm_IK_CTRL_parent_AnimData_CONST_GRP
+    400698: lena_low_rig:RightForeArm_IK_CTRL_parent_Global_POS_GRP
+    400700: lena_low_rig:RightForeArm_IK_CTRL_parent_POS_GRP
+    400702: lena_low_rig:RightForeArm_IK_CTRL_POS_GRP
+    400704: lena_low_rig:RightHand_CTRLs_GRP
+    400706: lena_low_rig:RightHand_FK_CTRL
+    400708: lena_low_rig:RightHand_FK_CTRL_AnimData_CONST_GRP
+    400710: lena_low_rig:RightHand_FK_CTRL_In_Rig_CONST_GRP
+    400712: lena_low_rig:RightHand_FK_CTRL_POS_GRP
+    400714: lena_low_rig:RightHand_IK_CTRL
+    400716: lena_low_rig:RightHand_IK_CTRL_AnimData_CONST_GRP
+    400718: lena_low_rig:RightHand_IK_CTRL_grandparent_AnimData_CONST_GRP
+    400720: lena_low_rig:RightHand_IK_CTRL_grandparent_Global_POS_GRP
+    400722: lena_low_rig:RightHand_IK_CTRL_grandparent_inRig_CONST_GRP
+    400724: lena_low_rig:RightHand_IK_CTRL_grandparent_POS_GRP
+    400726: lena_low_rig:RightHand_IK_CTRL_In_Rig_CONST_GRP
+    400728: lena_low_rig:RightHand_IK_CTRL_parent_AnimData_CONST_GRP
+    400730: lena_low_rig:RightHand_IK_CTRL_parent_Global_POS_GRP
+    400732: lena_low_rig:RightHand_IK_CTRL_parent_POS_GRP
+    400734: lena_low_rig:RightHand_IK_CTRL_POS_GRP
+    400736: lena_low_rig:RightHand_IK_Handle
+    400738: lena_low_rig:RightHand_Options
+    400740: lena_low_rig:RightHandIndex1_CTRL
+    400742: lena_low_rig:RightHandIndex1_CTRL_AnimData_CONST_GRP
+    400744: lena_low_rig:RightHandIndex1_CTRL_In_Rig_CONST_GRP
+    400746: lena_low_rig:RightHandIndex1_CTRL_POS_GRP
+    400748: lena_low_rig:RightHandIndex2_CTRL
+    400750: lena_low_rig:RightHandIndex2_CTRL_AnimData_CONST_GRP
+    400752: lena_low_rig:RightHandIndex2_CTRL_In_Rig_CONST_GRP
+    400754: lena_low_rig:RightHandIndex2_CTRL_POS_GRP
+    400756: lena_low_rig:RightHandIndex3_CTRL
+    400758: lena_low_rig:RightHandIndex3_CTRL_AnimData_CONST_GRP
+    400760: lena_low_rig:RightHandIndex3_CTRL_In_Rig_CONST_GRP
+    400762: lena_low_rig:RightHandIndex3_CTRL_POS_GRP
+    400764: lena_low_rig:RightHandMiddle1_CTRL
+    400766: lena_low_rig:RightHandMiddle1_CTRL_AnimData_CONST_GRP
+    400768: lena_low_rig:RightHandMiddle1_CTRL_In_Rig_CONST_GRP
+    400770: lena_low_rig:RightHandMiddle1_CTRL_POS_GRP
+    400772: lena_low_rig:RightHandMiddle2_CTRL
+    400774: lena_low_rig:RightHandMiddle2_CTRL_AnimData_CONST_GRP
+    400776: lena_low_rig:RightHandMiddle2_CTRL_In_Rig_CONST_GRP
+    400778: lena_low_rig:RightHandMiddle2_CTRL_POS_GRP
+    400780: lena_low_rig:RightHandMiddle3_CTRL
+    400782: lena_low_rig:RightHandMiddle3_CTRL_AnimData_CONST_GRP
+    400784: lena_low_rig:RightHandMiddle3_CTRL_In_Rig_CONST_GRP
+    400786: lena_low_rig:RightHandMiddle3_CTRL_POS_GRP
+    400788: lena_low_rig:RightHandPinky1_CTRL
+    400790: lena_low_rig:RightHandPinky1_CTRL_AnimData_CONST_GRP
+    400792: lena_low_rig:RightHandPinky1_CTRL_In_Rig_CONST_GRP
+    400794: lena_low_rig:RightHandPinky1_CTRL_POS_GRP
+    400796: lena_low_rig:RightHandPinky2_CTRL
+    400798: lena_low_rig:RightHandPinky2_CTRL_AnimData_CONST_GRP
+    400800: lena_low_rig:RightHandPinky2_CTRL_In_Rig_CONST_GRP
+    400802: lena_low_rig:RightHandPinky2_CTRL_POS_GRP
+    400804: lena_low_rig:RightHandPinky3_CTRL
+    400806: lena_low_rig:RightHandPinky3_CTRL_AnimData_CONST_GRP
+    400808: lena_low_rig:RightHandPinky3_CTRL_In_Rig_CONST_GRP
+    400810: lena_low_rig:RightHandPinky3_CTRL_POS_GRP
+    400812: lena_low_rig:RightHandRing1_CTRL
+    400814: lena_low_rig:RightHandRing1_CTRL_AnimData_CONST_GRP
+    400816: lena_low_rig:RightHandRing1_CTRL_In_Rig_CONST_GRP
+    400818: lena_low_rig:RightHandRing1_CTRL_POS_GRP
+    400820: lena_low_rig:RightHandRing2_CTRL
+    400822: lena_low_rig:RightHandRing2_CTRL_AnimData_CONST_GRP
+    400824: lena_low_rig:RightHandRing2_CTRL_In_Rig_CONST_GRP
+    400826: lena_low_rig:RightHandRing2_CTRL_POS_GRP
+    400828: lena_low_rig:RightHandRing3_CTRL
+    400830: lena_low_rig:RightHandRing3_CTRL_AnimData_CONST_GRP
+    400832: lena_low_rig:RightHandRing3_CTRL_In_Rig_CONST_GRP
+    400834: lena_low_rig:RightHandRing3_CTRL_POS_GRP
+    400836: lena_low_rig:RightHandThumb1_CTRL
+    400838: lena_low_rig:RightHandThumb1_CTRL_AnimData_CONST_GRP
+    400840: lena_low_rig:RightHandThumb1_CTRL_In_Rig_CONST_GRP
+    400842: lena_low_rig:RightHandThumb1_CTRL_POS_GRP
+    400844: lena_low_rig:RightHandThumb2_CTRL
+    400846: lena_low_rig:RightHandThumb2_CTRL_AnimData_CONST_GRP
+    400848: lena_low_rig:RightHandThumb2_CTRL_In_Rig_CONST_GRP
+    400850: lena_low_rig:RightHandThumb2_CTRL_POS_GRP
+    400852: lena_low_rig:RightHandThumb3_CTRL
+    400854: lena_low_rig:RightHandThumb3_CTRL_AnimData_CONST_GRP
+    400856: lena_low_rig:RightHandThumb3_CTRL_In_Rig_CONST_GRP
+    400858: lena_low_rig:RightHandThumb3_CTRL_POS_GRP
+    400860: lena_low_rig:RightShoulder_CTRL
+    400862: lena_low_rig:RightShoulder_CTRL_AnimData_CONST_GRP
+    400864: lena_low_rig:RightShoulder_CTRL_In_Rig_CONST_GRP
+    400866: lena_low_rig:RightShoulder_CTRL_POS_GRP
+    400868: lena_low_rig:Root_CTRL
+    400870: lena_low_rig:Root_CTRL_AnimData_CONST_GRP
+    400872: lena_low_rig:Root_CTRL_In_Rig_CONST_GRP
+    400874: lena_low_rig:Root_CTRL_POS_GRP
+    400876: lena_low_rig:rp_l_foot01
+    400878: lena_low_rig:rp_l_leg01
+    400880: lena_low_rig:rp_l_toe01
+    400882: lena_low_rig:rp_r_foot01
+    400884: lena_low_rig:rp_r_leg01
+    400886: lena_low_rig:rp_r_toe01
+    400888: lena_low_rig:Spine1_CTRL
+    400890: lena_low_rig:Spine1_CTRL_AnimData_CONST_GRP
+    400892: lena_low_rig:Spine1_CTRL_In_Rig_CONST_GRP
+    400894: lena_low_rig:Spine1_CTRL_POS_GRP
+    400896: lena_low_rig:Spine2_CTRL
+    400898: lena_low_rig:Spine2_CTRL_AnimData_CONST_GRP
+    400900: lena_low_rig:Spine2_CTRL_In_Rig_CONST_GRP
+    400902: lena_low_rig:Spine2_CTRL_POS_GRP
+    400904: lena_low_rig:Spine_CTRL
+    400906: lena_low_rig:Spine_CTRL_AnimData_CONST_GRP
+    400908: lena_low_rig:Spine_CTRL_In_Rig_CONST_GRP
+    400910: lena_low_rig:Spine_CTRL_POS_GRP
+    400912: lena_low_rig:switcher_l_IK_FK01
+    400914: lena_low_rig:switcher_r_IK_FK01
+    2300000: lena_low_rig:mesh_l_eye
+    2300002: lena_low_rig:mesh_r_eye
+    3300000: lena_low_rig:mesh_l_eye
+    3300002: lena_low_rig:mesh_r_eye
+    4300000: lena_low_rig:mesh_l_eye
+    4300002: lena_low_rig:mesh_r_eye
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: lena_low_rig:Bind_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:jDRV_l_thighFK01
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:jDRV_r_thighFK01
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:jDRV_l_kneeFK01
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:jDRV_r_kneeFK01
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:jDRV_l_ankleFK01
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:jDRV_r_ankleFK01
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:Bind_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:Bind_Spine2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:Bind_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:Bind_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:Bind_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:Bind_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:Bind_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:Bind_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:Bind_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:Bind_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:Bind_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:Bind_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:jDRV_l_toeFK01
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:jDRV_r_toeFK01
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:mesh_l_eye
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:mesh_r_eye
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:Bind_LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:Bind_LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:Bind_LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:Bind_LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:Bind_LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:Bind_LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:Bind_LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:Bind_LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:Bind_LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:Bind_LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:Bind_LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:Bind_LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:Bind_RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:Bind_RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:Bind_RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:Bind_RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:Bind_RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:Bind_RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:Bind_RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:Bind_RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:Bind_RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:Bind_RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:Bind_RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lena_low_rig:Bind_RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: lena_anim_no_skin(Clone)
+      position: {x: -0, y: -4.4373424e-33, z: 1.94117554e-25}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:CTRL_GRP
+      position: {x: .00167167664, y: -.0205059722, z: -.243487999}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:global_CTRL
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:cc_eyes_global01
+      position: {x: -.00326149841, y: 3.57011557, z: .978158951}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:grp_cc_l_eye01
+      position: {x: -.129082382, y: -.000964073814, z: -.689225972}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:cc_l_eye01
+      position: {x: -.122563399, y: -3.10780557e-08, z: .689186633}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:grp_cc_r_eye01
+      position: {x: .133643553, y: .000964104896, z: -.689942837}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:cc_r_eye01
+      position: {x: .118002228, y: 0, z: .689982235}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:cc_l_kneeIK01
+      position: {x: -.963484406, y: 1.21448863, z: 1.38948417}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:cc_r_kneeIK01
+      position: {x: .326229006, y: 1.21448863, z: 1.38948417}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:grp_cc_l_legIK01
+      position: {x: -.241805419, y: .373587638, z: .150284216}
+      rotation: {x: 2.48394291e-16, y: .728867054, z: -2.38577285e-16, w: .684655249}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:cc_l_legIK01
+      position: {x: .100122496, y: 0, z: .104032546}
+      rotation: {x: 0, y: -.28247726, z: -0, w: .959273994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:locOri_l_rightBank01
+      position: {x: -.074606061, y: -.339434266, z: .0649360418}
+      rotation: {x: -5.27653865e-10, y: 2.30904993e-06, z: .000228515622, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:locAlign_l_rightBank01
+      position: {x: -0, y: 2.220446e-18, z: -3.5527136e-17}
+      rotation: {x: 0, y: 0, z: 4.22838847e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:locAlign_l_leftBank01
+      position: {x: -.0055245338, y: 1.55431224e-17, z: -.143268362}
+      rotation: {x: 0, y: -0, z: -2.71050543e-20, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:locAlign_l_heel01
+      position: {x: .149713933, y: 7.54951665e-17, z: .0734479874}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:locAlign_l_toe01
+      position: {x: -.282186002, y: .00510167936, z: -1.77635673e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:locAlign_l_foot01
+      position: {x: .134602055, y: -2.88657976e-17, z: -1.77635673e-16}
+      rotation: {x: 1.32869315e-15, y: 1.47262476e-31, z: 1.10832567e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:grp_l_footBend01
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:rp_l_toe01
+      position: {x: -.134602055, y: 2.50068412e-12, z: -1.67119721e-10}
+      rotation: {x: -.000166557162, y: -.728868663, z: -.000156454815, w: .68465358}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:rp_l_foot01
+      position: {x: -.000668058405, y: .000157504866, z: -4.18369709e-05}
+      rotation: {x: -.000166557162, y: -.728868663, z: -.000156454815, w: .68465358}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:rp_l_leg01
+      position: {x: .0781560317, y: .334298462, z: .00488467515}
+      rotation: {x: -.000166557162, y: -.728868663, z: -.000156454815, w: .68465358}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:grp_cc_r_legIK01
+      position: {x: .238462314, y: .373587996, z: .150284201}
+      rotation: {x: -1.6479873e-16, y: .684655249, z: 1.71737624e-16, w: .728867054}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:cc_r_legIK01
+      position: {x: -.18233934, y: -8.30453288e-08, z: .0734491199}
+      rotation: {x: 0, y: .289615273, z: -0, w: .957143128}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:locOri_r_rightBank01
+      position: {x: -.0801888853, y: -.340066254, z: .0783677474}
+      rotation: {x: -2.30904993e-06, y: -5.27654087e-10, z: 1, w: -.000228515622}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:locAlign_r_rightBank01
+      position: {x: -4.440892e-18, y: 0, z: 7.1054272e-17}
+      rotation: {x: -6.99654295e-35, y: -1.07552856e-16, z: -6.50521303e-19, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:locAlign_r_leftBank01
+      position: {x: -.00558702741, y: -2.220446e-18, z: -.143294334}
+      rotation: {x: 0, y: -0, z: -2.71050543e-20, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:locAlign_r_heel01
+      position: {x: -.139742374, y: 6.88338281e-17, z: .069810383}
+      rotation: {x: 1.69406589e-21, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:locAlign_r_toe01
+      position: {x: .277743459, y: -.00573085668, z: 3.5527136e-17}
+      rotation: {x: 1.69406589e-21, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:locAlign_r_foot01
+      position: {x: -.134601891, y: 1.72668688e-08, z: 5.17675232e-07}
+      rotation: {x: 2.27109862e-16, y: 1.07552856e-16, z: -4.07660017e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:grp_r_footBend01
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:rp_r_toe01
+      position: {x: .134601891, y: -1.71241883e-08, z: -5.1642877e-07}
+      rotation: {x: .68465358, y: -.000156454815, z: .728868663, w: .000166557162}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:rp_r_foot01
+      position: {x: -1.40500611e-09, y: 6.42064147e-13, z: 2.24365468e-08}
+      rotation: {x: .68465358, y: -.000156454815, z: .728868663, w: .000166557162}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:rp_r_leg01
+      position: {x: -.0781560987, y: -.334298819, z: -.00488467934}
+      rotation: {x: .68465358, y: -.000156454815, z: .728868663, w: .000166557162}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:hide_elements
+      position: {x: -.00167167664, y: .0205059722, z: .243487999}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:cluster1Handle
+      position: {x: .327900678, y: 1.19398272, z: 1.14599621}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:cluster2Handle
+      position: {x: .235017821, y: 1.18709421, z: .217283607}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:cluster3Handle
+      position: {x: -.961812735, y: 1.19398272, z: 1.14599621}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:cluster4Handle
+      position: {x: -.301313937, y: 1.16761315, z: -.0360324644}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:curve1
+      position: {x: .219992563, y: 1.29999995, z: .399999976}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:curve2
+      position: {x: -.217015773, y: 1.29999995, z: .399999976}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:IK_Dummy_Joint_GRP
+      position: {x: -.00167167664, y: .0205059722, z: .243487999}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:IK_Dummy_Hips
+      position: {x: -3.01361069e-06, y: 2.20204425, z: -.0350005291}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:IK_Dummy_Spine
+      position: {x: -0, y: .145909578, z: .000717155461}
+      rotation: {x: -1.38777878e-17, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:IK_Dummy_Spine1
+      position: {x: -1.08420215e-21, y: .155034706, z: -.00970023125}
+      rotation: {x: -.0513963178, y: 0, z: -0, w: .998678386}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:IK_Dummy_Spine2
+      position: {x: 5.42101074e-22, y: .173680708, z: .00213395082}
+      rotation: {x: -6.9388939e-18, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:IK_Dummy_LeftShoulder
+      position: {x: -.0776468739, y: .391478837, z: -.00797866844}
+      rotation: {x: .566030681, y: -.414482296, z: .592377901, w: .396108657}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:IK_Dummy_RightShoulder
+      position: {x: .0776468739, y: .391355991, z: -.00678847171}
+      rotation: {x: -.561746001, y: -.424106717, z: .578947306, w: -.411576152}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftForeArm_IK_CTRL_parent_POS_GRP
+      position: {x: -.284023464, y: 3.01504469, z: .137653545}
+      rotation: {x: .727686405, y: -.205945984, z: .650455773, w: .0704700053}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftForeArm_IK_CTRL_parent_Global_POS_GRP
+      position: {x: -0, y: -1.13686835e-15, z: 2.84217088e-16}
+      rotation: {x: 1.38777878e-16, y: -5.55111512e-17, z: 1.66533454e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftForeArm_IK_CTRL_parent_AnimData_CONST_GRP
+      position: {x: 2.84217088e-16, y: 5.68434176e-16, z: -8.52651264e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftForeArm_IK_CTRL_POS_GRP
+      position: {x: -.0216652863, y: .539500594, z: .0440923311}
+      rotation: {x: -.0185074527, y: .00290454063, z: -.155014053, w: .987734616}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftForeArm_IK_CTRL_AnimData_CONST_GRP
+      position: {x: 5.3290704e-17, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 1.11022302e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftForeArm_IK_CTRL_In_Rig_CONST_GRP
+      position: {x: -5.3290704e-17, y: -2.84217088e-16, z: 5.68434176e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftForeArm_IK_CTRL
+      position: {x: -0, y: -5.68434176e-16, z: 2.84217088e-16}
+      rotation: {x: 2.15105711e-16, y: -5.55111512e-17, z: 1.38777878e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftForeArm_IK_CTRL_GuideCurve_Cluster1Handle
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: .747492135, y: -.102451965, z: .629855931, w: -.184501275}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHand_CTRLs_GRP
+      position: {x: -.572521389, y: 1.91899467, z: .0864602774}
+      rotation: {x: .632029653, y: -.0010849227, z: .766210914, w: .116009898}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandIndex1_CTRL_POS_GRP
+      position: {x: .0778330564, y: .225317478, z: .00439143972}
+      rotation: {x: .00982943922, y: -.00160574494, z: -.161215693, w: .986868978}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandIndex1_CTRL_AnimData_CONST_GRP
+      position: {x: -7.1054272e-17, y: 2.84217088e-16, z: -2.84217088e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandIndex1_CTRL_In_Rig_CONST_GRP
+      position: {x: -7.1054272e-17, y: 2.84217088e-16, z: -2.84217088e-16}
+      rotation: {x: .20955348, y: .0249580648, z: .115601823, w: .970618725}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandIndex1_CTRL
+      position: {x: -2.84217088e-16, y: 1.13686835e-15, z: -5.68434176e-16}
+      rotation: {x: 3.68628739e-17, y: -1.21430643e-16, z: -5.55111512e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandIndex2_CTRL_POS_GRP
+      position: {x: 8.96221027e-05, y: .0735864118, z: -2.21293317e-09}
+      rotation: {x: -.0186891295, y: -5.66296265e-16, z: -1.49387561e-16, w: .999825358}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandIndex2_CTRL_AnimData_CONST_GRP
+      position: {x: 7.1054272e-17, y: 1.42108544e-16, z: 2.84217088e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandIndex2_CTRL_In_Rig_CONST_GRP
+      position: {x: 7.1054272e-17, y: 1.42108544e-16, z: 2.84217088e-16}
+      rotation: {x: .211034521, y: -2.9673965e-18, z: 6.40651436e-19, w: .977478623}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandIndex2_CTRL
+      position: {x: 1.42108544e-16, y: -2.84217088e-16, z: 5.68434176e-16}
+      rotation: {x: 9.16692937e-17, y: -3.36102673e-18, z: 3.08102947e-34, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandIndex3_CTRL_POS_GRP
+      position: {x: 2.94924916e-06, y: .0655115247, z: 8.36322733e-10}
+      rotation: {x: -.0254488811, y: -6.07053902e-16, z: -1.82041251e-16, w: .999676108}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandIndex3_CTRL_AnimData_CONST_GRP
+      position: {x: -0, y: 0, z: -2.84217088e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandIndex3_CTRL_In_Rig_CONST_GRP
+      position: {x: -0, y: 0, z: -2.84217088e-16}
+      rotation: {x: .211034521, y: -3.39131023e-18, z: 7.32173077e-19, w: .977478623}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandIndex3_CTRL
+      position: {x: -2.84217088e-16, y: 1.42108544e-16, z: 2.84217088e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandMiddle1_CTRL_POS_GRP
+      position: {x: .0279800091, y: .237730905, z: -.0056653982}
+      rotation: {x: .0205675457, y: -2.02559186e-05, z: -.000984639744, w: .999787986}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandMiddle1_CTRL_AnimData_CONST_GRP
+      position: {x: 2.6645352e-17, y: -2.84217088e-16, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandMiddle1_CTRL_In_Rig_CONST_GRP
+      position: {x: 8.881784e-18, y: -2.84217088e-16, z: -1.42108544e-16}
+      rotation: {x: .21087499, y: .00820420776, z: .0380005985, w: .976739705}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandMiddle1_CTRL
+      position: {x: -2.6645352e-17, y: -8.52651264e-16, z: -2.84217088e-16}
+      rotation: {x: 2.01119503e-16, y: 1.15359111e-16, z: 2.08166817e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandMiddle2_CTRL_POS_GRP
+      position: {x: -3.54087661e-06, y: .0750191361, z: 2.9826337e-09}
+      rotation: {x: .0212506112, y: -1.83561833e-16, z: -2.38601654e-17, w: .999774218}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandMiddle2_CTRL_AnimData_CONST_GRP
+      position: {x: -0, y: 0, z: 1.42108544e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandMiddle2_CTRL_In_Rig_CONST_GRP
+      position: {x: -0, y: 0, z: 1.42108544e-16}
+      rotation: {x: .211034521, y: 2.31308987e-19, z: -7.14870661e-18, w: .977478623}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandMiddle2_CTRL
+      position: {x: -7.1054272e-17, y: -2.84217088e-16, z: 2.84217088e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandMiddle3_CTRL_POS_GRP
+      position: {x: 9.18124715e-05, y: .0730941966, z: -1.19670085e-09}
+      rotation: {x: -.0412207358, y: 5.16556508e-18, z: -8.31244584e-17, w: .999150097}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandMiddle3_CTRL_AnimData_CONST_GRP
+      position: {x: 8.881784e-18, y: 2.84217088e-16, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandMiddle3_CTRL_In_Rig_CONST_GRP
+      position: {x: -8.881784e-18, y: 0, z: -1.42108544e-16}
+      rotation: {x: .211034521, y: -4.84413643e-17, z: -2.50355063e-17, w: .977478623}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandMiddle3_CTRL
+      position: {x: -8.881784e-18, y: 0, z: -4.26325632e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandPinky1_CTRL_POS_GRP
+      position: {x: -.066231057, y: .211722255, z: -1.14606246e-05}
+      rotation: {x: .0682559833, y: .0102396514, z: .148004428, w: .986575365}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandPinky1_CTRL_AnimData_CONST_GRP
+      position: {x: -0, y: -2.84217088e-16, z: -1.42108544e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandPinky1_CTRL_In_Rig_CONST_GRP
+      position: {x: -0, y: -2.84217088e-16, z: -2.84217088e-16}
+      rotation: {x: .209537759, y: -.0250897259, z: -.11621166, w: .970545888}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandPinky1_CTRL
+      position: {x: 7.1054272e-17, y: -5.68434176e-16, z: 1.42108544e-16}
+      rotation: {x: 7.72819309e-16, y: -2.14500448e-32, z: -2.77555756e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandPinky2_CTRL_POS_GRP
+      position: {x: 4.80561903e-06, y: .0681358054, z: 1.20969712e-09}
+      rotation: {x: -.00111896952, y: 1.77034876e-16, z: -8.30686866e-17, w: .999999404}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandPinky2_CTRL_AnimData_CONST_GRP
+      position: {x: -0, y: 0, z: -1.42108544e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandPinky2_CTRL_In_Rig_CONST_GRP
+      position: {x: 7.1054272e-17, y: 0, z: 0}
+      rotation: {x: .211034521, y: 3.69911158e-18, z: 4.1793982e-17, w: .977478623}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandPinky2_CTRL
+      position: {x: 2.13162816e-16, y: 2.84217088e-16, z: 1.42108544e-16}
+      rotation: {x: -3.094313e-16, y: 1.90819582e-17, z: -8.32667268e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandPinky3_CTRL_POS_GRP
+      position: {x: 4.64934019e-05, y: .0561227277, z: -1.22219457e-09}
+      rotation: {x: -.0532317422, y: 5.46680888e-17, z: -8.04707439e-17, w: .998582184}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandPinky3_CTRL_AnimData_CONST_GRP
+      position: {x: -0, y: -2.84217088e-16, z: 1.42108544e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandPinky3_CTRL_In_Rig_CONST_GRP
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: .211034521, y: -1.10920725e-16, z: 9.74989433e-18, w: .977478623}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandPinky3_CTRL
+      position: {x: -0, y: -2.84217088e-16, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandRing1_CTRL_POS_GRP
+      position: {x: -.0303693339, y: .233883455, z: -.00293921819}
+      rotation: {x: .0408466533, y: .00194946618, z: .0476323254, w: .998027563}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandRing1_CTRL_AnimData_CONST_GRP
+      position: {x: 1.7763568e-17, y: 2.84217088e-16, z: 1.42108544e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandRing1_CTRL_In_Rig_CONST_GRP
+      position: {x: 3.5527136e-17, y: 5.68434176e-16, z: -1.42108544e-16}
+      rotation: {x: .210671738, y: -.0123686176, z: -.0572894886, w: .975798309}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandRing1_CTRL
+      position: {x: -8.88178367e-17, y: -2.84217088e-16, z: 0}
+      rotation: {x: 5.79733786e-15, y: -4.77048956e-17, z: -3.81639165e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandRing2_CTRL_POS_GRP
+      position: {x: 7.38565068e-05, y: .0719573274, z: -3.22955301e-10}
+      rotation: {x: -.0282164477, y: 1.48231719e-16, z: 6.6659157e-17, w: .999601841}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandRing2_CTRL_AnimData_CONST_GRP
+      position: {x: 1.7763568e-17, y: -2.84217088e-16, z: -2.84217088e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandRing2_CTRL_In_Rig_CONST_GRP
+      position: {x: 3.5527136e-17, y: -2.84217088e-16, z: 0}
+      rotation: {x: .211034521, y: -1.08617536e-16, z: -3.86640398e-17, w: .977478623}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandRing2_CTRL
+      position: {x: 3.5527136e-17, y: -2.84217088e-16, z: 2.84217088e-16}
+      rotation: {x: -3.67691581e-15, y: 8.67361738e-18, z: -2.42861287e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandRing3_CTRL_POS_GRP
+      position: {x: -3.50974478e-05, y: .0672718808, z: 1.65086911e-09}
+      rotation: {x: -.00254964409, y: -1.49783311e-16, z: -1.06200376e-16, w: .999996781}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandRing3_CTRL_AnimData_CONST_GRP
+      position: {x: 3.5527136e-17, y: 0, z: -2.84217088e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandRing3_CTRL_In_Rig_CONST_GRP
+      position: {x: -1.7763568e-17, y: 0, z: -1.42108544e-16}
+      rotation: {x: .211034521, y: 5.45305187e-17, z: 5.97395587e-18, w: .977478623}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandRing3_CTRL
+      position: {x: -8.88178367e-17, y: 8.52651264e-16, z: -1.42108544e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandThumb1_CTRL_POS_GRP
+      position: {x: .0546614602, y: .0465372987, z: .0312451981}
+      rotation: {x: .162668854, y: -.0590718426, z: -.336181939, w: .925759733}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandThumb1_CTRL_AnimData_CONST_GRP
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandThumb1_CTRL_In_Rig_CONST_GRP
+      position: {x: 1.42108544e-16, y: 0, z: 1.42108544e-16}
+      rotation: {x: 2.37056438e-16, y: -1.44365649e-16, z: .0963458642, w: .995347917}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandThumb1_CTRL
+      position: {x: -2.84217088e-16, y: 5.68434176e-16, z: -2.84217088e-16}
+      rotation: {x: -1.2490009e-16, y: 2.77555756e-17, z: -8.32667268e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandThumb2_CTRL_POS_GRP
+      position: {x: -.00213597855, y: .0721531808, z: 3.77418541e-10}
+      rotation: {x: .00603032485, y: -9.70088517e-16, z: 2.27898688e-16, w: .999981821}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandThumb2_CTRL_AnimData_CONST_GRP
+      position: {x: -0, y: 5.68434176e-16, z: -1.42108544e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandThumb2_CTRL_In_Rig_CONST_GRP
+      position: {x: 1.42108544e-16, y: 0, z: 0}
+      rotation: {x: -2.26841855e-16, y: -1.28561668e-16, z: .0756938383, w: .997131109}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandThumb2_CTRL
+      position: {x: -0, y: 5.68434176e-16, z: 1.42108544e-16}
+      rotation: {x: -1.2490009e-16, y: 6.9388939e-17, z: 2.77555756e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandThumb3_CTRL_POS_GRP
+      position: {x: .00474627083, y: .0745338649, z: 1.162477e-09}
+      rotation: {x: -.109998263, y: -8.96582363e-16, z: -9.92246158e-17, w: .99393177}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandThumb3_CTRL_AnimData_CONST_GRP
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandThumb3_CTRL_In_Rig_CONST_GRP
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 8.03688485e-17, y: 3.01252529e-17, z: .113404974, w: .99354887}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHandThumb3_CTRL
+      position: {x: 2.84217088e-16, y: -2.84217088e-16, z: 0}
+      rotation: {x: -1.2490009e-16, y: -1.38777878e-16, z: 8.32667268e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHand_IK_CTRL_grandparent_POS_GRP
+      position: {x: -.284023464, y: 3.01504469, z: .137653545}
+      rotation: {x: .727686405, y: -.205945984, z: .650455773, w: .0704700053}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHand_IK_CTRL_grandparent_Global_POS_GRP
+      position: {x: -0, y: 0, z: 2.84217088e-16}
+      rotation: {x: -1.11022302e-16, y: -5.55111512e-17, z: 2.77555756e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHand_IK_CTRL_grandparent_AnimData_CONST_GRP
+      position: {x: 1.42108544e-16, y: 0, z: -2.84217088e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHand_IK_CTRL_grandparent_inRig_CONST_GRP
+      position: {x: -0, y: 1.13686835e-15, z: -5.68434176e-16}
+      rotation: {x: 2.13370988e-16, y: -5.55111512e-17, z: 1.38777878e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHand_IK_CTRL_parent_POS_GRP
+      position: {x: -.0216652863, y: .539500594, z: .0440923311}
+      rotation: {x: -.0185074527, y: .00290454063, z: -.155014053, w: .987734616}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHand_IK_CTRL_parent_Global_POS_GRP
+      position: {x: -3.5527136e-17, y: 2.84217088e-16, z: 2.84217088e-16}
+      rotation: {x: -5.72458747e-17, y: -9.71445147e-17, z: 4.16333634e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHand_IK_CTRL_parent_AnimData_CONST_GRP
+      position: {x: 1.77635673e-16, y: 5.68434176e-16, z: 1.42108539e-15}
+      rotation: {x: 0, y: 0, z: 1.11022302e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHand_IK_CTRL_POS_GRP
+      position: {x: -.00279469206, y: .523724854, z: .0015300524}
+      rotation: {x: .0410250053, y: .0722255036, z: .0140009476, w: .996445894}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHand_IK_CTRL_AnimData_CONST_GRP
+      position: {x: 1.7763568e-17, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHand_IK_CTRL_In_Rig_CONST_GRP
+      position: {x: 2.6645352e-17, y: -2.84217088e-16, z: -1.42108544e-16}
+      rotation: {x: -1.64093999e-16, y: 5.24753851e-17, z: 2.77555756e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHand_IK_CTRL
+      position: {x: 8.881784e-18, y: 0, z: 0}
+      rotation: {x: -4.60894344e-16, y: -2.86229374e-17, z: 7.63278329e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHand_IK_Handle
+      position: {x: -7.2386541e-16, y: 2.2737367e-15, z: 4.12114775e-15}
+      rotation: {x: .705478549, y: -.0733878985, z: .688391626, w: -.151760727}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHand_Options
+      position: {x: -.572521389, y: 1.91899467, z: .0864602774}
+      rotation: {x: .632029653, y: -.0010849227, z: .766210914, w: .116009898}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightForeArm_IK_CTRL_parent_POS_GRP
+      position: {x: .280610085, y: 3.01485991, z: .137002036}
+      rotation: {x: .735179842, y: .208808541, z: -.64158386, w: .0654211491}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightForeArm_IK_CTRL_parent_Global_POS_GRP
+      position: {x: 1.42108544e-16, y: 0, z: 2.84217088e-16}
+      rotation: {x: 2.77555756e-17, y: 0, z: 8.32667268e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightForeArm_IK_CTRL_parent_AnimData_CONST_GRP
+      position: {x: -0, y: -5.68434176e-16, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightForeArm_IK_CTRL_POS_GRP
+      position: {x: .0232600868, y: .531150877, z: .0277149715}
+      rotation: {x: -.0228389148, y: -.00365107763, z: .157815531, w: .987197697}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightForeArm_IK_CTRL_AnimData_CONST_GRP
+      position: {x: 1.7763568e-17, y: 2.84217088e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -1.11022302e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightForeArm_IK_CTRL_In_Rig_CONST_GRP
+      position: {x: 5.3290704e-17, y: 5.68434176e-16, z: -8.52651264e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightForeArm_IK_CTRL
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -3.33066907e-16, y: 2.77555756e-17, z: 5.55111512e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightForeArm_IK_CTRL_GuideCurve_Cluster1Handle
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: .754884422, y: .104526728, z: -.620960832, w: -.183388576}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHand_CTRLs_GRP
+      position: {x: .385176808, y: 1.98638749, z: .371139556}
+      rotation: {x: .710568666, y: -.056337256, z: -.683210492, w: .158561856}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandIndex1_CTRL_POS_GRP
+      position: {x: -.0785622746, y: .221536025, z: .00431683846}
+      rotation: {x: .0176419299, y: .0030550072, z: .170600638, w: .985177577}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandIndex1_CTRL_AnimData_CONST_GRP
+      position: {x: -1.42108544e-16, y: -2.84217088e-16, z: 1.42108544e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandIndex1_CTRL_In_Rig_CONST_GRP
+      position: {x: -1.42108544e-16, y: -2.84217088e-16, z: 1.42108544e-16}
+      rotation: {x: .257957935, y: -.0409059338, z: -.151182726, w: .953377247}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandIndex1_CTRL
+      position: {x: 7.1054272e-17, y: -5.68434176e-16, z: -1.42108544e-16}
+      rotation: {x: 6.50521303e-18, y: -3.46944695e-18, z: 2.25694915e-35, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandIndex2_CTRL_POS_GRP
+      position: {x: -2.55620525e-05, y: .074076362, z: -9.60612367e-10}
+      rotation: {x: -.0327715129, y: -3.05886176e-16, z: -9.33412176e-17, w: .999462903}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandIndex2_CTRL_AnimData_CONST_GRP
+      position: {x: -0, y: -1.42108544e-16, z: -2.84217088e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandIndex2_CTRL_In_Rig_CONST_GRP
+      position: {x: -0, y: -1.42108544e-16, z: -2.84217088e-16}
+      rotation: {x: .261181176, y: -3.34902186e-18, z: 9.06154234e-19, w: .965289831}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandIndex2_CTRL
+      position: {x: 1.42108544e-16, y: -5.68434176e-16, z: 0}
+      rotation: {x: -1.30104261e-18, y: -1.73472348e-18, z: 2.77555756e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandIndex3_CTRL_POS_GRP
+      position: {x: 8.47252886e-05, y: .0707318783, z: -7.32904626e-10}
+      rotation: {x: .0463405214, y: -3.33468057e-16, z: -2.06813722e-16, w: .998925745}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandIndex3_CTRL_AnimData_CONST_GRP
+      position: {x: 7.1054272e-17, y: 0, z: 1.42108544e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandIndex3_CTRL_In_Rig_CONST_GRP
+      position: {x: -7.1054272e-17, y: 0, z: -1.42108544e-16}
+      rotation: {x: .261181176, y: 1.39472776e-17, z: 2.49798652e-17, w: .965289831}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandIndex3_CTRL
+      position: {x: -7.1054272e-17, y: 5.68434176e-16, z: 0}
+      rotation: {x: 1.11022302e-16, y: -2.77555756e-17, z: 2.77555756e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandMiddle1_CTRL_POS_GRP
+      position: {x: -.0278784409, y: .232068703, z: -.00821125694}
+      rotation: {x: .038829647, y: .000560611079, z: .014425314, w: .999141574}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandMiddle1_CTRL_AnimData_CONST_GRP
+      position: {x: -0, y: 2.84217088e-16, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandMiddle1_CTRL_In_Rig_CONST_GRP
+      position: {x: 7.1054272e-17, y: 0, z: 0}
+      rotation: {x: .260829657, y: -.0135460524, z: -.0500643551, w: .963990629}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandMiddle1_CTRL
+      position: {x: 1.7763568e-17, y: -5.68434176e-16, z: -1.42108544e-16}
+      rotation: {x: -3.26128013e-16, y: 9.2807706e-17, z: 8.32667268e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandMiddle2_CTRL_POS_GRP
+      position: {x: .000961260579, y: .0875442177, z: .00308206421}
+      rotation: {x: -.0123913614, y: -1.38423289e-16, z: -2.94730904e-17, w: .999923229}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandMiddle2_CTRL_AnimData_CONST_GRP
+      position: {x: -5.3290704e-17, y: 0, z: 1.42108544e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandMiddle2_CTRL_In_Rig_CONST_GRP
+      position: {x: -0, y: 2.84217088e-16, z: 1.42108544e-16}
+      rotation: {x: .261181176, y: 3.62461694e-18, z: 1.33960874e-17, w: .965289831}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandMiddle2_CTRL
+      position: {x: 5.3290704e-17, y: -2.84217088e-16, z: 1.42108544e-16}
+      rotation: {x: -3.73399228e-16, y: -1.30104261e-17, z: 2.77555756e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandMiddle3_CTRL_POS_GRP
+      position: {x: .00183454109, y: .0714193955, z: .000647782232}
+      rotation: {x: -.0480043702, y: 1.16893154e-16, z: 6.11930813e-17, w: .998847127}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandMiddle3_CTRL_AnimData_CONST_GRP
+      position: {x: -1.7763568e-17, y: 1.42108544e-16, z: -2.84217088e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandMiddle3_CTRL_In_Rig_CONST_GRP
+      position: {x: 1.7763568e-17, y: 1.42108544e-16, z: -2.84217088e-16}
+      rotation: {x: .261181176, y: 4.81979978e-17, z: 4.44661725e-17, w: .965289831}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandMiddle3_CTRL
+      position: {x: -7.1054272e-17, y: -7.10542693e-16, z: 5.68434176e-16}
+      rotation: {x: -1.39184454e-16, y: -5.6378513e-17, z: -2.77555756e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandPinky1_CTRL_POS_GRP
+      position: {x: .0631590486, y: .209401906, z: -.000145793849}
+      rotation: {x: .0911788121, y: -.0129490243, z: -.140009508, w: .985858083}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandPinky1_CTRL_AnimData_CONST_GRP
+      position: {x: 7.1054272e-17, y: -5.68434176e-16, z: -1.42108544e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandPinky1_CTRL_In_Rig_CONST_GRP
+      position: {x: 7.1054272e-17, y: -5.68434176e-16, z: -1.42108544e-16}
+      rotation: {x: .25793606, y: .0410437509, z: .151692092, w: .953296363}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandPinky1_CTRL
+      position: {x: -0, y: 2.84217088e-16, z: -1.42108544e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandPinky2_CTRL_POS_GRP
+      position: {x: .00256286864, y: .0714738891, z: .00105250755}
+      rotation: {x: -.04594687, y: 2.9432902e-16, z: 2.08032232e-16, w: .998943865}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandPinky2_CTRL_AnimData_CONST_GRP
+      position: {x: -0, y: 0, z: 1.42108544e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandPinky2_CTRL_In_Rig_CONST_GRP
+      position: {x: -7.1054272e-17, y: 0, z: 0}
+      rotation: {x: .261181176, y: 5.72129966e-19, z: -5.76620392e-17, w: .965289831}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandPinky2_CTRL
+      position: {x: -0, y: -2.84217088e-16, z: 1.42108544e-16}
+      rotation: {x: 4.11996826e-17, y: 2.16840434e-17, z: -6.9388939e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandPinky3_CTRL_POS_GRP
+      position: {x: 3.36626763e-05, y: .0488901921, z: -9.37092182e-10}
+      rotation: {x: -.00394770177, y: 4.20877119e-16, z: 1.68196272e-16, w: .999992251}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandPinky3_CTRL_AnimData_CONST_GRP
+      position: {x: 7.1054272e-17, y: 0, z: 1.42108544e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandPinky3_CTRL_In_Rig_CONST_GRP
+      position: {x: 7.1054272e-17, y: 2.84217088e-16, z: -2.84217088e-16}
+      rotation: {x: .261181176, y: 4.47234306e-18, z: -2.99637144e-17, w: .965289831}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandPinky3_CTRL
+      position: {x: 7.1054272e-17, y: 0, z: 5.68434176e-16}
+      rotation: {x: -7.26415456e-17, y: 2.16840434e-17, z: -9.71445147e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandRing1_CTRL_POS_GRP
+      position: {x: .0263731182, y: .228085458, z: -.00613267347}
+      rotation: {x: .0462362133, y: -.00159226649, z: -.034380395, w: .998337448}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandRing1_CTRL_AnimData_CONST_GRP
+      position: {x: -0, y: 0, z: -1.42108544e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandRing1_CTRL_In_Rig_CONST_GRP
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: .260385036, y: .0203772429, z: .0753115043, w: .962347448}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandRing1_CTRL
+      position: {x: 8.88178367e-17, y: -2.84217088e-16, z: 0}
+      rotation: {x: -3.15192479e-15, y: 5.98479599e-17, z: -1.04083409e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandRing2_CTRL_POS_GRP
+      position: {x: .00371067575, y: .0797066689, z: .00160727964}
+      rotation: {x: -.0289496575, y: 2.455931e-16, z: 1.40546208e-17, w: .99958086}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandRing2_CTRL_AnimData_CONST_GRP
+      position: {x: 1.7763568e-17, y: -2.84217088e-16, z: 1.42108544e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandRing2_CTRL_In_Rig_CONST_GRP
+      position: {x: -1.7763568e-17, y: 0, z: 1.42108544e-16}
+      rotation: {x: .261181176, y: -1.09253982e-16, z: -2.78666498e-18, w: .965289831}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandRing2_CTRL
+      position: {x: 5.3290704e-17, y: -8.52651264e-16, z: -1.42108544e-16}
+      rotation: {x: 1.61852411e-15, y: -6.15826834e-17, z: 1.73472348e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandRing3_CTRL_POS_GRP
+      position: {x: -.000711338711, y: .0675624534, z: .000600278145}
+      rotation: {x: -.077693671, y: 1.53491353e-17, z: 1.19614618e-18, w: .996977329}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandRing3_CTRL_AnimData_CONST_GRP
+      position: {x: -1.7763568e-17, y: -1.42108544e-16, z: 2.84217088e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandRing3_CTRL_In_Rig_CONST_GRP
+      position: {x: -1.7763568e-17, y: 0, z: 0}
+      rotation: {x: .261181176, y: 1.18960215e-18, z: -1.46986835e-17, w: .965289831}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandRing3_CTRL
+      position: {x: -1.7763568e-17, y: 1.42108544e-16, z: 2.84217088e-16}
+      rotation: {x: 3.15972882e-34, y: 1.13841228e-17, z: -2.77555756e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandThumb1_CTRL_POS_GRP
+      position: {x: -.052211117, y: .0521420799, z: .0365145914}
+      rotation: {x: .16909343, y: .0606445782, z: .332098663, w: .925980628}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandThumb1_CTRL_AnimData_CONST_GRP
+      position: {x: 1.42108544e-16, y: -2.84217088e-16, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandThumb1_CTRL_In_Rig_CONST_GRP
+      position: {x: 1.42108544e-16, y: -2.84217088e-16, z: 0}
+      rotation: {x: 1.39462916e-16, y: -1.41154422e-18, z: -.10956917, w: .993979216}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandThumb1_CTRL
+      position: {x: -9.94759834e-16, y: 5.68434176e-16, z: -2.84217088e-16}
+      rotation: {x: 6.9388939e-17, y: -1.38777878e-17, z: 2.77555756e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandThumb2_CTRL_POS_GRP
+      position: {x: .000902326952, y: .0715875179, z: -1.28030531e-09}
+      rotation: {x: -.00751164602, y: -7.24960465e-16, z: 4.38655943e-16, w: .999971807}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandThumb2_CTRL_AnimData_CONST_GRP
+      position: {x: -0, y: 2.84217088e-16, z: 2.84217088e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandThumb2_CTRL_In_Rig_CONST_GRP
+      position: {x: -0, y: 2.84217088e-16, z: 2.84217088e-16}
+      rotation: {x: 0, y: -0, z: -.063192375, w: .998001397}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandThumb2_CTRL
+      position: {x: -2.84217088e-16, y: 5.68434176e-16, z: 2.84217088e-16}
+      rotation: {x: -1.11022302e-16, y: 5.55111512e-17, z: -2.77555756e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandThumb3_CTRL_POS_GRP
+      position: {x: -.00536130834, y: .0747750476, z: -6.54418963e-10}
+      rotation: {x: -.0424484722, y: -7.07675063e-16, z: 6.36667921e-16, w: .999098659}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandThumb3_CTRL_AnimData_CONST_GRP
+      position: {x: -0, y: 0, z: 1.42108544e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandThumb3_CTRL_In_Rig_CONST_GRP
+      position: {x: -0, y: 0, z: 1.42108544e-16}
+      rotation: {x: -1.5129767e-17, y: -1.25010474e-17, z: -.0947095975, w: .995504975}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHandThumb3_CTRL
+      position: {x: 4.26325632e-16, y: 8.52651264e-16, z: -2.84217088e-16}
+      rotation: {x: -1.52655666e-16, y: -5.55111512e-17, z: -8.32667268e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHand_IK_CTRL_grandparent_POS_GRP
+      position: {x: .280610085, y: 3.01485991, z: .137002036}
+      rotation: {x: .735179842, y: .208808541, z: -.64158386, w: .0654211491}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHand_IK_CTRL_grandparent_Global_POS_GRP
+      position: {x: 2.84217088e-16, y: -5.68434176e-16, z: -1.13686835e-15}
+      rotation: {x: 5.55111512e-17, y: -1.11022302e-16, z: 1.94289029e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHand_IK_CTRL_grandparent_AnimData_CONST_GRP
+      position: {x: -1.42108544e-16, y: -5.68434176e-16, z: -2.84217088e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHand_IK_CTRL_grandparent_inRig_CONST_GRP
+      position: {x: -2.84217088e-16, y: 5.68434176e-16, z: -2.84217088e-16}
+      rotation: {x: 9.88792381e-17, y: -5.55111512e-17, z: -1.38777878e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHand_IK_CTRL_parent_POS_GRP
+      position: {x: .0232600868, y: .531150877, z: .0277149715}
+      rotation: {x: -.0228389148, y: -.00365107763, z: .157815531, w: .987197697}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHand_IK_CTRL_parent_Global_POS_GRP
+      position: {x: -3.5527136e-17, y: -2.84217088e-16, z: 2.84217088e-16}
+      rotation: {x: -4.82253126e-16, y: 1.38777878e-17, z: 1.38777878e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHand_IK_CTRL_parent_AnimData_CONST_GRP
+      position: {x: 1.24344979e-16, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -1.11022302e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHand_IK_CTRL_POS_GRP
+      position: {x: -.00274429726, y: .529232025, z: .0103365099}
+      rotation: {x: .0413013622, y: -.0856143385, z: -.0188237522, w: .995293975}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHand_IK_CTRL_AnimData_CONST_GRP
+      position: {x: -0, y: 0, z: 1.42108544e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHand_IK_CTRL_In_Rig_CONST_GRP
+      position: {x: 3.5527136e-17, y: 0, z: 0}
+      rotation: {x: 2.12422311e-16, y: -1.1492543e-16, z: -1.38777878e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHand_IK_CTRL
+      position: {x: -3.5527136e-17, y: 0, z: -4.26325632e-16}
+      rotation: {x: 1.38750773e-15, y: 8.50014503e-17, z: 1.11022302e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHand_IK_Handle
+      position: {x: -5.28466132e-16, y: -5.68434176e-16, z: -1.42108539e-15}
+      rotation: {x: .703775346, y: .0768973604, z: -.690436661, w: -.148607954}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHand_Options
+      position: {x: .385176808, y: 1.98638749, z: .371139556}
+      rotation: {x: .710568666, y: -.056337256, z: -.683210492, w: .158561856}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Root_CTRL_POS_GRP
+      position: {x: -.00167469017, y: 2.22255039, z: .208487466}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Root_CTRL_AnimData_CONST_GRP
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Root_CTRL_In_Rig_CONST_GRP
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Root_CTRL
+      position: {x: -.104708239, y: -.0434222743, z: 0}
+      rotation: {x: 0, y: -0, z: -.0362604596, w: .999342382}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:grp_cc_l_thighFK01
+      position: {x: -.240130723, y: -.120805897, z: -.0406799875}
+      rotation: {x: .478870004, y: .520272553, z: .478870004, w: .520272553}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:cc_l_thighFK01
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:grp_cc_l_kneeFK01
+      position: {x: -.890308082, y: -3.37507795e-16, z: -3.5527136e-17}
+      rotation: {x: -6.17325354e-17, y: -2.37998341e-17, z: .095275484, w: .995450974}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:cc_l_kneeFK01
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:grp_cc_l_ankleFK01
+      position: {x: -.845830142, y: -6.21724883e-16, z: -3.19744217e-16}
+      rotation: {x: .0232669506, y: .0208804123, z: -.743881404, w: .667580009}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:cc_l_ankleFK01
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:grp_cc_l_footFK01
+      position: {x: -.078003265, y: -.334334135, z: -.00488431426}
+      rotation: {x: 5.27654531e-10, y: 2.30905016e-06, z: .000228515622, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:cc_l_footFK01
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:grp_cc_r_thighFK01
+      position: {x: .240136996, y: -.120804377, z: -.0406799689}
+      rotation: {x: .520272553, y: -.478870004, z: .520272553, w: -.478870004}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:cc_r_thighFK01
+      position: {x: 1.52406596e-06, y: 1.49459268e-07, z: -2.52173777e-07}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:grp_cc_r_kneeFK01
+      position: {x: .890310705, y: 2.2103599e-07, z: 2.52173777e-07}
+      rotation: {x: 1.58116924e-16, y: 2.88143701e-17, z: .095275484, w: .995450974}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:cc_r_kneeFK01
+      position: {x: -2.67127984e-06, y: 2.90945479e-07, z: -2.52173777e-07}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:grp_cc_r_ankleFK01
+      position: {x: .845829844, y: 5.61763933e-08, z: 2.52173777e-07}
+      rotation: {x: -1.2063426e-16, y: -7.67982009e-17, z: -.168026239, w: .985782564}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:cc_r_ankleFK01
+      position: {x: 3.38705689e-07, y: 5.93812217e-08, z: -2.52173777e-07}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:grp_cc_r_footFK01
+      position: {x: .343347758, y: -4.29413234e-08, z: 2.52173777e-07}
+      rotation: {x: .0194347277, y: .0244903713, z: -.620955348, w: .783222198}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:cc_r_footFK01
+      position: {x: -3.10688684e-08, y: -1.20349188e-08, z: -2.54612985e-07}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Spine_CTRL_POS_GRP
+      position: {x: -1.62630322e-21, y: .145909578, z: .000717155461}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Spine_CTRL_AnimData_CONST_GRP
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -1.38777878e-17, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Spine_CTRL_In_Rig_CONST_GRP
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Spine_CTRL
+      position: {x: 1.62630322e-21, y: 8.52651264e-16, z: -1.3322676e-17}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Spine1_CTRL_POS_GRP
+      position: {x: -1.08420215e-21, y: .155034706, z: -.00970023125}
+      rotation: {x: -.0513963178, y: 0, z: -0, w: .998678386}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Spine1_CTRL_AnimData_CONST_GRP
+      position: {x: -0, y: 0, z: 3.5527136e-17}
+      rotation: {x: 5.88188943e-18, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Spine1_CTRL_In_Rig_CONST_GRP
+      position: {x: -0, y: 0, z: 3.5527136e-17}
+      rotation: {x: 2.08166817e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Spine1_CTRL
+      position: {x: -0, y: -5.68434176e-16, z: 3.5527136e-17}
+      rotation: {x: 1.38777878e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Spine2_CTRL_POS_GRP
+      position: {x: 2.1684043e-21, y: .173680708, z: .00213395082}
+      rotation: {x: 5.55111512e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Spine2_CTRL_AnimData_CONST_GRP
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -6.93889473e-18, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Spine2_CTRL_In_Rig_CONST_GRP
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 6.9388939e-18, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Spine2_CTRL
+      position: {x: -1.08420215e-21, y: 0, z: -3.5527136e-17}
+      rotation: {x: .0258398298, y: -.0924905017, z: .0717595071, w: .992788196}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftShoulder_CTRL_POS_GRP
+      position: {x: -.0776468739, y: .391478837, z: -.00797866844}
+      rotation: {x: .566030681, y: -.414482325, z: .592377901, w: .396108657}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftShoulder_CTRL_AnimData_CONST_GRP
+      position: {x: 3.5527136e-17, y: 0, z: 0}
+      rotation: {x: 9.97465999e-18, y: -8.67361738e-19, z: 3.46944695e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftShoulder_CTRL_In_Rig_CONST_GRP
+      position: {x: 3.5527136e-17, y: 1.42108544e-16, z: 0}
+      rotation: {x: -5.31259065e-17, y: -1.38777878e-17, z: 2.60208521e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftShoulder_CTRL
+      position: {x: -2.48689959e-16, y: 2.84217088e-16, z: 0}
+      rotation: {x: 3.91342774e-16, y: 4.85722573e-17, z: -1.21430643e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftArm_FK_CTRL_POS_GRP
+      position: {x: .00407831091, y: .216270894, z: -.00451125065}
+      rotation: {x: .393849343, y: -.151984572, z: .0662082806, w: .904101729}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftArm_FK_CTRL_AnimData_CONST_GRP
+      position: {x: -1.42108544e-16, y: -5.68434176e-16, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftArm_FK_CTRL_In_Rig_CONST_GRP
+      position: {x: 1.42108544e-16, y: 0, z: -2.84217088e-16}
+      rotation: {x: 1.71737624e-16, y: 1.38777878e-17, z: -4.16333634e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftArm_FK_CTRL
+      position: {x: -0, y: 1.13686835e-15, z: -5.68434176e-16}
+      rotation: {x: .039402768, y: .0241954532, z: -.059217453, w: .997173667}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftForeArm_FK_CTRL_POS_GRP
+      position: {x: -.0216652863, y: .539500594, z: .0440923311}
+      rotation: {x: -.0185074527, y: .00290454063, z: -.155014053, w: .987734616}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftForeArm_FK_CTRL_AnimData_CONST_GRP
+      position: {x: 5.3290704e-17, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 1.11022302e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftForeArm_FK_CTRL_In_Rig_CONST_GRP
+      position: {x: -8.88178367e-17, y: -2.84217088e-16, z: 0}
+      rotation: {x: -5.72458747e-17, y: -9.71445147e-17, z: 4.16333634e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftForeArm_FK_CTRL
+      position: {x: 3.5527136e-17, y: -5.68434176e-16, z: 2.84217088e-16}
+      rotation: {x: 2.15105711e-16, y: -5.55111512e-17, z: 1.38777878e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHand_FK_CTRL_POS_GRP
+      position: {x: -.00279469206, y: .523724854, z: .0015300524}
+      rotation: {x: .0410250053, y: .0722255036, z: .0140009476, w: .996445894}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHand_FK_CTRL_AnimData_CONST_GRP
+      position: {x: 1.7763568e-17, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHand_FK_CTRL_In_Rig_CONST_GRP
+      position: {x: 2.6645352e-17, y: -2.84217088e-16, z: -1.42108544e-16}
+      rotation: {x: -1.64093999e-16, y: 5.24753851e-17, z: 2.77555756e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftHand_FK_CTRL
+      position: {x: 8.881784e-18, y: 0, z: 0}
+      rotation: {x: -4.60894344e-16, y: -2.86229374e-17, z: 7.63278329e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Neck_CTRL_POS_GRP
+      position: {x: 1.42116128e-16, y: .473839223, z: .00518233981}
+      rotation: {x: .173648193, y: -0, z: -0, w: .984807789}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Neck_CTRL_AnimData_CONST_GRP
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Neck_CTRL_In_Rig_CONST_GRP
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Neck_CTRL
+      position: {x: -1.08420215e-21, y: 1.70530253e-15, z: 1.42108544e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Head_CTRL_POS_GRP
+      position: {x: -1.42110714e-16, y: .168913513, z: .000371956849}
+      rotation: {x: -.128432125, y: 0, z: -0, w: .991718292}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Head_CTRL_AnimData_CONST_GRP
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -1.38777878e-17, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Head_CTRL_In_Rig_CONST_GRP
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.00283694081, y: 0, z: -0, w: .999996006}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Head_CTRL
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: .115396939, y: -.019279683, z: .00626410451, w: .993112564}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Head_CTRL_Inherit_Rotation_GRP
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 8.67361738e-19, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightShoulder_CTRL_POS_GRP
+      position: {x: .0776468739, y: .391355991, z: -.00678847171}
+      rotation: {x: -.561746061, y: -.424106717, z: .578947246, w: -.411576182}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightShoulder_CTRL_AnimData_CONST_GRP
+      position: {x: -3.5527136e-17, y: 0, z: -5.68434176e-16}
+      rotation: {x: -2.1434677e-16, y: 3.71832373e-34, z: -1.73472348e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightShoulder_CTRL_In_Rig_CONST_GRP
+      position: {x: -3.5527136e-17, y: -1.42108544e-16, z: 0}
+      rotation: {x: 8.00493569e-16, y: 1.2490009e-16, z: 7.76288755e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightShoulder_CTRL
+      position: {x: -3.5527136e-17, y: -1.42108544e-16, z: 1.70530253e-15}
+      rotation: {x: 4.73091618e-16, y: 9.02056208e-17, z: -3.07913417e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightArm_FK_CTRL_POS_GRP
+      position: {x: .000919999962, y: .216289967, z: .00487129996}
+      rotation: {x: .415459543, y: .160827264, z: -.0662023947, w: .892829895}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightArm_FK_CTRL_AnimData_CONST_GRP
+      position: {x: 1.42108544e-16, y: -5.68434176e-16, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightArm_FK_CTRL_In_Rig_CONST_GRP
+      position: {x: -1.42108544e-16, y: -5.68434176e-16, z: -2.84217088e-16}
+      rotation: {x: 1.52655666e-16, y: 5.55111512e-17, z: 2.77555756e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightArm_FK_CTRL
+      position: {x: -2.84217088e-16, y: 5.68434176e-16, z: -2.84217088e-16}
+      rotation: {x: .118982688, y: -.0808094367, z: .117137671, w: .982645273}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightForeArm_FK_CTRL_POS_GRP
+      position: {x: .0232600868, y: .531150877, z: .0277149715}
+      rotation: {x: -.0228389148, y: -.00365107763, z: .157815531, w: .987197697}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightForeArm_FK_CTRL_AnimData_CONST_GRP
+      position: {x: 1.7763568e-17, y: 2.84217088e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -1.11022302e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightForeArm_FK_CTRL_In_Rig_CONST_GRP
+      position: {x: 3.5527136e-17, y: -2.84217088e-16, z: 0}
+      rotation: {x: -4.82253126e-16, y: 1.38777878e-17, z: 1.38777878e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightForeArm_FK_CTRL
+      position: {x: 1.42108544e-16, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHand_FK_CTRL_POS_GRP
+      position: {x: -.00274429726, y: .529232025, z: .0103365099}
+      rotation: {x: .0413013622, y: -.0856143385, z: -.0188237522, w: .995293975}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHand_FK_CTRL_AnimData_CONST_GRP
+      position: {x: -0, y: 0, z: 1.42108544e-16}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHand_FK_CTRL_In_Rig_CONST_GRP
+      position: {x: 3.5527136e-17, y: 0, z: 0}
+      rotation: {x: 2.12422311e-16, y: -1.1492543e-16, z: -1.38777878e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightHand_FK_CTRL
+      position: {x: -3.5527136e-17, y: -2.84217088e-16, z: -4.26325632e-16}
+      rotation: {x: 1.38750773e-15, y: 8.50014503e-17, z: 1.11022302e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:switcher_l_IK_FK01
+      position: {x: -.800905943, y: 1.21448863, z: -.52497381}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:switcher_r_IK_FK01
+      position: {x: .797562599, y: 1.21448863, z: -.52497381}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Joint_GRP
+      position: {x: .00167167664, y: -.0205059722, z: -.243487999}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_Joint_GRP
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_Hips
+      position: {x: -.00167469017, y: 2.22255039, z: .208487466}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_LeftUpLeg
+      position: {x: -.213863373, y: -.0989549235, z: -.00489121908}
+      rotation: {x: .000132188841, y: -.0130343102, z: .999863625, w: .0101402225}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_LeftLeg
+      position: {x: -1.06929532e-09, y: .928496122, z: 9.16829057e-10}
+      rotation: {x: -.0077375453, y: -1.34811507e-05, z: .00174224854, w: .999968588}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_LeftFoot
+      position: {x: .00317192753, y: .839199483, z: .00781927723}
+      rotation: {x: .426023453, y: -.0642221123, z: .0303354263, w: .901919842}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_LeftToeBase
+      position: {x: -.00494285859, y: .315008372, z: -.153805986}
+      rotation: {x: .37048319, y: .0104973949, z: -.00418737344, w: .928770423}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_LeftToe_End
+      position: {x: .00124355755, y: .0773731992, z: -.00025853698}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_RightUpLeg
+      position: {x: .213863373, y: -.0989549235, z: -.00541584706}
+      rotation: {x: -.000134015994, y: -.0132145993, z: .9998613, w: -.0101401033}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_RightLeg
+      position: {x: 3.73684833e-10, y: .928504944, z: -5.77883241e-10}
+      rotation: {x: -.0193814989, y: 3.38693353e-05, z: -.00174717768, w: .999810636}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_RightFoot
+      position: {x: -.0031806624, y: .838799715, z: .0273531545}
+      rotation: {x: .475712985, y: .0516517907, z: -.0279972777, w: .877636254}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_RightToeBase
+      position: {x: .00751728285, y: .301087558, z: -.180200413}
+      rotation: {x: .329657584, y: .00784846675, z: -.0027406048, w: .944064021}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_RightToe_End
+      position: {x: -.00124678842, y: .076771006, z: -.000296303391}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_Spine
+      position: {x: -0, y: .145909578, z: .000717155461}
+      rotation: {x: -1.38777878e-17, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_Spine1
+      position: {x: -1.08420215e-21, y: .155034706, z: -.00970023125}
+      rotation: {x: -.0513963178, y: 0, z: -0, w: .998678386}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_Spine2
+      position: {x: 5.42101074e-22, y: .173680708, z: .00213395082}
+      rotation: {x: -6.9388939e-18, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_LeftShoulder
+      position: {x: -.0776468739, y: .391478837, z: -.00797866844}
+      rotation: {x: .566030681, y: -.414482325, z: .592377901, w: .396108657}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_LeftArm
+      position: {x: .00407831091, y: .216270894, z: -.00451125065}
+      rotation: {x: .393849343, y: -.151984572, z: .0662082806, w: .904101729}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_LeftForeArm
+      position: {x: -.0216652863, y: .539500594, z: .0440923311}
+      rotation: {x: -.0185074527, y: .00290454063, z: -.155014053, w: .987734616}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_LeftHand
+      position: {x: -.00279469206, y: .523724854, z: .0015300524}
+      rotation: {x: .0410250053, y: .0722255036, z: .0140009476, w: .996445894}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_LeftHandIndex1
+      position: {x: .0778330564, y: .225317478, z: .00439143972}
+      rotation: {x: .00982943922, y: -.00160574494, z: -.161215693, w: .986868978}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_LeftHandIndex2
+      position: {x: 8.96221027e-05, y: .0735864118, z: -2.21293339e-09}
+      rotation: {x: -.0186891295, y: 0, z: -0, w: .999825358}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_LeftHandIndex3
+      position: {x: 2.94924916e-06, y: .0655115247, z: 8.36324121e-10}
+      rotation: {x: -.0254488811, y: 0, z: -0, w: .999676108}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_LeftHandIndex4
+      position: {x: -9.25816494e-05, y: .0614697784, z: 3.54505869e-09}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_LeftHandMiddle1
+      position: {x: .0279800091, y: .237730905, z: -.0056653982}
+      rotation: {x: .0205675457, y: -2.02559186e-05, z: -.000984639744, w: .999787986}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_LeftHandMiddle2
+      position: {x: -3.54087661e-06, y: .0750191361, z: 2.98263503e-09}
+      rotation: {x: .0212506112, y: -0, z: -0, w: .999774218}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_LeftHandMiddle3
+      position: {x: 9.18124715e-05, y: .0730941966, z: -1.1967014e-09}
+      rotation: {x: -.0412207358, y: 0, z: -0, w: .999150097}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_LeftHandMiddle4
+      position: {x: -8.82718959e-05, y: .0672632456, z: 2.62858468e-09}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_LeftHandPinky1
+      position: {x: -.066231057, y: .211722255, z: -1.14606246e-05}
+      rotation: {x: .0682559833, y: .0102396514, z: .148004428, w: .986575365}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_LeftHandPinky2
+      position: {x: 4.80561903e-06, y: .0681358054, z: 1.20969623e-09}
+      rotation: {x: -.00111896952, y: 0, z: -0, w: .999999404}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_LeftHandPinky3
+      position: {x: 4.64934019e-05, y: .0561227277, z: -1.22219457e-09}
+      rotation: {x: -.0532317422, y: 0, z: -0, w: .998582184}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_LeftHandPinky4
+      position: {x: -5.13002233e-05, y: .0515940525, z: -3.09512832e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_LeftHandRing1
+      position: {x: -.0303693339, y: .233883455, z: -.00293921819}
+      rotation: {x: .0408466533, y: .00194946618, z: .0476323254, w: .998027563}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_LeftHandRing2
+      position: {x: 7.38565068e-05, y: .0719573274, z: -3.22955579e-10}
+      rotation: {x: -.0282164477, y: 0, z: -0, w: .999601841}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_LeftHandRing3
+      position: {x: -3.50974478e-05, y: .0672718808, z: 1.65086811e-09}
+      rotation: {x: -.00254964409, y: 0, z: -0, w: .999996781}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_LeftHandRing4
+      position: {x: -3.87591426e-05, y: .0605335981, z: -8.03926481e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_LeftHandThumb1
+      position: {x: .0546614602, y: .0465372987, z: .0312451981}
+      rotation: {x: .162668854, y: -.0590718426, z: -.336181939, w: .925759733}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_LeftHandThumb2
+      position: {x: -.00213597855, y: .0721531808, z: 3.77418402e-10}
+      rotation: {x: .00603032485, y: -0, z: -0, w: .999981821}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_LeftHandThumb3
+      position: {x: .00474627083, y: .0745338649, z: 1.16247734e-09}
+      rotation: {x: -.109998263, y: 0, z: -0, w: .99393177}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_LeftHandThumb4
+      position: {x: -.00261029485, y: .0697365925, z: 1.18771581e-09}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_Neck
+      position: {x: 1.42116128e-16, y: .473839223, z: .00518233981}
+      rotation: {x: .173648193, y: -0, z: -0, w: .984807789}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_Head
+      position: {x: -1.42111257e-16, y: .168913513, z: .000371956849}
+      rotation: {x: -.128432125, y: 0, z: -0, w: .991718292}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_HeadTop_End
+      position: {x: 7.58941524e-21, y: .619904637, z: .00338766421}
+      rotation: {x: .100622192, y: -0, z: -0, w: .994924724}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_RightShoulder
+      position: {x: .0776468739, y: .391355991, z: -.00678847171}
+      rotation: {x: -.561746061, y: -.424106717, z: .578947246, w: -.411576182}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_RightArm
+      position: {x: .000919999962, y: .216289967, z: .00487129996}
+      rotation: {x: .415459543, y: .160827264, z: -.0662023947, w: .892829895}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_RightForeArm
+      position: {x: .0232600868, y: .531150877, z: .0277149715}
+      rotation: {x: -.0228389148, y: -.00365107763, z: .157815531, w: .987197697}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_RightHand
+      position: {x: -.00274429726, y: .529232025, z: .0103365099}
+      rotation: {x: .0413013622, y: -.0856143385, z: -.0188237522, w: .995293975}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_RightHandIndex1
+      position: {x: -.0785622746, y: .221536025, z: .00431683846}
+      rotation: {x: .0176419299, y: .0030550072, z: .170600638, w: .985177577}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_RightHandIndex2
+      position: {x: -2.55620525e-05, y: .074076362, z: -9.60611812e-10}
+      rotation: {x: -.0327715129, y: 0, z: -0, w: .999462903}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_RightHandIndex3
+      position: {x: 8.47252886e-05, y: .0707318783, z: -7.32905792e-10}
+      rotation: {x: .0463405214, y: -0, z: -0, w: .998925745}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_RightHandIndex4
+      position: {x: -5.91650969e-05, y: .0652088597, z: -2.23182181e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_RightHandMiddle1
+      position: {x: -.0278784409, y: .232068703, z: -.00821125694}
+      rotation: {x: .038829647, y: .000560611079, z: .014425314, w: .999141574}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_RightHandMiddle2
+      position: {x: .000961260579, y: .0875442177, z: .00308206421}
+      rotation: {x: -.0123913614, y: 0, z: -0, w: .999923229}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_RightHandMiddle3
+      position: {x: .00183454109, y: .0714193955, z: .000647782232}
+      rotation: {x: -.0480043702, y: 0, z: -0, w: .998847127}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_RightHandMiddle4
+      position: {x: .00170753628, y: .0694313049, z: .00226080278}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_RightHandPinky1
+      position: {x: .0631590486, y: .209401906, z: -.000145793849}
+      rotation: {x: .0911788121, y: -.0129490243, z: -.140009508, w: .985858083}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_RightHandPinky2
+      position: {x: .00256286864, y: .0714738891, z: .00105250755}
+      rotation: {x: -.04594687, y: 0, z: -0, w: .998943865}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_RightHandPinky3
+      position: {x: 3.36626763e-05, y: .0488901921, z: -9.37091738e-10}
+      rotation: {x: -.00394770177, y: 0, z: -0, w: .999992251}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_RightHandPinky4
+      position: {x: -1.22785259e-05, y: .0426242538, z: -8.25220059e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_RightHandRing1
+      position: {x: .0263731182, y: .228085458, z: -.00613267347}
+      rotation: {x: .0462362133, y: -.00159226649, z: -.034380395, w: .998337448}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_RightHandRing2
+      position: {x: .00371067575, y: .0797066689, z: .00160727964}
+      rotation: {x: -.0289496575, y: 0, z: -0, w: .99958086}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_RightHandRing3
+      position: {x: -.000711338711, y: .0675624534, z: .000600278145}
+      rotation: {x: -.077693671, y: 0, z: -0, w: .996977329}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_RightHandRing4
+      position: {x: .00171282841, y: .0616914257, z: .0102728102}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_RightHandThumb1
+      position: {x: -.052211117, y: .0521420799, z: .0365145914}
+      rotation: {x: .16909343, y: .0606445782, z: .332098663, w: .925980628}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_RightHandThumb2
+      position: {x: .000902326952, y: .0715875179, z: -1.28030542e-09}
+      rotation: {x: -.00751164602, y: 0, z: -0, w: .999971807}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_RightHandThumb3
+      position: {x: -.00536130834, y: .0747750476, z: -6.54418353e-10}
+      rotation: {x: -.0424484722, y: 0, z: -0, w: .999098659}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:AnimData_RightHandThumb4
+      position: {x: .00445897644, y: .0702903122, z: -1.3301924e-09}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_Joint_GRP
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_Hips
+      position: {x: .00708033424, y: 2.25983715, z: .208487466}
+      rotation: {x: 0, y: -0, z: -.0362604596, w: .999342382}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_Spine
+      position: {x: -0, y: .145909578, z: .000717155461}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_Spine1
+      position: {x: -5.42101074e-22, y: .155034706, z: -.00970023125}
+      rotation: {x: -.0513963178, y: 0, z: -0, w: .998678386}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_Spine2
+      position: {x: -0, y: .173680708, z: .00213395082}
+      rotation: {x: .0258398298, y: -.0924905017, z: .0717595071, w: .992788196}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_LeftShoulder
+      position: {x: -.0776468739, y: .391478837, z: -.00797866844}
+      rotation: {x: .548788071, y: -.437979579, z: .561461091, w: .437912077}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_LeftArm
+      position: {x: .00407831091, y: .216270894, z: -.00451125065}
+      rotation: {x: -.199356273, y: -.117844522, z: -.0574101508, w: .971119881}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_LeftForeArm
+      position: {x: -.0216652863, y: .539500594, z: .0440923311}
+      rotation: {x: .019924162, y: -.000693514885, z: -.0161153954, w: .9996714}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_LeftHand
+      position: {x: -.00279469206, y: .523724854, z: .0015300524}
+      rotation: {x: .0410250053, y: .0722255036, z: .0140009476, w: .996445894}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_LeftHandIndex1
+      position: {x: .0778330564, y: .225317478, z: .00439143972}
+      rotation: {x: .220180482, y: -.011847836, z: -.0418132953, w: .974490583}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_LeftHandIndex2
+      position: {x: 8.96221027e-05, y: .0735864118, z: -2.21293361e-09}
+      rotation: {x: .192729443, y: -0, z: -0, w: .981251955}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_LeftHandIndex3
+      position: {x: 2.94924916e-06, y: .0655115247, z: 8.36324288e-10}
+      rotation: {x: .18609044, y: -0, z: -0, w: .98253262}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_LeftHandIndex4
+      position: {x: -9.25816494e-05, y: .0614697784, z: 3.54505914e-09}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_LeftHandMiddle1
+      position: {x: .0279800091, y: .237730905, z: -.0056653982}
+      rotation: {x: .0580628738, y: .0171668511, z: -.0318772905, w: .997656226}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_LeftHandMiddle2
+      position: {x: -3.54087661e-06, y: .0750191361, z: 2.98263436e-09}
+      rotation: {x: .0317513049, y: .000124692859, z: .000564336486, w: .999495625}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_LeftHandMiddle3
+      position: {x: 9.18124715e-05, y: .0730941966, z: -1.19670107e-09}
+      rotation: {x: .0349741802, y: -3.81469636e-06, z: -.00102417148, w: .999387741}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_LeftHandMiddle4
+      position: {x: -8.82718959e-05, y: .0672632456, z: 2.62858468e-09}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_LeftHandPinky1
+      position: {x: -.066231057, y: .211722255, z: -1.14606246e-05}
+      rotation: {x: .0594617762, y: .0378168114, z: -.0390869863, w: .996747911}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_LeftHandPinky2
+      position: {x: 4.80561903e-06, y: .0681358054, z: 1.20969612e-09}
+      rotation: {x: .0329079889, y: 8.1926577e-05, z: .000320360035, w: .999458313}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_LeftHandPinky3
+      position: {x: 4.64934019e-05, y: .0561227277, z: -1.22219457e-09}
+      rotation: {x: .0355883464, y: -1.04904148e-05, z: -.000709011976, w: .999366283}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_LeftHandPinky4
+      position: {x: -5.13002233e-05, y: .0515940525, z: -3.09512693e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_LeftHandRing1
+      position: {x: -.0303693339, y: .233883455, z: -.00293921819}
+      rotation: {x: .0615205914, y: .0132922828, z: -.04572846, w: .996969163}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_LeftHandRing2
+      position: {x: 7.38565068e-05, y: .0719573274, z: -3.22955884e-10}
+      rotation: {x: .0343068801, y: 3.83555853e-05, z: -.000631675066, w: .999411225}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_LeftHandRing3
+      position: {x: -3.50974478e-05, y: .0672718808, z: 1.65086833e-09}
+      rotation: {x: .0329833962, y: -.00010466572, z: -4.94867381e-05, w: .999455929}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_LeftHandRing4
+      position: {x: -3.87591426e-05, y: .0605335981, z: -8.03926647e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_LeftHandThumb1
+      position: {x: .0546614602, y: .0465372987, z: .0312451981}
+      rotation: {x: .0231715273, y: -.0163133424, z: -.401081622, w: .915603876}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_LeftHandThumb2
+      position: {x: -.00213597855, y: .0721531808, z: 3.77418541e-10}
+      rotation: {x: .0060130246, y: -.000456458481, z: .0756924674, w: .997112989}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_LeftHandThumb3
+      position: {x: .00474627083, y: .0745338649, z: 1.16247711e-09}
+      rotation: {x: -.0186549462, y: .0114996256, z: -.0225774292, w: .999504864}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_LeftHandThumb4
+      position: {x: -.00261029485, y: .0697365925, z: 1.18771581e-09}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftForeArm_IK_BakingLOC
+      position: {x: -.270866394, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:FK_LeftArm
+      position: {x: .00407831091, y: .216270894, z: -.00451125065}
+      rotation: {x: .435758471, y: -.103748299, z: .0280005224, w: .893625677}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:FK_LeftForeArm
+      position: {x: -.0216652863, y: .539500594, z: .0440923311}
+      rotation: {x: -.0185074527, y: .00290454063, z: -.155014053, w: .987734616}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:FK_LeftHand
+      position: {x: -.00279469206, y: .523724854, z: .0015300524}
+      rotation: {x: .0410250053, y: .0722255036, z: .0140009476, w: .996445894}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:IK_LeftArm
+      position: {x: .00407831091, y: .216270894, z: -.00451125065}
+      rotation: {x: .394987255, y: .0692350939, z: .249348298, w: .881485701}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:IK_LeftForeArm
+      position: {x: -.0216652863, y: .539500594, z: .0440923311}
+      rotation: {x: -.0140622603, y: -.0636817291, z: -.429603279, w: .90065974}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:IK_LeftHand
+      position: {x: -.00279469206, y: .523724854, z: .0015300524}
+      rotation: {x: .0986477807, y: -.192741975, z: .156416714, w: .963666439}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:LeftForeArm_IK_CTRL_GuideCurve_Cluster2Handle
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: .693019986, y: -.0938466415, z: .687300622, w: -.196300775}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_Neck
+      position: {x: 1.42115585e-16, y: .473839223, z: .00518233981}
+      rotation: {x: .173648193, y: -0, z: -0, w: .984807789}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_Head
+      position: {x: -1.42110714e-16, y: .168913513, z: .000371956849}
+      rotation: {x: -.0159423649, y: -.0182907805, z: .00874028262, w: .999667406}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_HeadTop_End
+      position: {x: 7.04731386e-21, y: .619904637, z: .00338766421}
+      rotation: {x: .100622192, y: -0, z: -0, w: .994924724}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:mesh_l_eye
+      position: {x: -.130583376, y: .235207096, z: .111124426}
+      rotation: {x: -.202591464, y: .147784233, z: -.0539800711, w: .966541588}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:mesh_r_eye
+      position: {x: .132055208, y: .237155229, z: .110426225}
+      rotation: {x: -.165233269, y: .336254001, z: -.0694347247, w: .924559355}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_RightShoulder
+      position: {x: .0776468739, y: .391355991, z: -.00678847171}
+      rotation: {x: -.561746061, y: -.424106717, z: .578947246, w: -.411576182}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_RightArm
+      position: {x: .000919999962, y: .216289967, z: .00487129996}
+      rotation: {x: -.113450035, y: .0803589448, z: -.0153834503, w: .990169168}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_RightForeArm
+      position: {x: .0232600868, y: .531150877, z: .0277149715}
+      rotation: {x: .00127814675, y: -.000214070024, z: .00861841254, w: .999962032}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_RightHand
+      position: {x: -.00274429726, y: .529232025, z: .0103365099}
+      rotation: {x: .0413013622, y: -.0856143385, z: -.0188237522, w: .995293975}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_RightHandIndex1
+      position: {x: -.0785622746, y: .221536025, z: .00431683846}
+      rotation: {x: .277470529, y: .0092879124, z: .0121952137, w: .96061182}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_RightHandIndex2
+      position: {x: -2.55620525e-05, y: .074076362, z: -9.6061159e-10}
+      rotation: {x: .229406878, y: -0, z: -0, w: .973330617}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_RightHandIndex3
+      position: {x: 8.47252886e-05, y: .0707318783, z: -7.32906069e-10}
+      rotation: {x: .305632621, y: -0, z: -0, w: .95214951}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_RightHandIndex4
+      position: {x: -5.91650969e-05, y: .0652088597, z: -2.23182042e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_RightHandMiddle1
+      position: {x: -.0278784409, y: .232068703, z: -.00821125694}
+      rotation: {x: .0328925475, y: -.0231844876, z: .0452456661, w: .998165071}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_RightHandMiddle2
+      position: {x: .000961260579, y: .0875442177, z: .00308206421}
+      rotation: {x: .044604484, y: .00373899844, z: .00648364285, w: .998976707}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_RightHandMiddle3
+      position: {x: .00183454109, y: .0714193955, z: .000647782232}
+      rotation: {x: .0204623695, y: .00502714282, z: -.000372275535, w: .999777913}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_RightHandMiddle4
+      position: {x: .00170753628, y: .0694313049, z: .00226080278}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_RightHandPinky1
+      position: {x: .0631590486, y: .209401906, z: -.000145793849}
+      rotation: {x: .0443274975, y: -.0366498977, z: .0686802045, w: .995979428}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_RightHandPinky2
+      position: {x: .00256286864, y: .0714738891, z: .00105250755}
+      rotation: {x: .0402166322, y: .00341820507, z: -.0148477461, w: .999074817}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_RightHandPinky3
+      position: {x: 3.36626763e-05, y: .0488901921, z: -9.37091627e-10}
+      rotation: {x: .0303792395, y: 4.71770581e-05, z: -.000432282541, w: .999538422}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_RightHandPinky4
+      position: {x: -1.22785259e-05, y: .0426242538, z: -8.25220059e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_RightHandRing1
+      position: {x: .0263731182, y: .228085458, z: -.00613267347}
+      rotation: {x: .0423875041, y: -.00326883723, z: .0754162818, w: .996245503}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_RightHandRing2
+      position: {x: .00371067575, y: .0797066689, z: .00160727964}
+      rotation: {x: .0373499505, y: .00399285369, z: -.0245858766, w: .998991847}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_RightHandRing3
+      position: {x: -.000711338711, y: .0675624534, z: .000600278145}
+      rotation: {x: -.047954604, y: .000558435568, z: .0169538166, w: .998705506}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_RightHandRing4
+      position: {x: .00171282841, y: .0616914257, z: .0102728102}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_RightHandThumb1
+      position: {x: -.052211117, y: .0521420799, z: .0365145914}
+      rotation: {x: .0431578197, y: .0218639467, z: .390677094, w: .919255614}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_RightHandThumb2
+      position: {x: .000902326952, y: .0715875179, z: -1.28030542e-09}
+      rotation: {x: -.0074966331, y: -.000474678731, z: -.0631905869, w: .997973204}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_RightHandThumb3
+      position: {x: -.00536130834, y: .0747750476, z: -6.54418242e-10}
+      rotation: {x: -.00889174826, y: -.00393548375, z: .033429306, w: .999393761}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:Bind_RightHandThumb4
+      position: {x: .00445897644, y: .0702903122, z: -1.33019251e-09}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightForeArm_IK_BakingLOC
+      position: {x: .266190916, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:FK_RightArm
+      position: {x: .000919999962, y: .216289967, z: .00487129996}
+      rotation: {x: .527969837, y: .0293441582, z: -.0131781651, w: .848653734}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:FK_RightForeArm
+      position: {x: .0232600868, y: .531150877, z: .0277149715}
+      rotation: {x: -.0228389148, y: -.00365107763, z: .157815531, w: .987197697}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:FK_RightHand
+      position: {x: -.00274429726, y: .529232025, z: .0103365099}
+      rotation: {x: .0413013622, y: -.0856143385, z: -.0188237522, w: .995293975}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:IK_RightArm
+      position: {x: .000919999962, y: .216289967, z: .00487129996}
+      rotation: {x: .417487055, y: .116554335, z: -.0312482007, w: .900634885}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:IK_RightForeArm
+      position: {x: .0232600868, y: .531150877, z: .0277149715}
+      rotation: {x: .0181409363, y: .100808054, z: -.0207239296, w: .994524598}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:IK_RightHand
+      position: {x: -.00274429726, y: .529232025, z: .0103365099}
+      rotation: {x: .0553057343, y: -.241698757, z: .113120206, w: .962146997}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:RightForeArm_IK_CTRL_GuideCurve_Cluster2Handle
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: .735468984, y: .105091311, z: -.641799808, w: -.190089896}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:bn_l_thigh01
+      position: {x: -.240130723, y: -.120805897, z: -.0406799875}
+      rotation: {x: .319867015, y: .393753916, z: .640335023, w: .576726973}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:bn_l_knee01
+      position: {x: -.890308082, y: -3.19744217e-16, z: 1.77493696e-32}
+      rotation: {x: 9.90995978e-19, y: 1.83905329e-17, z: .136578083, w: .990629315}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:bn_l_ankle01
+      position: {x: -.845830142, y: -3.37507795e-16, z: 7.1054272e-17}
+      rotation: {x: .0212642476, y: -.0293945856, z: -.793927491, w: .606929183}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:bn_l_foot01
+      position: {x: -.078003265, y: -.334334135, z: -.00488431426}
+      rotation: {x: -5.27654032e-10, y: 2.30904993e-06, z: .000228515622, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:be_l_toeEnd01
+      position: {x: -.13393341, y: -.000425214123, z: 4.18582567e-05}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:bn_r_thigh01
+      position: {x: .240136996, y: -.120804377, z: -.0406799689}
+      rotation: {x: .638648391, y: -.376842976, z: .512852728, w: -.432550222}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:bn_r_knee01
+      position: {x: .890312254, y: 3.70495258e-07, z: -4.97379917e-16}
+      rotation: {x: 8.54642943e-17, y: -6.26973324e-17, z: .240045682, w: .970761597}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:bn_r_ankle01
+      position: {x: .845827162, y: 3.47121897e-07, z: -3.90798503e-16}
+      rotation: {x: -.103383735, y: .189137787, z: .648620784, w: .729951918}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:bn_r_foot01
+      position: {x: -.078003332, y: -.334334493, z: .00488431845}
+      rotation: {x: -2.30066826e-06, y: -5.10548226e-08, z: 1, w: -.000229031852}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:be_r_toeEnd01
+      position: {x: .134601891, y: -1.72668688e-08, z: -5.17675232e-07}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:jDRV_l_thighFK01
+      position: {x: -.240130723, y: -.120805897, z: -.0406799875}
+      rotation: {x: .478870004, y: .520272553, z: .478870004, w: .520272553}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:jDRV_l_kneeFK01
+      position: {x: -.890308082, y: -2.6645351e-16, z: 0}
+      rotation: {x: 0, y: 0, z: .095275484, w: .995450974}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:jDRV_l_ankleFK01
+      position: {x: -.845830142, y: -3.55271347e-16, z: 0}
+      rotation: {x: .0232669506, y: .0208804123, z: -.743881404, w: .667580009}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:jDRV_l_footFK01
+      position: {x: -.078003265, y: -.334334135, z: -.00488431426}
+      rotation: {x: -5.27654032e-10, y: 2.30904993e-06, z: .000228515622, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:jDRV_l_toeFK01
+      position: {x: -.134602055, y: 2.8835e-17, z: 4.534799e-17}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:jDRV_l_thighIK01
+      position: {x: -.240130723, y: -.120805897, z: -.0406799875}
+      rotation: {x: .319866985, y: .393753946, z: .640335023, w: .576726973}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:jDRV_l_kneeIK01
+      position: {x: -.890308082, y: -3.19744217e-16, z: 1.77493696e-32}
+      rotation: {x: 9.90996081e-19, y: 1.83905329e-17, z: .136578083, w: .990629315}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:jDRV_l_ankleIK01
+      position: {x: -.845830142, y: -3.37507795e-16, z: 7.1054272e-17}
+      rotation: {x: .0212642495, y: -.0293945856, z: -.793927491, w: .606929183}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:jDRV_l_footIK01
+      position: {x: -.078003265, y: -.334334135, z: -.00488431426}
+      rotation: {x: -5.27654032e-10, y: 2.30904993e-06, z: .000228515622, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:jDRV_l_toeIK01
+      position: {x: -.13393341, y: -.000425214123, z: 4.18582567e-05}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:jDRV_r_thighFK01
+      position: {x: .240136996, y: -.120804377, z: -.0406799689}
+      rotation: {x: .520272553, y: -.478870004, z: .520272553, w: -.478870004}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:jDRV_r_kneeFK01
+      position: {x: .890312254, y: 3.70495258e-07, z: -4.97379917e-16}
+      rotation: {x: 0, y: 0, z: .095275484, w: .995450974}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:jDRV_r_ankleFK01
+      position: {x: .845827162, y: 3.47121897e-07, z: -3.90798503e-16}
+      rotation: {x: .0208804123, y: -.0232669506, z: .667580009, w: .743881404}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:jDRV_r_footFK01
+      position: {x: -.078003332, y: -.334334493, z: .00488431845}
+      rotation: {x: -2.30904993e-06, y: -5.27652699e-10, z: 1, w: -.000228515622}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:jDRV_r_toeFK01
+      position: {x: .134601891, y: -1.72668688e-08, z: -5.17675232e-07}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:jDRV_r_thighIK01
+      position: {x: .240136996, y: -.120804377, z: -.0406799689}
+      rotation: {x: .638648391, y: -.376842976, z: .512852728, w: -.432550222}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:jDRV_r_kneeIK01
+      position: {x: .890312254, y: 3.70495258e-07, z: -4.97379917e-16}
+      rotation: {x: 8.54642943e-17, y: -6.26973258e-17, z: .240045682, w: .970761597}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:jDRV_r_ankleIK01
+      position: {x: .845827162, y: 3.47121897e-07, z: -3.90798503e-16}
+      rotation: {x: -.10338372, y: .189137787, z: .648620784, w: .729951918}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:jDRV_r_footIK01
+      position: {x: -.078003332, y: -.334334493, z: .00488431845}
+      rotation: {x: -2.30066826e-06, y: -5.10548297e-08, z: 1, w: -.000229036566}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lena_low_rig:jDRV_r_toeIK01
+      position: {x: .134601891, y: -1.72668688e-08, z: -5.17675232e-07}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
