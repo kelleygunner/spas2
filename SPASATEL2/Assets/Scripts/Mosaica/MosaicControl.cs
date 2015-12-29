@@ -23,6 +23,8 @@ public class MosaicControl : MonoBehaviour
 
     public Animator zahvatAnimator;
 
+    public float ZahvatDownPosition = 1;
+
 	void Start () 
     {
         cam = Camera.main;
@@ -101,7 +103,7 @@ public class MosaicControl : MonoBehaviour
         {
             Lost();
         }
-        zahvatTarget.y = Mathf.Lerp(zahvatTarget.y,0,Time.deltaTime*100);
+        zahvatTarget.y = Mathf.Lerp(zahvatTarget.y,1,Time.deltaTime*100);
         zahvatTarget.x = currentElement.position.x;
         zahvatTarget.z = currentElement.position.z;
         zahvat.position = zahvatTarget;
