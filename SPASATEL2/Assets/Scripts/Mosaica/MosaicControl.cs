@@ -25,6 +25,8 @@ public class MosaicControl : MonoBehaviour
 
     public float ZahvatDownPosition = 1;
 
+    public Collider[] PartsColliders;
+
 	void Start () 
     {
         cam = Camera.main;
@@ -68,6 +70,8 @@ public class MosaicControl : MonoBehaviour
         currentElement.gameObject.GetComponent<Collider>().enabled = false;
         targetPosition = currentElement.gameObject.GetComponent<MosaicElement>().TargetPosition;
         zahvatAnimator.CrossFade("zahvat_action", 0.1f);
+        foreach (Collider col in PartsColliders)
+        { col.enabled = false; }
     }
 
     private void Lost()
@@ -76,6 +80,8 @@ public class MosaicControl : MonoBehaviour
         currentElement.gameObject.GetComponent<Collider>().enabled = true;
         zahvatTarget = new Vector3(0, 2, 0);
         zahvatAnimator.CrossFade("zahvat_animation",0.1f);
+        foreach (Collider col in PartsColliders)
+        { col.enabled = true; }
     }
 
     private void Move()
