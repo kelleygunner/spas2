@@ -39,7 +39,7 @@ namespace CodeGenerator
             Microsoft.Office.Interop.Excel._Worksheet worksheet = (Microsoft.Office.Interop.Excel._Worksheet)workbook.ActiveSheet;
 
 
-            for (int i = 1; i < 10001; i++)
+            for (int i = 1; i < 50001; i++)
             {
                 worksheet.Cells[i, 1] = getCode();
             }

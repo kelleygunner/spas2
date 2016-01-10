@@ -7,3 +7,12 @@ C:\Users\Art\Documents\Workspace\VSProj\CodeGenerator\CodeGenerator\obj\Debug\Co
 C:\Users\Art\Documents\Workspace\VSProj\CodeGenerator\CodeGenerator\obj\Debug\CodeGenerator.csproj.GenerateResource.Cache
 C:\Users\Art\Documents\Workspace\VSProj\CodeGenerator\CodeGenerator\obj\Debug\CodeGenerator.exe
 C:\Users\Art\Documents\Workspace\VSProj\CodeGenerator\CodeGenerator\obj\Debug\CodeGenerator.pdb
+C:\Users\Art\Documents\Workspace\Final\VSProj\CodeGenerator\CodeGenerator\bin\Debug\CodeGenerator.exe.config
+C:\Users\Art\Documents\Workspace\Final\VSProj\CodeGenerator\CodeGenerator\obj\Debug\CodeGenerator.exe
+C:\Users\Art\Documents\Workspace\Final\VSProj\CodeGenerator\CodeGenerator\obj\Debug\CodeGenerator.pdb
+C:\Users\Art\Documents\Workspace\Final\VSProj\CodeGenerator\CodeGenerator\bin\Debug\CodeGenerator.exe
+C:\Users\Art\Documents\Workspace\Final\VSProj\CodeGenerator\CodeGenerator\bin\Debug\CodeGenerator.pdb
+C:\Users\Art\Documents\Workspace\Final\VSProj\CodeGenerator\CodeGenerator\obj\Debug\CodeGenerator.csprojResolveAssemblyReference.cache
+C:\Users\Art\Documents\Workspace\Final\VSProj\CodeGenerator\CodeGenerator\obj\Debug\CodeGenerator.Form1.resources
+C:\Users\Art\Documents\Workspace\Final\VSProj\CodeGenerator\CodeGenerator\obj\Debug\CodeGenerator.Properties.Resources.resources
+C:\Users\Art\Documents\Workspace\Final\VSProj\CodeGenerator\CodeGenerator\obj\Debug\CodeGenerator.csproj.GenerateResource.Cache

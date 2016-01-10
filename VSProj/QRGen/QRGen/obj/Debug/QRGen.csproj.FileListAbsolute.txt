@@ -8,3 +8,6 @@ C:\Users\Art\Documents\Workspace\VSProj\QRGen\QRGen\obj\Debug\QRGen.Properties.R
 C:\Users\Art\Documents\Workspace\VSProj\QRGen\QRGen\obj\Debug\QRGen.csproj.GenerateResource.Cache
 C:\Users\Art\Documents\Workspace\VSProj\QRGen\QRGen\obj\Debug\QRGen.exe
 C:\Users\Art\Documents\Workspace\VSProj\QRGen\QRGen\obj\Debug\QRGen.pdb
+C:\Users\Art\Documents\Workspace\Final\VSProj\QRGen\QRGen\bin\Debug\QRGen.exe.config
+C:\Users\Art\Documents\Workspace\Final\VSProj\QRGen\QRGen\obj\Debug\QRGen.exe
+C:\Users\Art\Documents\Workspace\Final\VSProj\QRGen\QRGen\obj\Debug\QRGen.pdb
