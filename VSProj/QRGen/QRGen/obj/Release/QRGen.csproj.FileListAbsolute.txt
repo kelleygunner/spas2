@@ -1,0 +1,12 @@
+C:\Users\Art\Documents\Workspace\VSProj\QRGen\QRGen\bin\Release\QRGen.exe.config
+C:\Users\Art\Documents\Workspace\VSProj\QRGen\QRGen\bin\Release\QRGen.exe
+C:\Users\Art\Documents\Workspace\VSProj\QRGen\QRGen\bin\Release\QRGen.pdb
+C:\Users\Art\Documents\Workspace\VSProj\QRGen\QRGen\bin\Release\MessagingToolkit.QRCode.dll
+C:\Users\Art\Documents\Workspace\VSProj\QRGen\QRGen\obj\Release\QRGen.Form1.resources
+C:\Users\Art\Documents\Workspace\VSProj\QRGen\QRGen\obj\Release\QRGen.Properties.Resources.resources
+C:\Users\Art\Documents\Workspace\VSProj\QRGen\QRGen\obj\Release\QRGen.csproj.GenerateResource.Cache
+C:\Users\Art\Documents\Workspace\VSProj\QRGen\QRGen\obj\Release\QRGen.exe
+C:\Users\Art\Documents\Workspace\VSProj\QRGen\QRGen\obj\Release\QRGen.pdb
+C:\Users\Art\Documents\Workspace\VSProj\QRGen\QRGen\obj\Release\QRGen.csprojResolveAssemblyReference.cache
+C:\Users\Art\Desktop\qrcodes\prog\QRGen.exe.config
+C:\Users\Art\Desktop\qrcodes\prog\QRGen.exe

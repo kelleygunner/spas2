@@ -1,39 +1,15 @@
 fileFormatVersion: 2
-guid: 6f2e9dd32f852a347812090daa9622ae
-timeCreated: 1451054497
+guid: 1763603e49860fd49b9f31995f9454c2
+timeCreated: 1452338585
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
-    100000: beach_01
-    100002: bushes_01
-    100004: forest
-    100006: ice_01
-    100008: trees_01
-    100010: trees_02
-    100012: //RootNode
-    400000: beach_01
-    400002: bushes_01
-    400004: forest
-    400006: ice_01
-    400008: trees_01
-    400010: trees_02
-    400012: //RootNode
-    2300000: beach_01
-    2300002: bushes_01
-    2300004: ice_01
-    2300006: trees_01
-    2300008: trees_02
-    3300000: beach_01
-    3300002: bushes_01
-    3300004: ice_01
-    3300006: trees_01
-    3300008: trees_02
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
     4300000: ice_01
-    4300002: beach_01
-    4300004: trees_02
-    4300006: bushes_01
-    4300008: trees_01
   materials:
     importMaterials: 1
     materialName: 0

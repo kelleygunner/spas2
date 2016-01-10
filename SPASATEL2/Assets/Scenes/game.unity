@@ -803,7 +803,7 @@ Prefab:
       objectReference: {fileID: 1522609537}
     - target: {fileID: 10898176, guid: 625ff72ebcd409c4bbeca6ebe10babd8, type: 2}
       propertyPath: m_Intensity
-      value: 1
+      value: 3.50999999
       objectReference: {fileID: 0}
     - target: {fileID: 469220, guid: 625ff72ebcd409c4bbeca6ebe10babd8, type: 2}
       propertyPath: m_LocalPosition.z

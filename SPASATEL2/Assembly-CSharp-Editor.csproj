@@ -73,6 +73,7 @@
      <None Include="Assets\Graphic Power-Up\SurfaceShaders\AlphaBasic.shader" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
      <None Include="Assets\Graphic Power-Up\SurfaceShaders\AlphaAdvanced.shader" />
+     <None Include="Assets\Content\Models\Vehicles\BoatConstructor\Materials\ddd.shader" />
      <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
      <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
      <None Include="Assets\Graphic Power-Up\SurfaceShaders\IllumBasic.shader" />
@@ -116,9 +117,6 @@
  <Reference Include="Assembly-UnityScript-Editor-firstpass">
  <HintPath>C:/Users/Art/Documents/Workspace/Final/SPASATEL2/Library/ScriptAssemblies/Assembly-UnityScript-Editor-firstpass.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -133,9 +131,6 @@
  </Reference>
  <Reference Include="UnityEditor.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="CaptureAndSaveLib">
  <HintPath>C:/Users/Art/Documents/Workspace/Final/SPASATEL2/Assets/CaptureAndSave/Plugins/CaptureAndSaveLib.dll</HintPath>
